@@ -1,12 +1,16 @@
-# Your Project's Title...
-Your project's description...
+# Experience Catalyst
+
 
 ## Environments
 - Preview: https://main--arunpatidar02-250829--aemysites.aem.page/
 - Live: https://main--arunpatidar02-250829--aemysites.aem.live/
 - Block Library: https://main--arunpatidar02-250829--aemysites.aem.page/tools/sidekick/library.html?plugin=blocks
+- SharePoint : https://adobe.sharepoint.com/sites/AEMDemos/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FAEMDemos%2FShared%20Documents%2Fsites%2Faemy%2Dsites%2Farunpatidar02%2D250829
 
 ## Documentation
+
+The docs for using Experience Catalyst are here:
+https://github.com/aemysites/aemydocs
 
 Before using the aem-boilerplate, we recommand you to go through the documentation on [www.aem.live](https://www.aem.live/docs/) and [experienceleague.adobe.com](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/edge-delivery/wysiwyg-authoring/authoring), more specifically:
 1. [Getting Started](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/edge-delivery/wysiwyg-authoring/edge-dev-getting-started), [Creating Blocks](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/edge-delivery/wysiwyg-authoring/create-block), [Content Modelling](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/edge-delivery/wysiwyg-authoring/content-modeling)
@@ -20,7 +24,7 @@ Furthremore, we encourage you to watch the recordings of any of our previous pre
 ## Prerequisites
 
 - nodejs 18.3.x or newer
-- AEM Cloud Service release 2024.8 or newer (>= `17465`)
+
 
 ## Installation
 
