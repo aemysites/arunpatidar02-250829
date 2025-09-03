@@ -1,0 +1,416 @@
+{
+  "templates": [
+    {
+      "name": "'Corporate Content Hub'",
+      "cluster": 1,
+      "pages": [
+        {
+          "url": "https://www.mann-hummel.com/de/unternehmen/downloads/zertifikate.html",
+          "uuid": "ba355896a9feb8a7d1bb7608c24c45e74884428c"
+        },
+        {
+          "url": "https://www.mann-hummel.com/de.html",
+          "uuid": "b5b9fe29df597a7aba0fabcb19af696d9d7cb8fc"
+        },
+        {
+          "url": "https://www.mann-hummel.com/de/produkte.html",
+          "uuid": "1ed89782d3c33bba4dcfecd8c378ab4833b41313"
+        },
+        {
+          "url": "https://www.mann-hummel.com/de/filtration/filtermaterialien/filtervliesen-vliesstoffe.html",
+          "uuid": "aaf533174c63194d3d09ce6602b526746fc48277"
+        },
+        {
+          "url": "https://www.mann-hummel.com/de/unternehmen/ueber-uns/venture-capital-und-partnerschaften.html",
+          "uuid": "62780d253d9d2b1762e9446098750504033e1c5a"
+        },
+        {
+          "url": "https://www.mann-hummel.com/de/unternehmen/ueber-uns/auszeichnungen.html",
+          "uuid": "56c5f82b3e3d8bb4880123aca69397eecebb6b6b"
+        },
+        {
+          "url": "https://www.mann-hummel.com/de/filtration/luftfiltration-fuer-saubere-luft.html",
+          "uuid": "b44f10a8f1e8f270c4b415370c3eb0510ead636b"
+        },
+        {
+          "url": "https://www.mann-hummel.com/de/unternehmen/ueber-uns/geschaeftsbericht.html",
+          "uuid": "8422001a8351e1ae2976f53fc86207d9a5756811"
+        },
+        {
+          "url": "https://www.mann-hummel.com/de/karriere/ausbildung-studium/duales-studium.html",
+          "uuid": "644407c19c2c15eca07de41a3fb89e494b5227f4"
+        },
+        {
+          "url": "https://www.mann-hummel.com/de/unternehmen/verantwortung/nachhaltigkeit/nachhaltigkeitsbericht-2024.html",
+          "uuid": "889023b366b96e2009af8cb907696a34eb1bd62b"
+        },
+        {
+          "url": "https://www.mann-hummel.com/de/karriere/faq.html",
+          "uuid": "4f18865b27867d30b2dfcd2a0fc4bc303001c788"
+        },
+        {
+          "url": "https://www.mann-hummel.com/de/unternehmen/ueber-uns/management.html",
+          "uuid": "207ccd0a11f6008cd51355d66d3f993fddcfbd62"
+        },
+        {
+          "url": "https://www.mann-hummel.com/de/unternehmen/referenzen.html",
+          "uuid": "9d83fac02f4dc0ad8b683f68f39b6f2ce7b7f1ae"
+        },
+        {
+          "url": "https://www.mann-hummel.com/de/karriere/ausbildung-studium/%20ausbildung-und-duales-studium-faq%27s.html",
+          "uuid": "7595b816f7a1ec5cdfb7977346f9c71fe6aaab7d"
+        },
+        {
+          "url": "https://www.mann-hummel.com/de/filtration/filtration-fuer-nachhaltige-mobilitaet.html",
+          "uuid": "4ccc585fb842cabf87a611018e71d5570752143a"
+        },
+        {
+          "url": "https://www.mann-hummel.com/de/filtration/filtermaterialien/loesungen-fuer-oberflaechenbehandlungen.html",
+          "uuid": "de293b74b5de2ac9a78038a958181ecf087a41a8"
+        },
+        {
+          "url": "https://www.mann-hummel.com/de/karriere/ausbildung-studium/ausbildung.html",
+          "uuid": "fcdf246e7b7ad332ee9d7c613fecc17879b91e05"
+        },
+        {
+          "url": "https://www.mann-hummel.com/de/karriere/warum-mann-hummel/karrieregeschichten.html",
+          "uuid": "cde86a38ab44bec56cd7908f711e924c7b878479"
+        },
+        {
+          "url": "https://www.mann-hummel.com/de/unternehmen/verantwortung/nachhaltigkeit/menschenrechte.html",
+          "uuid": "58dc063571f4c70bc2a4c24ebcfdd806c89c5288"
+        },
+        {
+          "url": "https://www.mann-hummel.com/de/marken/mann-hummel-und-u-air.html",
+          "uuid": "e5ed4b3a4861e64b4ba969dabd782156c6c18129"
+        },
+        {
+          "url": "https://www.mann-hummel.com/de/unternehmen/ueber-uns/digitale-transformation.html",
+          "uuid": "83c6616894a7720ca41e9eaaae95b1e5ff3fb4f4"
+        },
+        {
+          "url": "https://www.mann-hummel.com/de/unternehmen/verantwortung/nachhaltigkeit/unser-ansatz.html",
+          "uuid": "6f30a19cc45ba8603d7566cf82822022c201f532"
+        },
+        {
+          "url": "https://www.mann-hummel.com/de/filtration/wasserfiltration-fuer-sauberes-wasser.html",
+          "uuid": "6bf6e1d5fcdead56f388473f4e4f9a0394dfe82d"
+        },
+        {
+          "url": "https://www.mann-hummel.com/de/produkte/energie-versorger.html",
+          "uuid": "f5a5006a88d5b3f4371b2b5f239c1be2da2a0eb5"
+        },
+        {
+          "url": "https://www.mann-hummel.com/de/unternehmen/verantwortung/nachhaltigkeit/nachhaltige-filtration.html",
+          "uuid": "50dd5f2e7e51c75509281fe68298e0cd385f08f9"
+        },
+        {
+          "url": "https://www.mann-hummel.com/de/filtration/motor-und-maschinenfilter-fuer-nachhaltige-industrie.html",
+          "uuid": "a54c4676ae29d7e39daefb59c7051c3ea829c157"
+        },
+        {
+          "url": "https://www.mann-hummel.com/de/filtration/filtermaterialien/adsorbentien.html",
+          "uuid": "5825a2ff58888bb4eb97bb47f64e3d896b3c7033"
+        },
+        {
+          "url": "https://www.mann-hummel.com/de/produkte/haushaltsgeraete.html",
+          "uuid": "e956826cce4f0239b1101d99d14d3e35ec65e663"
+        },
+        {
+          "url": "https://www.mann-hummel.com/de/filtration/filtermaterialien.html",
+          "uuid": "08508550ce9c1f280eceda32a2602c9bc2d288ac"
+        },
+        {
+          "url": "https://www.mann-hummel.com/de/filtration/filtermaterialien/membranen.html",
+          "uuid": "40d80d8daf60a157c41246781a9a0f40c7bf8846"
+        },
+        {
+          "url": "https://www.mann-hummel.com/de/produkte/gewerbliche-gebaeude.html",
+          "uuid": "5c9a9e6d0f741959ae8545a9841d852a620c938e"
+        },
+        {
+          "url": "https://www.mann-hummel.com/de/produkte/schienenverkehr.html",
+          "uuid": "af604ef867b4fc7e5799f41527a800d792300fbc"
+        },
+        {
+          "url": "https://www.mann-hummel.com/de/produkte/baumaschinen.html",
+          "uuid": "fe0f55994e2c7e7226e45da8f829be944abe3afd"
+        },
+        {
+          "url": "https://www.mann-hummel.com/de/produkte/kompressoren-vakuumpumpen.html",
+          "uuid": "0ed21a93b3ac4fdd85e7ed02ffed7c646e6c665d"
+        },
+        {
+          "url": "https://www.mann-hummel.com/de/produkte/automotive.html",
+          "uuid": "bf603df24785a3775069a4608b793e79af71c3bc"
+        },
+        {
+          "url": "https://www.mann-hummel.com/de/produkte/e-mobilitaet.html",
+          "uuid": "4026662659b9027b37d1e90417729dbae7931d45"
+        },
+        {
+          "url": "https://www.mann-hummel.com/de/produkte/wasser-recycling.html",
+          "uuid": "4896461300de6557a5292a034e98c771df580ebd"
+        },
+        {
+          "url": "https://www.mann-hummel.com/de/produkte/gesundheit-pharma.html",
+          "uuid": "4ecf4f7a318c4c5d94c599b139840991781ac74f"
+        },
+        {
+          "url": "https://www.mann-hummel.com/de/produkte/abfallmanagement.html",
+          "uuid": "fa86e98f1882f16e66c1f823ed231240612cc1ed"
+        },
+        {
+          "url": "https://www.mann-hummel.com/de/produkte/food-beverage.html",
+          "uuid": "4f09593055b65f3aedf370febb485dc758003e2d"
+        },
+        {
+          "url": "https://www.mann-hummel.com/de/produkte/beverage.html",
+          "uuid": "ee9a7c848c8c6576529ee6f5bb5e79aba1f75d4c"
+        }
+      ]
+    },
+    {
+      "name": "'Content Hub'",
+      "cluster": 2,
+      "pages": [
+        {
+          "url": "https://www.mann-hummel.com/de/insights/smartfe-ki-optimierte-smart-filtration.html",
+          "uuid": "ea740d5f25955abea853b53910db7a3764b4ca39"
+        },
+        {
+          "url": "https://www.mann-hummel.com/de/unternehmen/events.html",
+          "uuid": "47c15c4a23593e95b17f83ac0acba5c07583bf08"
+        },
+        {
+          "url": "https://www.mann-hummel.com/de/produkte/landwirtschaft.html",
+          "uuid": "19d32482c1d2794c365bf235ccbea53468e6ad4d"
+        },
+        {
+          "url": "https://www.mann-hummel.com/de/produkte/flurfoerderfahrzeuge.html",
+          "uuid": "f5fb7c0d01c59962ae34bef0c1acd8c51e70616b"
+        },
+        {
+          "url": "https://www.mann-hummel.com/de/unternehmen/referenzen/luftfilter-fuer-mercedes-benz.html",
+          "uuid": "9d13d87117dddb3ba42c0255cfafbb9cb4026632"
+        },
+        {
+          "url": "https://www.mann-hummel.com/de/datenschutz.html",
+          "uuid": "a37bf9fce834b0f768783854ba2167055a05f1dd"
+        },
+        {
+          "url": "https://www.mann-hummel.com/de/insights/schon-gewusst-/batterie-wasserstoff-hybrid-vielfaeltige-zukunft.html",
+          "uuid": "5b8e5fe1630f997a1c7fdcdac6ab10e6be87a228"
+        },
+        {
+          "url": "https://www.mann-hummel.com/de/produkte/flugzeuge-flughaefen.html",
+          "uuid": "5d4b093b1cf7fe489d36271093214189e2153c4f"
+        },
+        {
+          "url": "https://www.mann-hummel.com/de/unternehmen/lieferanten.html",
+          "uuid": "4d488cde564261ec185eba05be8e4cbebd3c74c8"
+        },
+        {
+          "url": "https://www.mann-hummel.com/de/filtration.html",
+          "uuid": "7cd7a9179ac3b76956d98cb1536814efe7ba7a96"
+        },
+        {
+          "url": "https://www.mann-hummel.com/de/produkte/innenraumluftqualitaet.html",
+          "uuid": "515317ad1559be634f1dc3a72e19458319259b54"
+        },
+        {
+          "url": "https://www.mann-hummel.com/de/produkte/hvac-hepa-filter-upgrade.html",
+          "uuid": "4b73a84741a9b6ef0c0361c50495a6826a513e2d"
+        },
+        {
+          "url": "https://www.mann-hummel.com/de/karriere.html",
+          "uuid": "870e58254f2be34964e9c802c5de4f23eb7eb109"
+        },
+        {
+          "url": "https://www.mann-hummel.com/de/insights/nachhaltigkeit-bei-mann-hummel-interview-mit-global-director-csr.html",
+          "uuid": "6eec232bb008899f273f3203cdbd215c656e3415"
+        },
+        {
+          "url": "https://www.mann-hummel.com/de/produkte/aussenluftqualitaet.html",
+          "uuid": "f3ba2fe901ac357200892d08c6c65bd0e7602098"
+        },
+        {
+          "url": "https://www.mann-hummel.com/de/produkte/rechenzentren.html",
+          "uuid": "a17b56ab6d97b6596dea7bbcbef29b50afca1615"
+        },
+        {
+          "url": "https://www.mann-hummel.com/de/produkte/maritim.html",
+          "uuid": "c16baed061553e7011c935c3ec911d569c97b5ca"
+        },
+        {
+          "url": "https://www.mann-hummel.com/de/karriere/bewerberprofile.html",
+          "uuid": "773042cdc729193a767d19d914ae33d02c48523d"
+        },
+        {
+          "url": "https://www.mann-hummel.com/de/karriere/ausbildung-studium.html",
+          "uuid": "595d719583ecfe23da71588375ee7ababd5c641b"
+        },
+        {
+          "url": "https://www.mann-hummel.com/de/insights/digital-hubs-die-naechste-stufe-der-digitalen-transformation.html",
+          "uuid": "588609aaaeffa33a1a312ef4289c55296ea4ffc5"
+        },
+        {
+          "url": "https://www.mann-hummel.com/de/karriere/warum-mann-hummel/junge-fuehrungskraefte/digital-hr-interview.html",
+          "uuid": "9ad225b768c546f2b02483b657cd43a8f30903fa"
+        },
+        {
+          "url": "https://www.mann-hummel.com/de/marken.html",
+          "uuid": "38da59bdeeb76250f9c7ece884608289e4d65c3a"
+        },
+        {
+          "url": "https://www.mann-hummel.com/de/produkte/fertigung.html",
+          "uuid": "bfd4db48890bfcb127fa58a1845bb9fd3b78abd5"
+        },
+        {
+          "url": "https://www.mann-hummel.com/de/karriere/warum-mann-hummel.html",
+          "uuid": "fcbd7264c8fc84976d141fc403cdd4758ccc2de3"
+        },
+        {
+          "url": "https://www.mann-hummel.com/de/unternehmen/verantwortung/werte.html",
+          "uuid": "fbfaefa7f9d20f694c2e9ef28053eec48228439a"
+        },
+        {
+          "url": "https://www.mann-hummel.com/de/produkte/elektronik-halbleiter.html",
+          "uuid": "5bb3c255daafda7e21b8f74c113a7e8c74db7d37"
+        },
+        {
+          "url": "https://www.mann-hummel.com/de/unternehmen/news-presse/2025/im-technologiezentrum-von-mann-hummel.html",
+          "uuid": "e1333ad30ef64f19cf1c92c972075341040599a5"
+        },
+        {
+          "url": "https://www.mann-hummel.com/de/unternehmen/ueber-uns/forschung-entwicklung.html",
+          "uuid": "277a2163e53ac3e247b4458d62e163a46b00d7a6"
+        },
+        {
+          "url": "https://www.mann-hummel.com/de/unternehmen/news-presse/2025/mann-hummel-staerkt-fuehrungsstruktur.html",
+          "uuid": "a6442c48d707869323de5d0c187915a767813ffb"
+        },
+        {
+          "url": "https://www.mann-hummel.com/de/unternehmen.html",
+          "uuid": "094601383307c54f230e88ba7a090ad952ac9d08"
+        },
+        {
+          "url": "https://www.mann-hummel.com/de/unternehmen/ueber-uns.html",
+          "uuid": "3af3758f3b3e49a820993ede95c3f8451ebd064f"
+        },
+        {
+          "url": "https://www.mann-hummel.com/de/unternehmen/news-presse/2025/filtration-der-zukunft-von-der-natur-inspiriert.html",
+          "uuid": "5cdae970d4f9ab84ba4fd0156d771b56c742fc35"
+        },
+        {
+          "url": "https://www.mann-hummel.com/de/unternehmen/verantwortung/compliance.html",
+          "uuid": "673796b3469d097dc260a30bc1ec693210038080"
+        },
+        {
+          "url": "https://www.mann-hummel.com/de/kontakt.html",
+          "uuid": "12404c4ec45a54c74864c9389276e2ede3539706"
+        },
+        {
+          "url": "https://www.mann-hummel.com/de/unternehmen/news-presse.html",
+          "uuid": "bb8829d7b73c1bfb74267d0db061b6dd63a4da73"
+        },
+        {
+          "url": "https://www.mann-hummel.com/de/unternehmen/downloads/publikationen.html",
+          "uuid": "230e3034686a54927d23541d720de228be0e616b"
+        },
+        {
+          "url": "https://www.mann-hummel.com/de/karriere/warum-mann-hummel/mitarbeitervorteile.html",
+          "uuid": "84fdd81c8add39d63f511abbe113d43bc508ed75"
+        },
+        {
+          "url": "https://www.mann-hummel.com/de/unternehmen/ueber-uns/unternehmensgeschichte.html",
+          "uuid": "a7e45838418bd404e28c934160adf7cd505196ce"
+        },
+        {
+          "url": "https://www.mann-hummel.com/de/karriere/rekrutierungsprozess.html",
+          "uuid": "5c37c3acc032d66099a07fa5fbae9ac96c5377af"
+        },
+        {
+          "url": "https://www.mann-hummel.com/de/unternehmen/downloads/nachhaltigkeitsberichte-und-menschenrechte.html",
+          "uuid": "8b562418e35cc94375d8b7090b7d7da06f1ca5ed"
+        },
+        {
+          "url": "https://www.mann-hummel.com/de/unternehmen/referenzen/oelfilter-fuer-paccar-motoren.html",
+          "uuid": "5fa2c93e494ceacee1877920d0b7f176be12cacf"
+        },
+        {
+          "url": "https://www.mann-hummel.com/de/unternehmen/ueber-uns/unternehmensportrait.html",
+          "uuid": "a1f4f47b7734aa4abb8a35ad1d1f14add4d835ab"
+        },
+        {
+          "url": "https://www.mann-hummel.com/de/karriere/ausbildung-studium/ansprechpartner.html",
+          "uuid": "2f3a03af6736f9870360cf45d582a0f1e966ab31"
+        },
+        {
+          "url": "https://www.mann-hummel.com/de/unternehmen/downloads/pressematerial.html",
+          "uuid": "af69c1d2dc52fb2c5335757431f455ea76ca1e9b"
+        },
+        {
+          "url": "https://www.mann-hummel.com/de/unternehmen/verantwortung.html",
+          "uuid": "404c53cea856c33166eae30272cb557f1aa644a8"
+        },
+        {
+          "url": "https://www.mann-hummel.com/de/unternehmen/verantwortung/nachhaltigkeit.html",
+          "uuid": "7e93e8e714ebf644e04ad62c3084a38ffb2e8506"
+        },
+        {
+          "url": "https://www.mann-hummel.com/de/unternehmen/referenzen/luftfiltersystem-fuer-cnhtc.html",
+          "uuid": "53c0159611a5b2e473f2cc9e63c17627cf223f99"
+        },
+        {
+          "url": "https://www.mann-hummel.com/de/karriere/stellenangebote.html",
+          "uuid": "ad03e045ab7474e3c0a092619fc96f9681e608e9"
+        },
+        {
+          "url": "https://www.mann-hummel.com/de/impressum.html",
+          "uuid": "7d4542870325804b373eda59d0e0f2c77556aaa0"
+        },
+        {
+          "url": "https://www.mann-hummel.com/de/karriere/ausbildung-studium/schuelerpraktikum.html",
+          "uuid": "72e399378b0e87da5940f6a9a6e67695dadf104b"
+        },
+        {
+          "url": "https://www.mann-hummel.com/de/rechtlicher-hinweis.html",
+          "uuid": "36c2154ee7516b9e9f1c0176b85aa99fb1aab568"
+        },
+        {
+          "url": "https://www.mann-hummel.com/de/unternehmen/referenzen/oelfiltermodul-mit-wechselfilter-fuer-fpt-industrial.html",
+          "uuid": "2d895dba672e7454cd8def97074382dd5f6a2f85"
+        },
+        {
+          "url": "https://www.mann-hummel.com/de/unternehmen/ueber-uns/standorte.html",
+          "uuid": "62405cde2fb7d5d08193cac236e686ac31c79997"
+        },
+        {
+          "url": "https://www.mann-hummel.com/de/karriere/warum-mann-hummel/junge-fuehrungskraefte.html",
+          "uuid": "ad206170b10c855ec675de2cb7a47ea188c98fdd"
+        },
+        {
+          "url": "https://www.mann-hummel.com/de/unternehmen/downloads.html",
+          "uuid": "6a9136cc266f86b334a1162d02281b8a7c4d1334"
+        },
+        {
+          "url": "https://www.mann-hummel.com/de/unternehmen/downloads/lieferantendokumente.html",
+          "uuid": "dd48dc737b6996c70d442f5d100f2707fefd01d4"
+        },
+        {
+          "url": "https://www.mann-hummel.com/de/unternehmen/ueber-uns/venture-capital-und-partnerschaften/corporate-ventures-kontakt-aufnehmen.html",
+          "uuid": "65a13e9766bbd2a7e2a255d723b9640c76d57980"
+        },
+        {
+          "url": "https://www.mann-hummel.com/de/unternehmen/ueber-uns/venture-capital-und-partnerschaften/corporate-ventures-kontakt-aufnehmen-partnerschaften.html",
+          "uuid": "ecb6a59c71ec3786b6b8af1a97d5329315f5e36d"
+        },
+        {
+          "url": "https://www.mann-hummel.com/de/insights.html",
+          "uuid": "557d75a01295c3211441f011c4efc5ec9f861267"
+        }
+      ]
+    }
+  ]
+}
