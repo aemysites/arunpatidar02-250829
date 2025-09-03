@@ -260,3 +260,9 @@ main .section.highlight {
 .section.hidden {
   display: none;
 }
+
+
+/* BRAND Override*/
+header nav[aria-expanded='true'] .section.nav-sections {
+    display: none;
+}
