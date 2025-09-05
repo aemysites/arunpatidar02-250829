@@ -856,7 +856,6 @@
   padding: 0;
 }
 
-/* Fix layout: ensure both columns appear side by side, align items to the top, and restore text visibility */
 .columns.columns27 > div {
   display: flex;
   flex-direction: row;
@@ -871,7 +870,6 @@
   width: 100%;
 }
 
-/* Responsive: Stack columns vertically on small screens */
 @media (width <= 900px) {
   .columns.columns27 > div {
     flex-direction: column;
@@ -882,7 +880,6 @@
   }
 }
 
-/* Left column: Text content, ensure it doesn't collapse! */
 .columns.columns27 > div > div:not(.columns-img-col) {
   flex: 1 1 60%;
   max-width: 60%;
@@ -897,7 +894,6 @@
   padding: 0;
 }
 
-/* First paragraph: padding for quote icon, less spacing above */
 .columns.columns27 > div > div:not(.columns-img-col) p:first-child {
   padding-left: 48px;
   margin-top: 0;
@@ -908,14 +904,12 @@
   font-weight: normal;
 }
 
-/* Name/title line styling */
 .columns.columns27 > div > div:not(.columns-img-col) p strong {
   color: #0071CE;
   font-weight: 700;
   font-size: 15px;
 }
 
-/* "Button" styling for h4 */
 .columns.columns27 > div > div:not(.columns-img-col) h4 {
   background: #F3F3F3;
   margin: 12px 0;
@@ -935,7 +929,6 @@
   text-decoration: none;
 }
 
-/* Main body paragraph: blue, regular weight, compact spacing */
 .columns.columns27 > div > div:not(.columns-img-col) p {
   color: #0071CE;
   font-size: 16px;
@@ -944,7 +937,6 @@
   margin: 0 0 10px;
 }
 
-/* Right column: circular image, fixed width and height, avoids stretching and cropping */
 .columns.columns27 > div > .columns-img-col {
   flex: 0 0 180px;
   max-width: 180px;
@@ -957,7 +949,6 @@
   box-sizing: border-box;
 }
 
-/* Image: perfect circle, always 180x180, never cropped or stretched */
 .columns.columns27 > div > .columns-img-col img {
   width: 180px;
   height: 180px;
@@ -972,7 +963,6 @@
   margin: 0 auto;
 }
 
-/* Responsive adjustments for mobile */
 @media (width <= 900px) {
   .columns.columns27 > div > div:not(.columns-img-col) {
     max-width: 100%;
@@ -996,4 +986,119 @@
     max-width: 140px;
     max-height: 140px;
   }
+}
+
+
+.columns.columns10 {
+  background: #fff;
+  padding: 48px 0 80px;
+}
+
+.columns.columns10 > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Center the header only */
+.columns.columns10 > div > div:first-child {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+/* Arrange columns horizontally using grid for desktop */
+@media (width >= 768px) {
+  .columns.columns10 > div {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0 48px;
+    justify-content: center;
+    align-items: start;
+  }
+
+  .columns.columns10 > div > div:first-child {
+    grid-column: 1 / -1;
+    grid-row: 1;
+    margin-bottom: 32px;
+  }
+
+  .columns.columns10 > div > div:not(:first-child) {
+    grid-row: 2;
+    background: none;
+    padding: 0;
+    margin: 0;
+    min-width: 160px;
+    max-width: 210px;
+    box-sizing: border-box;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+/* On small screens, stack columns vertically */
+@media (width <= 767px) {
+  .columns.columns10 > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .columns.columns10 > div > div:not(:first-child) {
+    margin-bottom: 32px;
+    width: 100%;
+    max-width: 320px;
+  }
+}
+
+/* Typography and colors */
+.columns.columns10 h2 {
+  color: #1976d2;
+  font-size: 24px;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+.columns.columns10 h6 {
+  color: #1976d2;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 14px;
+  margin-top: 0;
+}
+
+.columns.columns10 h6 a {
+  color: #1976d2;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.columns.columns10 p {
+  margin: 0;
+  padding: 0;
+}
+
+.columns.columns10 p a {
+  color: #1976d2;
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: none;
+  line-height: 1.7;
+}
+
+.columns.columns10 p a:hover {
+  color: #1d3ecf;
+  text-decoration: underline;
+}
+
+/* Remove unwanted list styles if present in heading area */
+.columns.columns10 > div > div:first-child ul,
+.columns.columns10 > div > div:first-child li {
+  display: none;
 }
