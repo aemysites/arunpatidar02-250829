@@ -849,3 +849,151 @@
     height: auto;
   }
 }
+
+
+.columns.columns27 {
+  background: #fff;
+  padding: 0;
+}
+
+/* Fix layout: ensure both columns appear side by side, align items to the top, and restore text visibility */
+.columns.columns27 > div {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 24px;
+  max-width: 1050px;
+  margin: 0 auto;
+  padding-top: 0;
+  padding-bottom: 0;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+/* Responsive: Stack columns vertically on small screens */
+@media (width <= 900px) {
+  .columns.columns27 > div {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 18px;
+    max-width: 100%;
+    padding: 12px 0;
+  }
+}
+
+/* Left column: Text content, ensure it doesn't collapse! */
+.columns.columns27 > div > div:not(.columns-img-col) {
+  flex: 1 1 60%;
+  max-width: 60%;
+  min-width: 240px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  color: #0071CE;
+  background: #fff;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+/* First paragraph: padding for quote icon, less spacing above */
+.columns.columns27 > div > div:not(.columns-img-col) p:first-child {
+  padding-left: 48px;
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #0071CE;
+  line-height: 1.5;
+  font-weight: normal;
+}
+
+/* Name/title line styling */
+.columns.columns27 > div > div:not(.columns-img-col) p strong {
+  color: #0071CE;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+/* "Button" styling for h4 */
+.columns.columns27 > div > div:not(.columns-img-col) h4 {
+  background: #F3F3F3;
+  margin: 12px 0;
+  padding: 8px 16px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #0071CE;
+  border-radius: 2px;
+  width: fit-content;
+  box-sizing: border-box;
+}
+
+.columns.columns27 > div > div:not(.columns-img-col) h4 a {
+  color: #0071CE;
+  font-weight: 700;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+/* Main body paragraph: blue, regular weight, compact spacing */
+.columns.columns27 > div > div:not(.columns-img-col) p {
+  color: #0071CE;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.5;
+  margin: 0 0 10px;
+}
+
+/* Right column: circular image, fixed width and height, avoids stretching and cropping */
+.columns.columns27 > div > .columns-img-col {
+  flex: 0 0 180px;
+  max-width: 180px;
+  min-width: 180px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Image: perfect circle, always 180x180, never cropped or stretched */
+.columns.columns27 > div > .columns-img-col img {
+  width: 180px;
+  height: 180px;
+  min-width: 180px;
+  min-height: 180px;
+  max-width: 180px;
+  max-height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  background: #f3f3f3;
+  margin: 0 auto;
+}
+
+/* Responsive adjustments for mobile */
+@media (width <= 900px) {
+  .columns.columns27 > div > div:not(.columns-img-col) {
+    max-width: 100%;
+    width: 100%;
+    min-width: 0;
+  }
+
+  .columns.columns27 > div > .columns-img-col {
+    max-width: 100%;
+    width: 100%;
+    min-width: 0;
+    justify-content: flex-start;
+    margin-top: 10px;
+  }
+
+  .columns.columns27 > div > .columns-img-col img {
+    width: 140px;
+    height: 140px;
+    min-width: 140px;
+    min-height: 140px;
+    max-width: 140px;
+    max-height: 140px;
+  }
+}
