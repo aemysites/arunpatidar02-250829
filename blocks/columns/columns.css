@@ -238,7 +238,7 @@
   align-items: flex-start;
   gap: 48px;
   background: #fff;
-  padding: 14px 112px 14px 0; /* More right padding for visual balance */
+  padding: 14px 112px 14px 0;
 }
 
 .columns.columns3 > div > div > div:first-child {
@@ -291,5 +291,102 @@
   .columns.columns3 .columns-img-col img,
   .columns.columns3 .columns-img-col picture {
     width: 100px;
+  }
+}
+
+
+.columns.columns1 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  min-height: 220px;
+  padding: 0;
+  margin: 0;
+}
+
+.columns.columns1 > div {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  min-height: 220px;
+}
+
+/* Left gradient half */
+.columns.columns1 > div > div:first-child {
+  flex: 1 1 50%;
+  background: linear-gradient(to bottom, #69a4db 0%, #0771c7 100%);
+  height: auto;
+  width: 50%;
+  min-width: 0;
+  position: relative;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: stretch;
+  color: transparent;
+  pointer-events: none;
+  user-select: none;
+}
+
+/* FULLY hide ANY content in left column, including block, inline, replaced elements, and pseudo-elements */
+.columns.columns1 > div > div:first-child * {
+  display: none;
+}
+
+.columns.columns1 > div > div:first-child::before,
+.columns.columns1 > div > div:first-child::after {
+  display: none;
+}
+
+/* Right image half */
+.columns.columns1 > div > .columns-img-col {
+  flex: 1 1 50%;
+  width: 50%;
+  min-width: 0;
+  height: auto;
+  padding: 0;
+  margin: 0;
+  background: none;
+  display: flex;
+  align-items: stretch;
+  justify-content: stretch;
+}
+
+.columns.columns1 > div > .columns-img-col picture,
+.columns.columns1 > div > .columns-img-col img {
+  width: 100%;
+  height: 100%;
+  min-height: 220px;
+  display: block;
+  object-fit: cover;
+  object-position: center;
+  margin: 0;
+  padding: 0;
+}
+
+/* Responsive stacking for mobile */
+@media (width <= 900px) {
+  .columns.columns1 {
+    flex-direction: column;
+    min-height: 0;
+  }
+
+  .columns.columns1 > div {
+    flex-direction: column;
+    min-height: 0;
+  }
+
+  .columns.columns1 > div > div:first-child,
+  .columns.columns1 > div > .columns-img-col {
+    width: 100%;
+    min-width: 0;
+    min-height: 120px;
+    height: 35vw;
+    max-height: 260px;
   }
 }
