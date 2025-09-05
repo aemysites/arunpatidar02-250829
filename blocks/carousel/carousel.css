@@ -1,3 +1,4 @@
+/* stylelint-disable no-descending-specificity */
 .carousel .carousel-slides-container {
   position: relative;
 }
@@ -99,7 +100,6 @@
   z-index: 1;
 }
 
-/* stylelint-disable-next-line no-descending-specificity */
 .carousel .carousel-navigation-buttons button {
   position: relative;
   width: 44px;
@@ -149,5 +149,262 @@
 
   .carousel .carousel-slide .carousel-slide-content[data-align='justify'] {
     --slide-content-width: auto;
+  }
+}
+
+
+.carousel.carousel9 {
+  background: #f8f8f8;
+  position: relative;
+  padding-left: 56px;
+  padding-right: 56px;
+  max-width: 1150px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.carousel.carousel9 .carousel-slide {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 410px;
+  background: transparent;
+  padding: 48px 0 18px;
+  gap: 0;
+}
+
+.carousel.carousel9 .carousel-slide .carousel-slide-image {
+  flex: 0 0 220px;
+  width: 220px;
+  height: 220px;
+  max-width: 220px;
+  min-width: 140px;
+  margin-right: 34px;
+  margin-left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.carousel.carousel9 .carousel-slide .carousel-slide-image img {
+  width: 190px;
+  height: 190px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 5%);
+  background: #fff;
+}
+
+.carousel.carousel9 .carousel-slide-content {
+  flex: 1 1 0;
+  margin: 0;
+  padding: 0;
+  background: none;
+  color: #454545;
+  font-size: 16px;
+  line-height: 1.7;
+  max-width: 650px;
+  min-width: 240px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.carousel.carousel9 .carousel-slide-content::before {
+  display: block;
+  position: absolute;
+  left: -12px;
+  top: -24px;
+  width: 54px;
+  height: 54px;
+  background: url('data:image/svg+xml;utf8,<svg width="54" height="54" xmlns="http://www.w3.org/2000/svg"><text x="0" y="45" font-size="54" fill="%233b63fb" font-weight="bold">”</text></svg>') no-repeat center center / contain;
+  content: '';
+  z-index: 1;
+  opacity: 0.95;
+}
+
+.carousel.carousel9 .carousel-slide-content p:first-child {
+  margin-top: 0;
+  margin-bottom: 7px;
+  color: #454545;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.7;
+  text-align: left;
+  position: relative;
+  z-index: 2;
+}
+
+.carousel.carousel9 .carousel-slide-content p:last-child {
+  margin-top: 4px;
+  color: #3b63fb;
+  font-size: 15.5px;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  text-align: left;
+  position: relative;
+  z-index: 2;
+  display: block;
+}
+
+/* Navigation Buttons */
+.carousel.carousel9 .carousel-navigation-buttons {
+  z-index: 3;
+  top: 50%;
+  left: 0;
+  right: 0;
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+  pointer-events: none;
+}
+
+.carousel.carousel9 .carousel-navigation-buttons button {
+  background: #f5f5f5;
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 50%;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 7%);
+  transition: background 0.2s, box-shadow 0.2s;
+  pointer-events: auto;
+  position: relative;
+}
+
+.carousel.carousel9 .carousel-navigation-buttons button:hover,
+.carousel.carousel9 .carousel-navigation-buttons button:focus-visible {
+  background: #3b63fb;
+  box-shadow: 0 2px 12px rgb(59 99 251 / 11%);
+}
+
+.carousel.carousel9 .carousel-navigation-buttons button::after {
+  display: none;
+}
+
+.carousel.carousel9 .carousel-navigation-buttons button.slide-prev::before,
+.carousel.carousel9 .carousel-navigation-buttons button.slide-next::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 15px;
+  height: 15px;
+  border: solid #505050;
+  border-width: 0 0 4px 4px;
+  border-radius: 2.5px;
+  background: none;
+}
+
+.carousel.carousel9 .carousel-navigation-buttons button.slide-prev::before {
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.carousel.carousel9 .carousel-navigation-buttons button.slide-next::before {
+  transform: translate(-50%, -50%) rotate(-135deg);
+}
+
+/* Page Indicators */
+.carousel.carousel9 .carousel-slide-indicators {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background: none;
+  padding: 0;
+  z-index: 5;
+}
+
+.carousel.carousel9 .carousel-slide-indicator button {
+  width: 11px;
+  height: 11px;
+  background: #d5d7db;
+  border-radius: 50%;
+  border: none;
+  margin: 0;
+  box-shadow: none;
+  transition: background 0.2s, box-shadow 0.2s;
+}
+
+.carousel.carousel9 .carousel-slide-indicator button:disabled,
+.carousel.carousel9 .carousel-slide-indicator button.active {
+  background: #3b63fb;
+  box-shadow: 0 0 0 2px #e0e0e0;
+}
+
+.carousel.carousel9 .carousel-slide-indicator button:hover,
+.carousel.carousel9 .carousel-slide-indicator button:focus-visible {
+  background: #3b63fb;
+}
+
+/* Responsive Adjustments */
+@media (width <= 900px) {
+  .carousel.carousel9 {
+    padding-left: 10px;
+    padding-right: 10px;
+    max-width: 98vw;
+  }
+
+  .carousel.carousel9 .carousel-slide {
+    flex-direction: column;
+    align-items: center;
+    min-height: 240px;
+    padding: 16px 0 18px;
+  }
+
+  .carousel.carousel9 .carousel-slide .carousel-slide-image {
+    margin: 0 0 14px;
+    width: 110px;
+    height: 110px;
+    max-width: 110px;
+  }
+
+  .carousel.carousel9 .carousel-slide .carousel-slide-image img {
+    width: 85px;
+    height: 85px;
+  }
+
+  .carousel.carousel9 .carousel-slide-content {
+    max-width: 96vw;
+    min-width: 0;
+    font-size: 14px;
+  }
+
+  .carousel.carousel9 .carousel-slide-content::before {
+    width: 30px;
+    height: 30px;
+    left: -7px;
+    top: -10px;
+    background-size: contain;
+  }
+
+  .carousel.carousel9 .carousel-slide-indicators {
+    bottom: 8px;
+    gap: 8px;
+  }
+
+  .carousel.carousel9 .carousel-navigation-buttons {
+    padding: 0 10px;
+  }
+
+  .carousel.carousel9 .carousel-navigation-buttons button {
+    width: 28px;
+    height: 28px;
+  }
+
+  .carousel.carousel9 .carousel-navigation-buttons button.slide-prev::before,
+  .carousel.carousel9 .carousel-navigation-buttons button.slide-next::before {
+    width: 10px;
+    height: 10px;
+    border-width: 0 0 2.5px 2.5px;
   }
 }
