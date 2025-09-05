@@ -313,7 +313,6 @@
   min-height: 220px;
 }
 
-/* Left gradient half */
 .columns.columns1 > div > div:first-child {
   flex: 1 1 50%;
   background: linear-gradient(to bottom, #69a4db 0%, #0771c7 100%);
@@ -333,7 +332,6 @@
   user-select: none;
 }
 
-/* FULLY hide ANY content in left column, including block, inline, replaced elements, and pseudo-elements */
 .columns.columns1 > div > div:first-child * {
   display: none;
 }
@@ -343,7 +341,6 @@
   display: none;
 }
 
-/* Right image half */
 .columns.columns1 > div > .columns-img-col {
   flex: 1 1 50%;
   width: 50%;
@@ -369,7 +366,6 @@
   padding: 0;
 }
 
-/* Responsive stacking for mobile */
 @media (width <= 900px) {
   .columns.columns1 {
     flex-direction: column;
@@ -389,4 +385,67 @@
     height: 35vw;
     max-height: 260px;
   }
+}
+
+
+.columns.columns6 > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 32px; /* slightly wider for a more relaxed grouping */
+  max-width: 680px; /* more breathing room, visually matching the original */
+  margin: 0 auto;
+  background: #fff;
+  padding: 40px 0;
+  width: 100%;
+}
+
+@media (width <= 800px) {
+  .columns.columns6 > div {
+    flex-direction: column;
+    gap: 24px;
+    max-width: 100%;
+    padding: 32px 0;
+  }
+}
+
+.columns.columns6 > div > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  min-width: 180px;
+  max-width: 320px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.columns.columns6 picture img,
+.columns.columns6 img {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto 16px;
+}
+
+.columns.columns6 p {
+  font-size: 14px;
+  color: #444;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+
+.columns.columns6 p strong {
+  display: block;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: #0066B3;
+}
+
+.columns.columns6 > div > div:nth-child(2) p strong {
+  color: #16205A;
 }
