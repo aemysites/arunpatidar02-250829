@@ -1359,7 +1359,6 @@
   padding-bottom: 56px;
 }
 
-/* HEADER: Centered and nearly no vertical spacing */
 .columns.columns15 > div:first-child {
   display: flex;
   justify-content: center;
@@ -1379,7 +1378,6 @@
   width: 100%;
 }
 
-/* COLUMNS LAYOUT: max-width fills block, tight gap, less vertical gap */
 .columns.columns15 > div:nth-child(2) {
   display: flex;
   flex-direction: row;
@@ -1391,7 +1389,6 @@
   padding: 0;
 }
 
-/* COLUMN ITEM: wider, visually prominent */
 .columns.columns15 > div:nth-child(2) > div {
   background: #fff;
   border-radius: 0;
@@ -1405,7 +1402,6 @@
   margin: 0;
 }
 
-/* ICON: minimal spacing below, tight to title */
 .columns.columns15 > div:nth-child(2) > div > p:first-of-type {
   margin: 0 0 2px;
   width: 100%;
@@ -1420,7 +1416,6 @@
   display: block;
 }
 
-/* TITLE: Large and bold, tight to icon and subtitle */
 .columns.columns15 > div:nth-child(2) > div > h3 {
   color: #0070c0;
   font-size: 21px;
@@ -1430,7 +1425,6 @@
   letter-spacing: 0.01em;
 }
 
-/* SUBTITLE / DESCRIPTION: bold, centered, compact vertical space */
 .columns.columns15 > div:nth-child(2) > div > p:nth-of-type(2) {
   font-size: 15.5px;
   color: #0070c0;
@@ -1441,12 +1435,10 @@
   letter-spacing: 0.01em;
 }
 
-/* Hide additional info for minimal view */
 .columns.columns15 > div:nth-child(2) > div > p:not(:first-of-type, :nth-of-type(2)) {
   display: none;
 }
 
-/* Kontakt bar: fills column width, minimal margin above */
 .columns.columns15 > div:nth-child(2) > div > h4 {
   width: 100%;
   max-width: 480px;
@@ -1461,7 +1453,6 @@
   padding: 0 14px;
 }
 
-/* Kontakt link: blue, bold, aligned left */
 .columns.columns15 > div:nth-child(2) > div > h4 a {
   color: #0070c0;
   font-weight: bold;
@@ -1475,13 +1466,11 @@
   height: 40px;
 }
 
-/* Center all content in column (except Kontakt bar which is already flex) */
 .columns.columns15 > div:nth-child(2) > div > *:not(h4) {
   text-align: center;
   width: 100%;
 }
 
-/* Responsive: stack columns vertically on small screens, keep tight spacing */
 @media (width <= 900px) {
   .columns.columns15 > div:nth-child(2) {
     flex-direction: column;
@@ -1497,5 +1486,104 @@
 
   .columns.columns15 > div:nth-child(2) > div > h4 {
     max-width: 370px;
+  }
+}
+
+
+.columns.columns21 {
+  background: #fff;
+  padding: 0;
+}
+
+/* Main flex row: more space above, less below, and tighter inset for circles/line */
+.columns.columns21 > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  position: relative;
+
+  /* More space above, tighter below, slightly less horizontal inset */
+  padding: 54px 42px 2px;
+  margin: 0;
+  box-sizing: border-box;
+
+  /* Line runs exactly between the circles, ends under them */
+  background:
+    linear-gradient(
+      to right,
+      #3191de 0%,
+      #3191de 100%
+    );
+  background-repeat: no-repeat;
+  background-size: calc(100% - 84px) 6px;
+  background-position: 42px 46px;
+}
+
+.columns.columns21 > div > div {
+  flex: 1 1 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  background: none;
+  position: relative;
+  z-index: 1;
+}
+
+/* Step circles: fine-tuned to sit perfectly over the line */
+.columns.columns21 > div > div > p {
+  margin: 0 0 0.5em;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 6px solid #b7d4ea;
+  background: #fff;
+  color: #3191de;
+  font-size: 2.5rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  position: relative;
+  top: -16px;
+  z-index: 2;
+}
+
+.columns.columns21 > div > div:nth-child(5) > p {
+  border-color: #0074d9;
+  color: #0074d9;
+}
+
+/* Responsive: stack vertically, vertical line */
+@media (width <= 900px) {
+  .columns.columns21 > div {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background: linear-gradient(
+      to bottom,
+      #3191de 0%,
+      #3191de 100%
+    );
+    background-repeat: no-repeat;
+    background-position: 50% 46px;
+    background-size: 6px calc(100% - 72px);
+    padding: 36px 0 16px;
+  }
+
+  .columns.columns21 > div > div {
+    flex: unset;
+    margin-bottom: 40px;
+    align-items: center;
+  }
+
+  .columns.columns21 > div > div > p {
+    margin: 0 0 0.5em;
+    top: 0;
   }
 }
