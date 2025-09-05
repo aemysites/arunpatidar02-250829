@@ -1,0 +1,108 @@
+{
+  "templates": [
+    {
+      "name": "'Professional Profile'",
+      "cluster": 1,
+      "pages": [
+        {
+          "url": "https://karriere-fresenius-kabi.at/hello-world/",
+          "uuid": "17bc6d4ad36615ea2543a266a51b68f839f924e5"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/unser-angebot/",
+          "uuid": "64bc5f7fd0bc7183e075fb9170ae7daff1dd5d60"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/unsere-standorte/",
+          "uuid": "998e1dea5723992b1610d75ae08f9c4802697704"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/warum-fresenius-kabi/",
+          "uuid": "3429a365ae1d87bcd3eb001015f623d342958fb4"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/wer-wir-sind/",
+          "uuid": "3761820aac9c0fc1667082a9c3f073d33c8c997d"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/unsere-mitarbeiterinnen/",
+          "uuid": "23a687683573037b86446a49ee03804a5179a4e3"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/karrierewege/",
+          "uuid": "89ab40c25465e8113931a92adcc82d3e9573ee83"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/wir-als-arbeitgeber/",
+          "uuid": "649062bd26a0e771a891e87e9afc6859bf36c2bf"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/jobs/",
+          "uuid": "e2e496229bd162e271ec157ed1412619f435f17b"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/berufseinstieg/",
+          "uuid": "dfb91a11c4947c7d33d1707cc2e1d618beef0a5d"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/author/adminiventa/",
+          "uuid": "4951c57376a191e841b1507dfefc377793b6682c"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/sitemap/",
+          "uuid": "6b2adeaa73efd62a61e9ffb42f08396092bbad89"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/berufserfahrene/",
+          "uuid": "c6a1ad7a3924ae92d6d19e26f12a15917cc1a5c5"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/arbeiten-in-der-produktion/",
+          "uuid": "8ef9f09ae10c7b479d69eedbd96972944b6db370"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/datenschutz/",
+          "uuid": "64c2e8fc673967eb990687879273ebc9b08130f8"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/category/uncategorized/",
+          "uuid": "82d0c9cd06efb9883168541c7cf4bebfdbc5ecb3"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/impressum/",
+          "uuid": "33ff6e711853e491c40296b3063602dbac91f77f"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/rechtliche_hinweise/",
+          "uuid": "96df8231b9811f3d87b788d104151c43d0efbe54"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/privacy-policy/",
+          "uuid": "fa6760d8dad040b3bb7891845a32ea9bf02c2755"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/unsere-arbeitgeber-werte/",
+          "uuid": "21d7b14ecafac15ae15d81400c6e418b779d6f60"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/lehrlinge/",
+          "uuid": "c8699dca88fafcec492cea7a568fc5ecac3fe195"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/karrierefoerderung/",
+          "uuid": "053578ce349f1e4da5b669fe5fa13b9e8f421987"
+        }
+      ]
+    },
+    {
+      "name": "'Service Overview Page'",
+      "cluster": 2,
+      "pages": [
+        {
+          "url": "https://karriere-fresenius-kabi.at/",
+          "uuid": "013390c7ca28f1f409d40879a25bf158bea3ad97"
+        }
+      ]
+    }
+  ]
+}
