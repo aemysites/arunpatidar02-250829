@@ -1,3 +1,4 @@
+/* stylelint-disable no-descending-specificity */
 .cards > ul {
   list-style: none;
   margin: 0;
@@ -76,7 +77,6 @@
   }
 }
 
-/* Top cropped circle/icon simulation */
 .cards.cards20 > ul > li > :first-child {
   width: 90px;
   height: 90px;
@@ -95,13 +95,11 @@
   border: none;
 }
 
-/* All other children (text, cta) stack normally */
 .cards.cards20 > ul > li > :not(:first-child) {
   position: relative;
   z-index: 2;
 }
 
-/* Headings inside cards */
 .cards.cards20 > ul > li h1,
 .cards.cards20 > ul > li h2,
 .cards.cards20 > ul > li h3,
@@ -115,7 +113,6 @@
   margin-bottom: 14px;
 }
 
-/* Paragraph/description */
 .cards.cards20 > ul > li p,
 .cards.cards20 > ul > li ul,
 .cards.cards20 > ul > li ol {
@@ -127,7 +124,6 @@
   line-height: 1.6;
 }
 
-/* CTA Button/Link at bottom */
 .cards.cards20 > ul > li a,
 .cards.cards20 > ul > li .button {
   display: inline-flex;
@@ -149,14 +145,12 @@
   gap: 6px;
 }
 
-/* Remove underline on hover for these links for a more button-like look */
 .cards.cards20 > ul > li a:hover,
 .cards.cards20 > ul > li a:focus {
   text-decoration: none;
   color: #f90;
 }
 
-/* Restrict card width for very large screens */
 @media (width >= 1200px) {
   .cards.cards20 > ul > li {
     width: 340px;
@@ -165,4 +159,97 @@
   .cards.cards20 > ul {
     gap: 48px;
   }
+}
+
+
+.cards.cards26 {
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+}
+
+/* Grid: 4 columns, tight vertical/horizontal gaps, items start at top */
+.cards.cards26 > ul {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px 28px;
+  place-items: start center;
+  padding: 0;
+  margin: 0 auto;
+  width: 100%;
+  list-style: none;
+}
+
+@media (width <= 900px) {
+  .cards.cards26 > ul {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (width <= 600px) {
+  .cards.cards26 > ul {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Card: square-ish, content grouped toward top */
+.cards.cards26 > ul > li {
+  width: 210px;
+  height: 210px;
+  background: #fff;
+  border: 2px solid #0072CE;
+  border-radius: 0;
+  box-sizing: border-box;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  transition: box-shadow 0.2s;
+}
+
+.cards.cards26 > ul > li:hover {
+  box-shadow: 0 4px 16px rgb(0 114 206 / 9%);
+}
+
+/* Icon area: always takes up space, margin above and below for top grouping */
+.cards.cards26 .cards-card-image {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  min-height: 60px;
+  margin-top: 18px;
+  margin-bottom: 8px;
+}
+
+/* Icon itself: consistent size */
+.cards.cards26 .cards-card-image img {
+  width: 54px;
+  height: 54px;
+  object-fit: contain;
+  margin: 0 auto;
+  display: block;
+}
+
+/* Text area: tight grouping under icon */
+.cards.cards26 .cards-card-body {
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+/* Card text: blue, bold, centered */
+.cards.cards26 .cards-card-body p {
+  color: #0072CE;
+  font-size: 17px;
+  font-weight: bold;
+  margin: 0;
+  line-height: 1.2;
+  padding-top: 0;
 }
