@@ -570,7 +570,6 @@
   box-sizing: border-box;
 }
 
-/* Row container: horizontal, centered, with more natural gap */
 .columns.columns4 > div {
   display: flex;
   flex-direction: row;
@@ -583,7 +582,6 @@
   box-sizing: border-box;
 }
 
-/* Icon column: center icon, increase size for balance */
 .columns.columns4 > div > .columns-img-col {
   display: flex;
   align-items: center;
@@ -594,7 +592,6 @@
   flex: 0 1 140px;
 }
 
-/* Icon image sizing and spacing */
 .columns.columns4 > div > .columns-img-col picture,
 .columns.columns4 > div > .columns-img-col img {
   width: 110px;
@@ -608,7 +605,6 @@
   display: block;
 }
 
-/* Text column: balanced width, left-aligned */
 .columns.columns4 > div > div:not(.columns-img-col) {
   color: #fff;
   display: flex;
@@ -622,7 +618,6 @@
   box-sizing: border-box;
 }
 
-/* Heading style (first <p> as heading) */
 .columns.columns4 > div > div:not(.columns-img-col) > p:first-child {
   color: #fff;
   font-size: 26px;
@@ -631,7 +626,6 @@
   line-height: 1.25;
 }
 
-/* Paragraph style */
 .columns.columns4 > div > div:not(.columns-img-col) > p:not(:first-child) {
   color: #fff;
   font-size: 15px;
@@ -641,7 +635,6 @@
   max-width: 580px;
 }
 
-/* Responsive: stack vertically, reduce sizing and spacing */
 @media (width <= 700px) {
   .columns.columns4 {
     min-height: unset;
@@ -665,5 +658,130 @@
 
   .columns.columns4 > div > div:not(.columns-img-col) {
     max-width: 100%;
+  }
+}
+
+
+.columns.columns30 {
+  padding-top: 48px;
+  padding-bottom: 24px;
+  background: white;
+  box-sizing: border-box;
+}
+
+/* Flex row for columns, center items vertically */
+.columns.columns30 > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center; /* Perfect vertical centering of text block and icon */
+  justify-content: flex-start;
+  gap: 90px;
+  width: 100%;
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+  min-height: 180px;
+}
+
+/* Responsive: stack vertically on small screens */
+@media (width <= 900px) {
+  .columns.columns30 > div {
+    flex-direction: column;
+    gap: 32px;
+    max-width: 100%;
+    align-items: stretch;
+    min-height: unset;
+  }
+}
+
+/* Left column: text, keep vertical centering */
+.columns.columns30 > div > div:first-child {
+  flex: 1 1 0;
+  max-width: 540px;
+  min-width: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background: none;
+  box-shadow: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Heading: first <p> only */
+.columns.columns30 > div > div:first-child > p:first-child {
+  color: #1976d2;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0 0 18px;
+  line-height: 1.2;
+}
+
+/* Paragraph text: subsequent <p> only */
+.columns.columns30 > div > div:first-child > p:not(:first-child) {
+  color: #393939;
+  font-size: 12px;
+  font-weight: 400;
+  margin: 0;
+  line-height: 1.6;
+}
+
+/* Right column: image, center icon vertically to the text block */
+.columns.columns30 > div > .columns-img-col {
+  flex: 0 0 340px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; /* Center icon vertically within its column */
+  min-width: 220px;
+  padding: 0;
+  margin: 0;
+  height: auto;
+  box-sizing: border-box;
+}
+
+/* Icon size and style */
+.columns.columns30 > div > .columns-img-col img,
+.columns.columns30 > div > .columns-img-col picture {
+  width: 230px;
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+  display: block;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Adjust image size on very large screens for balance */
+@media (width >= 1400px) {
+  .columns.columns30 > div > .columns-img-col img,
+  .columns.columns30 > div > .columns-img-col picture {
+    width: 270px;
+  }
+}
+
+/* Responsive: icon smaller on mobile */
+@media (width <= 600px) {
+  .columns.columns30 {
+    padding-top: 18px;
+    padding-bottom: 18px;
+  }
+
+  .columns.columns30 > div {
+    gap: 18px;
+  }
+
+  .columns.columns30 > div > .columns-img-col img,
+  .columns.columns30 > div > .columns-img-col picture {
+    width: 110px;
+  }
+
+  .columns.columns30 > div > div:first-child {
+    max-width: 100%;
+    min-width: 0;
+    justify-content: flex-start;
   }
 }
