@@ -759,7 +759,8 @@
           "uuid": "fa6760d8-04-9e5264a09ab84dd854480c9bd403ce679794d665",
           "xpath": "/html[1]/body[1]/div[7]"
         }
-      ]
+      ],
+      "key": "unknown2"
     },
     {
       "name": "Columns",
@@ -1437,7 +1438,8 @@
           "xpath": "/html[1]/body[1]/div[1]/div[2]/main[1]/div[1]/section[1]/article[1]/div[5]",
           "section": "section-7"
         }
-      ]
+      ],
+      "key": "unknown24"
     },
     {
       "name": "Columns",
