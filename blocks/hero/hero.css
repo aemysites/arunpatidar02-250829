@@ -255,7 +255,6 @@
   overflow: hidden;
 }
 
-/* Left (text) column: narrower and less left padding for more image width */
 .hero.hero17 > div:last-of-type {
   flex: 0 1 26vw;
   order: 1;
@@ -272,7 +271,6 @@
   box-sizing: border-box;
 }
 
-/* Headline */
 .hero.hero17 > div:last-of-type h2 {
   color: #1465c3;
   font-size: 2.25rem;
@@ -283,7 +281,6 @@
   letter-spacing: 0.01em;
 }
 
-/* Button styles */
 .hero-container > .hero-wrapper > .block.hero.hero17 .button-container .button {
   background: none;
   border: none;
@@ -312,7 +309,6 @@
   font-weight: 700;
 }
 
-/* Right (image) column: take all available width, no centering */
 .hero.hero17 > div:first-of-type {
   flex: 1 1 0%;
   order: 2;
@@ -349,7 +345,6 @@
   max-height: none;
 }
 
-/* Overlay Join Us badge */
 .hero.hero17 > div:first-of-type::after {
   position: absolute;
   top: 2.5rem;
@@ -372,7 +367,6 @@
   pointer-events: none;
 }
 
-/* Responsive: stack on small screens, adjust badge */
 @media (width <= 900px) {
   .hero.hero17 {
     flex-direction: column;
@@ -411,5 +405,92 @@
     width: 90px;
     height: 90px;
     font-size: 1.2rem;
+  }
+}
+
+
+.hero.hero16 {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  min-height: 220px;
+  height: 220px;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Left: Image side */
+.hero.hero16 > div:first-child {
+  flex: 1 1 72%;
+  order: 1;
+  min-width: 0;
+  min-height: 0;
+  display: flex;
+  align-items: stretch;
+  position: relative;
+  height: 100%;
+}
+
+.hero.hero16 > div:first-child > div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.hero.hero16 picture,
+.hero.hero16 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+
+  /* Remove any z-index from previous rules */
+}
+
+/* Right: Blue gradient overlay */
+.hero.hero16 > div:last-child {
+  flex: 1 1 28%;
+  order: 2;
+  display: flex;
+  align-items: stretch;
+  min-width: 0;
+  min-height: 0;
+  position: relative;
+  height: 100%;
+}
+
+.hero.hero16 > div:last-child > div {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    to right,
+    rgb(0 114 206 / 0%) 0%,
+    #0072ce 85%
+  );
+}
+
+@media (width <= 900px) {
+  .hero.hero16 {
+    flex-direction: column;
+    min-height: 160px;
+    height: 160px;
+  }
+
+  .hero.hero16 > div:first-child,
+  .hero.hero16 > div:last-child {
+    flex: 1 1 100%;
+    height: 50%;
+  }
+
+  .hero.hero16 > div:last-child > div {
+    background: linear-gradient(
+      to bottom,
+      rgb(0 114 206 / 0%) 0%,
+      #0072ce 85%
+    );
+    height: 100%;
   }
 }
