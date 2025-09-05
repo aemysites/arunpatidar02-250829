@@ -459,8 +459,6 @@
   color: #16205A;
 }
 
-/* Left column: image */
-
 .columns > div > .columns-img-col picture,
 .columns > div > .columns-img-col img {
   display: block;
@@ -473,7 +471,6 @@
   border: none;
 }
 
-/* Right column: text content */
 .columns > div > div:not(.columns-img-col) {
   flex: 1 1 50%;
   min-width: 0;
@@ -558,5 +555,115 @@
   .columns > div > div:not(.columns-img-col) {
     padding: 18px 16px 20px;
     background: linear-gradient(120deg, #20518c 0%, #3883b3 100%);
+  }
+}
+
+
+.columns.columns4 {
+  width: 100%;
+  background: linear-gradient(180deg, #6ea7da 0%, #0267c1 100%);
+  min-height: 480px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 8vw;
+  box-sizing: border-box;
+}
+
+/* Row container: horizontal, centered, with more natural gap */
+.columns.columns4 > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 1200px;
+  gap: 56px;
+  min-height: 0;
+  box-sizing: border-box;
+}
+
+/* Icon column: center icon, increase size for balance */
+.columns.columns4 > div > .columns-img-col {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  flex: 0 1 140px;
+}
+
+/* Icon image sizing and spacing */
+.columns.columns4 > div > .columns-img-col picture,
+.columns.columns4 > div > .columns-img-col img {
+  width: 110px;
+  height: 110px;
+  max-width: 110px;
+  max-height: 110px;
+  object-fit: contain;
+  margin: 0;
+  padding: 0;
+  border: none;
+  display: block;
+}
+
+/* Text column: balanced width, left-aligned */
+.columns.columns4 > div > div:not(.columns-img-col) {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  max-width: 600px;
+  min-width: 0;
+  padding: 0;
+  background: none;
+  box-sizing: border-box;
+}
+
+/* Heading style (first <p> as heading) */
+.columns.columns4 > div > div:not(.columns-img-col) > p:first-child {
+  color: #fff;
+  font-size: 26px;
+  font-weight: 400;
+  margin: 0 0 22px;
+  line-height: 1.25;
+}
+
+/* Paragraph style */
+.columns.columns4 > div > div:not(.columns-img-col) > p:not(:first-child) {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.8;
+  margin: 0;
+  max-width: 580px;
+}
+
+/* Responsive: stack vertically, reduce sizing and spacing */
+@media (width <= 700px) {
+  .columns.columns4 {
+    min-height: unset;
+    padding: 24px 4vw;
+  }
+
+  .columns.columns4 > div {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    max-width: 100%;
+  }
+
+  .columns.columns4 > div > .columns-img-col picture,
+  .columns.columns4 > div > .columns-img-col img {
+    width: 56px;
+    height: 56px;
+    max-width: 56px;
+    max-height: 56px;
+  }
+
+  .columns.columns4 > div > div:not(.columns-img-col) {
+    max-width: 100%;
   }
 }
