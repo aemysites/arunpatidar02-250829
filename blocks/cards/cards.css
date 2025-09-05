@@ -25,3 +25,143 @@
   aspect-ratio: 4 / 3;
   object-fit: cover;
 }
+
+
+.cards.cards20 {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.cards.cards20 > ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  gap: 32px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+@media (max-width: 900px) {
+  .cards.cards20 > ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+  }
+}
+
+.cards.cards20 > ul > li {
+  background: linear-gradient(to bottom, #9ad0f6 0%, #0271d3 100%);
+  border: none;
+  border-radius: 0;
+  box-sizing: border-box;
+  width: 320px;
+  min-height: 420px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 72px 20px 36px 20px;
+  position: relative;
+  overflow: visible;
+  margin: 0;
+}
+
+@media (max-width: 900px) {
+  .cards.cards20 > ul > li {
+    width: 100%;
+    max-width: 400px;
+  }
+}
+
+/* Top cropped circle/icon simulation */
+.cards.cards20 > ul > li > :first-child {
+  width: 90px;
+  height: 90px;
+  background: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: -45px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  z-index: 1;
+  box-shadow: none;
+  border: none;
+}
+
+/* All other children (text, cta) stack normally */
+.cards.cards20 > ul > li > :not(:first-child) {
+  position: relative;
+  z-index: 2;
+}
+
+/* Headings inside cards */
+.cards.cards20 > ul > li h1,
+.cards.cards20 > ul > li h2,
+.cards.cards20 > ul > li h3,
+.cards.cards20 > ul > li h4,
+.cards.cards20 > ul > li h5,
+.cards.cards20 > ul > li h6 {
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 14px;
+}
+
+/* Paragraph/description */
+.cards.cards20 > ul > li p,
+.cards.cards20 > ul > li ul,
+.cards.cards20 > ul > li ol {
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 32px;
+  margin-top: 0;
+  line-height: 1.6;
+}
+
+/* CTA Button/Link at bottom */
+.cards.cards20 > ul > li a,
+.cards.cards20 > ul > li .button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #ff9900;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.04em;
+  background: none;
+  border: none;
+  box-shadow: none;
+  margin-top: auto;
+  margin-bottom: 0;
+  padding: 0;
+  cursor: pointer;
+  gap: 6px;
+}
+
+/* Remove underline on hover for these links for a more button-like look */
+.cards.cards20 > ul > li a:hover,
+.cards.cards20 > ul > li a:focus {
+  text-decoration: none;
+  color: #ff9900;
+}
+
+/* Restrict card width for very large screens */
+@media (min-width: 1200px) {
+  .cards.cards20 > ul > li {
+    width: 340px;
+  }
+  .cards.cards20 > ul {
+    gap: 48px;
+  }
+}
