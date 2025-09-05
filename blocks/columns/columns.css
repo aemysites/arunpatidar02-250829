@@ -1002,14 +1002,12 @@
   box-sizing: border-box;
 }
 
-/* Center the header only */
 .columns.columns10 > div > div:first-child {
   width: 100%;
   text-align: center;
   margin-bottom: 32px;
 }
 
-/* Arrange columns horizontally using grid for desktop */
 @media (width >= 768px) {
   .columns.columns10 > div {
     display: grid;
@@ -1041,7 +1039,6 @@
   }
 }
 
-/* On small screens, stack columns vertically */
 @media (width <= 767px) {
   .columns.columns10 > div {
     display: flex;
@@ -1056,7 +1053,6 @@
   }
 }
 
-/* Typography and colors */
 .columns.columns10 h2 {
   color: #1976d2;
   font-size: 24px;
@@ -1097,8 +1093,163 @@
   text-decoration: underline;
 }
 
-/* Remove unwanted list styles if present in heading area */
 .columns.columns10 > div > div:first-child ul,
 .columns.columns10 > div > div:first-child li {
   display: none;
+}
+
+
+.columns.columns12 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.columns.columns12 > div {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  width: 100%;
+  min-height: 500px;
+  gap: 0;
+}
+
+@media (width <= 900px) {
+  .columns.columns12 > div {
+    flex-direction: column;
+    min-height: unset;
+  }
+}
+
+/* Alternate image/text order */
+.columns.columns12 > div:nth-child(odd) > .columns-img-col {
+  order: 0;
+}
+
+.columns.columns12 > div:nth-child(odd) > div:not(.columns-img-col) {
+  order: 1;
+  background: #2282d6;
+  color: #fff;
+}
+
+.columns.columns12 > div:nth-child(even) > .columns-img-col {
+  order: 1;
+}
+
+.columns.columns12 > div:nth-child(even) > div:not(.columns-img-col) {
+  order: 0;
+  background: #f5f5f5;
+  color: #1b2733;
+}
+
+/* Image columns */
+.columns.columns12 .columns-img-col {
+  flex: 1 1 50%;
+  display: flex;
+  align-items: stretch;
+  justify-content: stretch;
+  padding: 0;
+  margin: 0;
+  min-width: 0;
+  min-height: 500px;
+  background: none;
+  overflow: hidden;
+}
+
+.columns.columns12 .columns-img-col picture,
+.columns.columns12 .columns-img-col img {
+  width: 100%;
+  height: 100%;
+  min-height: 500px;
+  object-fit: cover;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+/* Responsive image sizing */
+@media (width <= 900px) {
+  .columns.columns12 .columns-img-col,
+  .columns.columns12 .columns-img-col picture,
+  .columns.columns12 .columns-img-col img {
+    min-height: 180px;
+    max-height: 50vw;
+  }
+}
+
+/* Text columns: background, color, vertical center, generous padding */
+
+.columns.columns12 > div > div:not(.columns-img-col) {
+  flex: 1 1 50%;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 500px;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 72px;
+}
+
+@media (width <= 900px) {
+  .columns.columns12 > div > div:not(.columns-img-col) {
+    min-height: unset;
+    height: unset;
+    padding: 36px 16px;
+  }
+}
+
+/* Headings: bolder, larger, more margin */
+.columns.columns12 > div > div:not(.columns-img-col) h3 {
+  margin: 0 0 2em;
+  font-size: 2.6rem;
+  font-weight: 900;
+  line-height: 1.13;
+  color: inherit;
+  letter-spacing: 0.01em;
+}
+
+.columns.columns12 > div > div:not(.columns-img-col) p {
+  margin: 0 0 1.5em;
+  font-size: 1.24rem;
+  font-weight: 400;
+  line-height: 1.7;
+  color: inherit;
+}
+
+/* Button styling: always filled blue, white text, prominent, no border */
+.columns.columns12 .button-container {
+  margin-top: 2.2rem;
+}
+
+.columns.columns12 a.button,
+.columns.columns12 > div .button {
+  background: #0072ce;
+  color: #fff;
+  font-size: 1.18rem;
+  padding: 18px 48px;
+  border-radius: 2em;
+  font-weight: 700;
+  text-decoration: none;
+  display: inline-block;
+  box-shadow: none;
+  border: none;
+  margin: 0;
+  transition: background 0.2s;
+  letter-spacing: 0.03em;
+  line-height: 1.3;
+}
+
+.columns.columns12 a.button:hover,
+.columns.columns12 a.button:focus {
+  background: #2282d6;
+}
+
+/* Remove column margin/gap for flush layout */
+.columns.columns12 > div > .columns-img-col,
+.columns.columns12 > div > div:not(.columns-img-col) {
+  margin: 0;
+  gap: 0;
 }
