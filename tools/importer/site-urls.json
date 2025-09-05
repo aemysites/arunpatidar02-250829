@@ -1,0 +1,186 @@
+{
+  "originUrl": "https://karriere-fresenius-kabi.at",
+  "aborted": false,
+  "lastCrawled": "https://karriere-fresenius-kabi.at/",
+  "urls": [
+    {
+      "url": "https://karriere-fresenius-kabi.at/",
+      "source": "SITEMAPS",
+      "targetPath": "/",
+      "id": "013390c7ca28f1f409d40879a25bf158bea3ad97"
+    },
+    {
+      "url": "https://karriere-fresenius-kabi.at/arbeiten-in-der-produktion/",
+      "source": "SITEMAPS",
+      "targetPath": "/arbeiten-in-der-produktion",
+      "id": "8ef9f09ae10c7b479d69eedbd96972944b6db370"
+    },
+    {
+      "url": "https://karriere-fresenius-kabi.at/author/adminiventa/",
+      "source": "SITEMAPS",
+      "targetPath": "/author/adminiventa",
+      "id": "4951c57376a191e841b1507dfefc377793b6682c"
+    },
+    {
+      "url": "https://karriere-fresenius-kabi.at/berufseinstieg/",
+      "source": "SITEMAPS",
+      "targetPath": "/berufseinstieg",
+      "id": "dfb91a11c4947c7d33d1707cc2e1d618beef0a5d"
+    },
+    {
+      "url": "https://karriere-fresenius-kabi.at/berufserfahrene/",
+      "source": "SITEMAPS",
+      "targetPath": "/berufserfahrene",
+      "id": "c6a1ad7a3924ae92d6d19e26f12a15917cc1a5c5"
+    },
+    {
+      "url": "https://karriere-fresenius-kabi.at/category/uncategorized/",
+      "source": "SITEMAPS",
+      "targetPath": "/category/uncategorized",
+      "id": "82d0c9cd06efb9883168541c7cf4bebfdbc5ecb3"
+    },
+    {
+      "url": "https://karriere-fresenius-kabi.at/datenschutz/",
+      "source": "SITEMAPS",
+      "targetPath": "/datenschutz",
+      "id": "64c2e8fc673967eb990687879273ebc9b08130f8"
+    },
+    {
+      "url": "https://karriere-fresenius-kabi.at/hello-world/",
+      "source": "SITEMAPS",
+      "targetPath": "/hello-world",
+      "id": "17bc6d4ad36615ea2543a266a51b68f839f924e5"
+    },
+    {
+      "url": "https://karriere-fresenius-kabi.at/impressum/",
+      "source": "SITEMAPS",
+      "targetPath": "/impressum",
+      "id": "33ff6e711853e491c40296b3063602dbac91f77f"
+    },
+    {
+      "url": "https://karriere-fresenius-kabi.at/jobs/",
+      "source": "SITEMAPS",
+      "targetPath": "/jobs",
+      "id": "e2e496229bd162e271ec157ed1412619f435f17b"
+    },
+    {
+      "url": "https://karriere-fresenius-kabi.at/karrierefoerderung/",
+      "source": "SITEMAPS",
+      "targetPath": "/karrierefoerderung",
+      "id": "053578ce349f1e4da5b669fe5fa13b9e8f421987"
+    },
+    {
+      "url": "https://karriere-fresenius-kabi.at/karrierewege/",
+      "source": "SITEMAPS",
+      "targetPath": "/karrierewege",
+      "id": "89ab40c25465e8113931a92adcc82d3e9573ee83"
+    },
+    {
+      "url": "https://karriere-fresenius-kabi.at/lehrlinge/",
+      "source": "SITEMAPS",
+      "targetPath": "/lehrlinge",
+      "id": "c8699dca88fafcec492cea7a568fc5ecac3fe195"
+    },
+    {
+      "url": "https://karriere-fresenius-kabi.at/privacy-policy/",
+      "source": "SITEMAPS",
+      "targetPath": "/privacy-policy",
+      "id": "fa6760d8dad040b3bb7891845a32ea9bf02c2755"
+    },
+    {
+      "url": "https://karriere-fresenius-kabi.at/rechtliche_hinweise/",
+      "source": "SITEMAPS",
+      "targetPath": "/rechtliche-hinweise",
+      "id": "96df8231b9811f3d87b788d104151c43d0efbe54"
+    },
+    {
+      "url": "https://karriere-fresenius-kabi.at/sitemap/",
+      "source": "SITEMAPS",
+      "targetPath": "/sitemap",
+      "id": "6b2adeaa73efd62a61e9ffb42f08396092bbad89"
+    },
+    {
+      "url": "https://karriere-fresenius-kabi.at/unser-angebot/",
+      "source": "SITEMAPS",
+      "targetPath": "/unser-angebot",
+      "id": "64bc5f7fd0bc7183e075fb9170ae7daff1dd5d60"
+    },
+    {
+      "url": "https://karriere-fresenius-kabi.at/unsere-arbeitgeber-werte/",
+      "source": "SITEMAPS",
+      "targetPath": "/unsere-arbeitgeber-werte",
+      "id": "21d7b14ecafac15ae15d81400c6e418b779d6f60"
+    },
+    {
+      "url": "https://karriere-fresenius-kabi.at/unsere-mitarbeiterinnen/",
+      "source": "SITEMAPS",
+      "targetPath": "/unsere-mitarbeiterinnen",
+      "id": "23a687683573037b86446a49ee03804a5179a4e3"
+    },
+    {
+      "url": "https://karriere-fresenius-kabi.at/unsere-standorte/",
+      "source": "SITEMAPS",
+      "targetPath": "/unsere-standorte",
+      "id": "998e1dea5723992b1610d75ae08f9c4802697704"
+    },
+    {
+      "url": "https://karriere-fresenius-kabi.at/warum-fresenius-kabi/",
+      "source": "SITEMAPS",
+      "targetPath": "/warum-fresenius-kabi",
+      "id": "3429a365ae1d87bcd3eb001015f623d342958fb4"
+    },
+    {
+      "url": "https://karriere-fresenius-kabi.at/wer-wir-sind/",
+      "source": "SITEMAPS",
+      "targetPath": "/wer-wir-sind",
+      "id": "3761820aac9c0fc1667082a9c3f073d33c8c997d"
+    },
+    {
+      "url": "https://karriere-fresenius-kabi.at/wir-als-arbeitgeber/",
+      "source": "SITEMAPS",
+      "targetPath": "/wir-als-arbeitgeber",
+      "id": "649062bd26a0e771a891e87e9afc6859bf36c2bf"
+    }
+  ],
+  "crawlOptions": {
+    "timeout": 64800000,
+    "inclusionPatterns": [],
+    "exclusionPatterns": [],
+    "limit": 100,
+    "sameDomain": true,
+    "keepHash": false,
+    "strategy": "sitemaps",
+    "logger": {},
+    "strategiesAttempted": [
+      "SITEMAPS"
+    ]
+  },
+  "extractionErrors": [
+    {
+      "url": "https://karriere-fresenius-kabi.at/fusion_tb_category/content/",
+      "status": "301 Moved Permanently Redirect: https://karriere-fresenius-kabi.at/"
+    },
+    {
+      "url": "https://karriere-fresenius-kabi.at/fusion_tb_category/footer/",
+      "status": "301 Moved Permanently Redirect: https://karriere-fresenius-kabi.at/"
+    },
+    {
+      "url": "https://karriere-fresenius-kabi.at/fusion_tb_category/header/",
+      "status": "301 Moved Permanently Redirect: https://karriere-fresenius-kabi.at/"
+    },
+    {
+      "url": "https://karriere-fresenius-kabi.at/fusion_tb_category/page_title_bar/",
+      "status": "301 Moved Permanently Redirect: https://karriere-fresenius-kabi.at/"
+    },
+    {
+      "url": "https://karriere-fresenius-kabi.at/element_category/elements/",
+      "status": "301 Moved Permanently Redirect: https://karriere-fresenius-kabi.at/"
+    },
+    {
+      "url": "https://karriere-fresenius-kabi.at/element_category/sections/",
+      "status": "301 Moved Permanently Redirect: https://karriere-fresenius-kabi.at/"
+    }
+  ],
+  "errorCountMessage": "{\"E_301\":6}",
+  "error": null
+}
