@@ -47,151 +47,6 @@
   }
 }
 
-.hero.hero18 {
-  position: relative;
-  width: 100vw;
-  min-height: 350px;
-  overflow: hidden;
-  padding: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: none;
-}
-
-.hero.hero18 > div:first-child {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 1;
-}
-
-.hero.hero18 > div:first-child picture,
-.hero.hero18 > div:first-child img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  filter: blur(7px) brightness(0.97);
-  display: block;
-}
-
-.hero.hero18::before {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 32vw;
-  height: 100%;
-  background: rgb(179 136 115 / 65%);
-  filter: blur(14px);
-  z-index: 2;
-  pointer-events: none;
-  display: block;
-}
-
-.hero.hero18::after {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 32vw;
-  height: 100%;
-  background: rgb(55 119 183 / 45%);
-  filter: blur(16px);
-  z-index: 2;
-  pointer-events: none;
-  display: block;
-}
-
-.hero.hero18 > div:last-child {
-  position: relative;
-  z-index: 3;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-width: 0;
-  padding: 3vw 0;
-}
-
-.hero.hero18 > div:last-child > div {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  gap: 2rem;
-  max-width: 900px;
-  width: 100%;
-  margin: 0 auto;
-}
-
-.hero.hero18 p {
-  margin: 0;
-  display: flex;
-  align-items: center;
-}
-
-.hero.hero18 p picture,
-.hero.hero18 p img {
-  display: block;
-  max-width: 290px;
-  width: 100%;
-  height: auto;
-  border-radius: 12px;
-  box-shadow: 0 2px 16px rgb(0 0 0 / 10%);
-  margin: 0;
-  flex: 0 0 auto;
-}
-
-.hero.hero18 h1 {
-  color: #fff;
-  font-size: 2.4rem;
-  font-weight: 700;
-  line-height: 1.12;
-  margin: 0;
-  text-shadow: 0 2px 12px rgb(0 0 0 / 13%);
-  max-width: 700px;
-  flex: 1 1 auto;
-  min-width: 0;
-  text-align: left;
-  padding-left: 0.5vw;
-}
-
-@media (width <= 900px) {
-  .hero.hero18 {
-    min-height: 320px;
-    padding: 0;
-  }
-
-  .hero.hero18 > div:last-child {
-    padding: 6vw 0;
-  }
-
-  .hero.hero18 > div:last-child > div {
-    flex-direction: column;
-    gap: 1.5rem;
-    align-items: flex-start;
-    justify-content: center;
-    max-width: 98vw;
-    width: 100%;
-  }
-
-  .hero.hero18 h1 {
-    font-size: 1.3rem;
-    padding-left: 0;
-  }
-
-  .hero.hero18 p picture,
-  .hero.hero18 p img {
-    max-width: 210px;
-  }
-
-  .hero.hero18::before,
-  .hero.hero18::after {
-    width: 40vw;
-    filter: blur(11px);
-  }
-}
-
 
 .hero.hero28 {
   position: relative;
@@ -246,5 +101,149 @@
   .hero.hero28 {
     min-height: 180px;
     aspect-ratio: 4 / 1;
+  }
+}
+
+
+.hero.hero18 {
+  position: relative;
+  width: 100vw;
+  min-height: 430px;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  overflow: hidden;
+  background: none;
+}
+
+/* Background image layer */
+.hero.hero18 > div:first-child {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  display: flex;
+}
+
+.hero.hero18 > div:first-child picture,
+.hero.hero18 > div:first-child img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Blurred overlays on sides */
+.hero.hero18::before,
+.hero.hero18::after {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.hero.hero18::before {
+  left: 0;
+  width: 33vw;
+  background: rgb(179 136 115 / 37%);
+  backdrop-filter: blur(15px);
+}
+
+.hero.hero18::after {
+  right: 0;
+  width: 33vw;
+  background: rgb(55 119 183 / 33%);
+  backdrop-filter: blur(15px);
+}
+
+/* Vertically and horizontally center the content group in the block */
+.hero.hero18 > div:last-child {
+  position: relative;
+  z-index: 3;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 6vw;
+  box-sizing: border-box;
+}
+
+/* Center content group in the clear area, with max width and gap */
+.hero.hero18 > div:last-child > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2.4rem;
+  max-width: 540px;
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+/* Headline styling */
+.hero.hero18 h1 {
+  color: #fff;
+  font-size: 2.2rem;
+  font-weight: 600;
+  line-height: 1.15;
+  text-align: center;
+  margin: 0;
+  max-width: 100%;
+  padding: 0;
+  overflow-wrap: anywhere;
+}
+
+/* Badge styling */
+.hero.hero18 p {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero.hero18 p picture,
+.hero.hero18 p img {
+  display: block;
+  max-width: 280px;
+  width: 100%;
+  height: auto;
+  border-radius: 0;
+  box-shadow: none;
+  margin: 0 auto;
+}
+
+/* Ensure hero spans full width */
+
+@media (width <= 900px) {
+  .hero.hero18 {
+    min-height: 320px;
+  }
+
+  .hero.hero18 > div:last-child {
+    padding: 0 3vw;
+  }
+
+  .hero.hero18 > div:last-child > div {
+    max-width: 95vw;
+    gap: 1.4rem;
+  }
+
+  .hero.hero18 h1 {
+    font-size: 1.3rem;
+  }
+
+  .hero.hero18 p picture,
+  .hero.hero18 p img {
+    max-width: 170px;
+  }
+
+  .hero.hero18::before,
+  .hero.hero18::after {
+    width: 40vw;
+    backdrop-filter: blur(10px);
   }
 }
