@@ -44,7 +44,7 @@
   list-style: none;
 }
 
-@media (max-width: 900px) {
+@media (width <= 900px) {
   .cards.cards20 > ul {
     flex-direction: column;
     align-items: center;
@@ -63,13 +63,13 @@
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  padding: 72px 20px 36px 20px;
+  padding: 72px 20px 36px;
   position: relative;
   overflow: visible;
   margin: 0;
 }
 
-@media (max-width: 900px) {
+@media (width <= 900px) {
   .cards.cards20 > ul > li {
     width: 100%;
     max-width: 400px;
@@ -133,7 +133,7 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  color: #ff9900;
+  color: #f90;
   font-size: 14px;
   font-weight: bold;
   text-transform: uppercase;
@@ -153,14 +153,15 @@
 .cards.cards20 > ul > li a:hover,
 .cards.cards20 > ul > li a:focus {
   text-decoration: none;
-  color: #ff9900;
+  color: #f90;
 }
 
 /* Restrict card width for very large screens */
-@media (min-width: 1200px) {
+@media (width >= 1200px) {
   .cards.cards20 > ul > li {
     width: 340px;
   }
+  
   .cards.cards20 > ul {
     gap: 48px;
   }
