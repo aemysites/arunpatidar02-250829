@@ -1,20 +1,115 @@
 footer {
   background-color: var(--light-color);
   font-size: var(--body-font-size-xs);
+  position: relative;
 }
 
 footer .footer > div {
   margin: auto;
   max-width: 1200px;
   padding: 40px 24px 24px;
+  text-align: center;
 }
 
 footer .footer p {
   margin: 0;
 }
 
+/* Navigation links styling */
+footer .footer p:first-child {
+  margin-bottom: 20px;
+}
+
+footer .footer p:first-child a {
+  color: #06c;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0 20px;
+  font-size: 16px;
+}
+
+footer .footer p:first-child a:hover {
+  text-decoration: underline;
+}
+
+/* Copyright text styling */
+footer .footer p:nth-child(2) {
+  color: #333;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+/* Button container styling */
+footer .footer .button-container {
+  margin: 10px 0;
+}
+
+/* LinkedIn button styling */
+footer .footer .button-container:first-of-type .button {
+  background-color: #06c;
+  color: white;
+  text-decoration: none;
+  padding: 12px 24px;
+  border-radius: 50px;
+  display: inline-block;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+/* Hide other buttons (Jetzt bewerben, Go to Top) as they're not in the design */
+footer .footer .button-container:not(:first-of-type) {
+  display: none;
+}
+
+/* Scroll to top button */
+footer .footer .button-container:last-of-type {
+  display: block !important;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  margin: 0;
+  z-index: 1000;
+}
+
+footer .footer .button-container:last-of-type .button {
+  background-color: #666;
+  color: white;
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 8px;
+  display: inline-block;
+  font-weight: 500;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+footer .footer .button-container:last-of-type .button:hover {
+  background-color: #555;
+}
+
+footer .footer .button-container:first-of-type .button:hover {
+  background-color: #0052a3;
+}
+
+/* Responsive design */
 @media (width >= 900px) {
   footer .footer > div {
     padding: 40px 32px 24px;
+  }
+  
+  footer .footer p:first-child a {
+    margin: 0 30px;
+  }
+}
+
+@media (width < 769px) {
+  footer .footer p:first-child a {
+    display: block;
+    margin: 10px 0;
+  }
+  
+  footer .footer .button-container:last-of-type {
+    bottom: 15px;
+    right: 15px;
   }
 }

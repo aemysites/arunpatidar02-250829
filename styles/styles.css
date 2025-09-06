@@ -367,3 +367,10 @@ main .section.light, main .section.highlight {
 .section.section-23 {
   background: rgb(3 169 244) url("https://karriere-fresenius-kabi.at/wp-content/uploads/2021/10/header-berufseinsteiger1.jpg") no-repeat scroll 50% 50% / cover padding-box border-box;
 }
+
+
+/* Skip to content */
+main > .section:has(a[title="Skip to content"]),
+main > .section:has(a[title="Page load link"]) {
+  display: none;
+}

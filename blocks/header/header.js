@@ -166,9 +166,13 @@ export default async function decorate(block) {
   const navSections = nav.querySelector('.nav-sections');
   if (navSections) {
     navSections.querySelectorAll(':scope .default-content-wrapper > ul > li').forEach((navSection) => {
-      if (navSection.querySelector('ul')) navSection.classList.add('nav-drop');
-      navSection.addEventListener('click', () => {
+      if (navSection.querySelector('ul')) {
+        navSection.classList.add('nav-drop');
+        navSection.setAttribute('aria-expanded', 'false');
+      }
+      navSection.addEventListener('click', (e) => {
         if (isDesktop.matches) {
+          e.preventDefault();
           const expanded = navSection.getAttribute('aria-expanded') === 'true';
           toggleAllNavSections(navSections);
           navSection.setAttribute('aria-expanded', expanded ? 'false' : 'true');
