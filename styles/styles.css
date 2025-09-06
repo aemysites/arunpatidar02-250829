@@ -370,6 +370,7 @@ main .section.light, main .section.highlight {
 
 
 /* Skip to content */
-main > .section:has(a[title="Skip to content"]) {
+main > .section:has(a[title="Skip to content"]),
+main > .section:has(a[title="Page load link"]) {
   display: none;
 }
