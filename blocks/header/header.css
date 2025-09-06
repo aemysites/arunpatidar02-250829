@@ -2,12 +2,13 @@
 /* header and nav layout */
 header .nav-wrapper {
   width: 100%;
-  z-index: 2;
+  z-index: 9998;
   position: fixed;
   height: var(--nav-height);
   display: flex;
   flex-direction: column;
   background: rgb(255 255 255) none no-repeat scroll 50% 50% / auto padding-box border-box;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 header nav {
@@ -131,17 +132,63 @@ header nav[aria-expanded="true"] .nav-hamburger-icon::after {
 /* brand */
 header .nav-brand {
   grid-area: brand;
-  flex-basis: 128px;
+  flex-basis: 200px;
   font-size: var(--heading-font-size-s);
   font-weight: 700;
   line-height: 1;
+  display: flex;
+  align-items: center;
+  min-width: 200px;
 }
 
 header nav .nav-brand img {
   width: auto;
   height: 100%;
   max-height: calc(var(--nav-height) - 16px);
-  max-width: 128px;
+  max-width: 200px;
+}
+
+/* Fresenius Kabi brand styling */
+header .nav-brand .default-content-wrapper ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+header .nav-brand .default-content-wrapper ul li {
+  margin: 0;
+}
+
+header .nav-brand .default-content-wrapper ul li a {
+  color: #0066cc;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  display: flex;
+  align-items: center;
+}
+
+/* Logo icon styling - create wavy lines effect */
+header .nav-brand .default-content-wrapper ul li:first-child a::before {
+  content: "〰";
+  font-size: 24px;
+  margin-right: 8px;
+  color: #0066cc;
+  display: inline-block;
+}
+
+/* Show the brand content */
+header .nav-brand .default-content-wrapper {
+  display: block !important;
+}
+
+header .nav-brand .default-content-wrapper ul {
+  display: flex !important;
 }
 
 /* sections */
@@ -174,6 +221,51 @@ header nav .nav-sections ul>li>ul {
 
 header nav .nav-sections ul>li>ul>li {
   font-weight: 400;
+}
+
+/* Navigation links styling */
+header nav .nav-sections .default-content-wrapper ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+header nav .nav-sections .default-content-wrapper ul li {
+  margin: 0;
+  position: relative;
+  z-index: 1;
+}
+
+header nav .nav-sections .default-content-wrapper ul li a {
+  color: #0066cc;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+/* Active state for Home link */
+header nav .nav-sections .default-content-wrapper ul li:first-child a {
+  background-color: #e6f2ff;
+  color: #0066cc;
+}
+
+
+/* Language selector styling */
+header nav .nav-sections .default-content-wrapper ul li:last-child a {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+header nav .nav-sections .default-content-wrapper ul li:last-child a::before {
+  content: "🇦🇹";
+  font-size: 16px;
 }
 
 @media (width>=900px) {
@@ -230,30 +322,46 @@ header nav .nav-sections ul>li>ul>li {
   }
 
   header nav .nav-sections .default-content-wrapper>ul>li[aria-expanded="true"]>ul {
-    display: block;
+    display: block !important;
     position: absolute;
     left: -24px;
-    width: 200px;
-    top: 150%;
+    width: 220px;
+    top: 100%;
     padding: 16px;
-    background-color: var(--light-color);
+    background-color: #f8f9fa;
     white-space: initial;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    border: 1px solid #e9ecef;
+    z-index: 9999 !important;
   }
 
   header nav .nav-sections .default-content-wrapper>ul>li>ul::before {
     content: "";
     position: absolute;
     top: -8px;
-    left: 16px;
+    left: 20px;
     width: 0;
     height: 0;
     border-left: 8px solid transparent;
     border-right: 8px solid transparent;
-    border-bottom: 8px solid var(--light-color);
+    border-bottom: 8px solid #f8f9fa;
   }
 
   header nav .nav-sections .default-content-wrapper>ul>li>ul>li {
     padding: 8px 0;
+  }
+
+  header nav .nav-sections .default-content-wrapper>ul>li>ul>li a {
+    color: #0066cc;
+    font-size: 16px;
+    padding: 8px 12px;
+    font-weight: 500;
+  }
+
+  header nav .nav-sections .default-content-wrapper>ul>li>ul>li a:hover {
+    background-color: #f0f8ff;
+    color: #0066cc;
   }
 }
 
@@ -293,4 +401,124 @@ header .nav-top-container:empty, header .nav-bottom-container:empty {
     max-width: 1264px;
     padding: 0 32px;
   }
+}
+
+/* Mobile responsive styles */
+@media (max-width: 899px) {
+  header nav .nav-sections .default-content-wrapper ul {
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+    padding: 20px 0;
+  }
+
+  header nav .nav-sections .default-content-wrapper ul li a {
+    padding: 12px 16px;
+    display: block;
+    width: 100%;
+    border-radius: 8px;
+  }
+
+  header nav .nav-sections .default-content-wrapper ul li:first-child a {
+    background-color: #e6f2ff;
+  }
+
+  /* Hide dropdown indicators on mobile */
+  header nav .nav-sections .default-content-wrapper ul li:not(:first-child):not(:last-child) a::after,
+  header nav .nav-sections .default-content-wrapper ul li:last-child a::after {
+    display: none;
+  }
+
+  /* Show dropdown content inline on mobile */
+  header nav .nav-sections .default-content-wrapper ul li>ul {
+    display: block !important;
+    position: static !important;
+    width: auto !important;
+    background: none !important;
+    box-shadow: none !important;
+    padding: 8px 0 0 20px !important;
+    margin-top: 8px;
+  }
+
+  header nav .nav-sections .default-content-wrapper ul li>ul::before {
+    display: none;
+  }
+
+  header nav .nav-sections .default-content-wrapper ul li>ul>li {
+    padding: 4px 0;
+  }
+
+  header nav .nav-sections .default-content-wrapper ul li>ul>li a {
+    font-size: 14px;
+    color: #666;
+    padding: 8px 12px;
+  }
+}
+
+/* Hover effects */
+header nav .nav-sections .default-content-wrapper ul li a:hover {
+  background-color: #f0f8ff;
+  color: #0066cc;
+}
+
+header nav .nav-sections .default-content-wrapper ul li:first-child a:hover {
+  background-color: #d1e7ff;
+}
+
+/* Brand hover effect */
+header .nav-brand .default-content-wrapper ul li a:hover {
+  color: #0052a3;
+}
+
+/* Hide skip to content elements */
+.skip-to-content,
+.skip-to-main,
+[href="#main"],
+[href="#content"] {
+  position: absolute !important;
+  left: -9999px !important;
+  top: -9999px !important;
+  width: 1px !important;
+  height: 1px !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important;
+}
+
+/* Ensure proper display of navigation sections */
+header nav .nav-sections .default-content-wrapper {
+  display: block !important;
+}
+
+/* Fix flyout menu positioning and styling */
+header nav .nav-sections .default-content-wrapper>ul>li[aria-expanded="true"]>ul {
+  display: block !important;
+  position: absolute;
+  left: -24px;
+  width: 220px;
+  top: 100%;
+  padding: 16px;
+  background-color: #f8f9fa;
+  white-space: initial;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  border: 1px solid #e9ecef;
+  z-index: 9999 !important;
+}
+
+/* Flyout menu arrow */
+header nav .nav-sections .default-content-wrapper>ul>li[aria-expanded="true"]>ul::before {
+  content: "";
+  position: absolute;
+  top: -8px;
+  left: 20px;
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 8px solid #f8f9fa;
+}
+
+header nav > div.section.nav-brand > div > p:nth-child(2) {
+  display: none;
 }
