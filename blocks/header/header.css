@@ -145,7 +145,7 @@ header nav .nav-brand img {
   width: auto;
   height: 100%;
   max-height: calc(var(--nav-height) - 16px);
-  max-width: 200px;
+  max-width: 160px;
 }
 
 /* Show the brand content */
@@ -221,7 +221,7 @@ header nav .nav-sections .default-content-wrapper ul li {
 header nav .nav-sections .default-content-wrapper ul li a {
   color: #06c;
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 700;
   font-size: 16px;
   padding: 8px 12px;
   border-radius: 4px;
@@ -229,7 +229,7 @@ header nav .nav-sections .default-content-wrapper ul li a {
 }
 
 /* Active state for Home link */
-header nav .nav-sections .default-content-wrapper ul li:first-child a {
+header nav .nav-sections > .default-content-wrapper > ul li[aria-expanded="true"]>a {
   background-color: #e6f2ff;
   color: #06c;
 }
@@ -318,21 +318,6 @@ header nav .nav-sections .default-content-wrapper ul li:last-child a::before {
     position: relative;
   }
 
-  header nav .nav-sections .default-content-wrapper>ul>li[aria-expanded="true"]>ul {
-    display: block !important;
-    position: absolute;
-    left: -24px;
-    width: 220px;
-    top: 100%;
-    padding: 16px;
-    background-color: #f8f9fa;
-    white-space: initial;
-    border-radius: 8px;
-    box-shadow: 0 4px 12px rgb(0 0 0 / 15%);
-    border: 1px solid #e9ecef;
-    z-index: 9999 !important;
-  }
-
   header nav .nav-sections .default-content-wrapper>ul>li>ul::before {
     content: "";
     position: absolute;
@@ -407,6 +392,7 @@ header .nav-top-container:empty, header .nav-bottom-container:empty {
     gap: 16px;
     align-items: flex-start;
     padding: 20px 0;
+    background-color: rgb(102 161 216 / 90%);
   }
 
   header nav .nav-sections .default-content-wrapper ul li a {
@@ -494,14 +480,11 @@ header nav .nav-sections .default-content-wrapper>ul>li[aria-expanded="true"]>ul
   display: block !important;
   position: absolute;
   left: -24px;
-  width: 220px;
+  width: 300px;
   top: 100%;
-  padding: 16px;
-  background-color: #f8f9fa;
+  background-color: rgb(102 161 216 / 90%);
   white-space: initial;
-  border-radius: 8px;
   box-shadow: 0 4px 12px rgb(0 0 0 / 15%);
-  border: 1px solid #e9ecef;
   z-index: 9999 !important;
 }
 
@@ -516,6 +499,17 @@ header nav .nav-sections .default-content-wrapper>ul>li[aria-expanded="true"]>ul
   border-left: 8px solid transparent;
   border-right: 8px solid transparent;
   border-bottom: 8px solid #f8f9fa;
+}
+
+/* Fix flyout menu positioning and styling */
+header nav .nav-sections .default-content-wrapper>ul>li[aria-expanded="true"]>ul>li>a,
+header nav .nav-sections .default-content-wrapper>ul>li[aria-expanded="true"]>ul>li>a:hover {
+  color:#fff !important;
+}
+
+header nav .nav-sections .default-content-wrapper>ul>li[aria-expanded="true"]>ul>li:hover,
+header nav .nav-sections .default-content-wrapper>ul>li[aria-expanded="true"]>ul>li>a:hover {
+  background-color:#06c !important;  
 }
 
 header nav > div.section.nav-brand > div > p:nth-child(2) {
