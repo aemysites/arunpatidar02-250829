@@ -21,7 +21,7 @@ footer .footer p:first-child {
 }
 
 footer .footer p:first-child a {
-  color: #0066cc;
+  color: #06c;
   text-decoration: none;
   font-weight: bold;
   margin: 0 20px;
@@ -46,7 +46,7 @@ footer .footer .button-container {
 
 /* LinkedIn button styling */
 footer .footer .button-container:first-of-type .button {
-  background-color: #0066cc;
+  background-color: #06c;
   color: white;
   text-decoration: none;
   padding: 12px 24px;
@@ -54,10 +54,6 @@ footer .footer .button-container:first-of-type .button {
   display: inline-block;
   font-weight: 500;
   transition: background-color 0.3s ease;
-}
-
-footer .footer .button-container:first-of-type .button:hover {
-  background-color: #0052a3;
 }
 
 /* Hide other buttons (Jetzt bewerben, Go to Top) as they're not in the design */
@@ -91,6 +87,10 @@ footer .footer .button-container:last-of-type .button:hover {
   background-color: #555;
 }
 
+footer .footer .button-container:first-of-type .button:hover {
+  background-color: #0052a3;
+}
+
 /* Responsive design */
 @media (width >= 900px) {
   footer .footer > div {
@@ -102,7 +102,7 @@ footer .footer .button-container:last-of-type .button:hover {
   }
 }
 
-@media (max-width: 768px) {
+@media (width < 769px) {
   footer .footer p:first-child a {
     display: block;
     margin: 10px 0;
