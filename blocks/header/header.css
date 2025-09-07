@@ -1,4 +1,3 @@
-
 /* header and nav layout */
 header .nav-wrapper {
   width: 100%;
@@ -14,7 +13,7 @@ header .nav-wrapper {
 header nav {
   box-sizing: border-box;
   display: grid;
-  grid-template: "hamburger brand tools"var(--nav-height)"sections sections sections"1fr/auto 1fr auto;
+  grid-template: "hamburger brand tools" var(--nav-height)"sections sections sections" 1fr/auto 1fr auto;
   align-items: center;
   gap: 0 24px;
   margin: auto;
@@ -25,7 +24,7 @@ header nav {
 }
 
 header nav[aria-expanded="true"] {
-  grid-template: "hamburger brand"var(--nav-height)"sections sections"1fr"tools tools"var(--nav-height)/auto 1fr;
+  grid-template: "hamburger brand" var(--nav-height)"sections sections" 1fr"tools tools" var(--nav-height)/auto 1fr;
   overflow-y: auto;
   min-height: 100dvh;
 }
@@ -75,20 +74,25 @@ header nav .nav-hamburger button {
   white-space: initial;
 }
 
-header nav .nav-hamburger-icon, header nav .nav-hamburger-icon::before, header nav .nav-hamburger-icon::after {
+header nav .nav-hamburger-icon,
+header nav .nav-hamburger-icon::before,
+header nav .nav-hamburger-icon::after {
   box-sizing: border-box;
   display: block;
   position: relative;
   width: 20px;
 }
 
-header nav .nav-hamburger-icon::before, header nav .nav-hamburger-icon::after {
+header nav .nav-hamburger-icon::before,
+header nav .nav-hamburger-icon::after {
   content: "";
   position: absolute;
   background: currentcolor;
 }
 
-header nav[aria-expanded="false"] .nav-hamburger-icon, header nav[aria-expanded="false"] .nav-hamburger-icon::before, header nav[aria-expanded="false"] .nav-hamburger-icon::after {
+header nav[aria-expanded="false"] .nav-hamburger-icon,
+header nav[aria-expanded="false"] .nav-hamburger-icon::before,
+header nav[aria-expanded="false"] .nav-hamburger-icon::after {
   height: 2px;
   border-radius: 2px;
   background: currentcolor;
@@ -106,7 +110,8 @@ header nav[aria-expanded="true"] .nav-hamburger-icon {
   height: 22px;
 }
 
-header nav[aria-expanded="true"] .nav-hamburger-icon::before, header nav[aria-expanded="true"] .nav-hamburger-icon::after {
+header nav[aria-expanded="true"] .nav-hamburger-icon::before,
+header nav[aria-expanded="true"] .nav-hamburger-icon::after {
   top: 3px;
   left: 1px;
   transform: rotate(45deg);
@@ -229,7 +234,7 @@ header nav .nav-sections .default-content-wrapper ul li a {
 }
 
 /* Active state for Home link */
-header nav .nav-sections > .default-content-wrapper > ul li[aria-expanded="true"]>a {
+header nav .nav-sections>.default-content-wrapper>ul li[aria-expanded="true"]>a {
   background-color: #e6f2ff;
   color: #06c;
 }
@@ -353,7 +358,8 @@ header nav .nav-tools {
 }
 
 /* containers */
-header .nav-top-container, header .nav-bottom-container {
+header .nav-top-container,
+header .nav-bottom-container {
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -374,7 +380,8 @@ header .nav-bottom-container {
   border-top: 1px solid var(--light-color);
 }
 
-header .nav-top-container:empty, header .nav-bottom-container:empty {
+header .nav-top-container:empty,
+header .nav-bottom-container:empty {
   display: none;
 }
 
@@ -387,40 +394,87 @@ header .nav-top-container:empty, header .nav-bottom-container:empty {
 
 /* Mobile responsive styles */
 @media (width < 900px) {
+  /* Mobile header grid and hamburger */
+  header nav {
+    grid-template: "brand brand hamburger" var(--nav-height) "sections sections sections" 1fr / 1fr 0 auto;
+    margin: 0;
+  }
+
+  header nav .nav-hamburger {
+    justify-content: flex-end;
+  }
+
+  header nav .nav-hamburger button {
+    width: 64px;
+    height: 48px;
+    background-color: #06c;
+    color: #fff;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* Mobile list */
   header nav .nav-sections .default-content-wrapper ul {
     flex-direction: column;
-    gap: 16px;
-    align-items: flex-start;
-    padding: 20px 0;
-    background-color: rgb(102 161 216 / 90%);
+    gap: 0;
+    align-items: stretch;
+    padding: 0;
+    background-color: transparent;
   }
 
   header nav .nav-sections .default-content-wrapper ul li a {
-    padding: 12px 16px;
+    padding: 18px 20px;
     display: block;
-    width: 100%;
-    border-radius: 8px;
+    border-radius: 0;
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
   }
 
-  header nav .nav-sections .default-content-wrapper ul li:first-child a {
-    background-color: #e6f2ff;
+  /* Chevron for items with submenu */
+  header nav .nav-sections .default-content-wrapper>ul>li.nav-drop>a {
+    position: relative;
+    padding-right: 44px;
   }
 
-  /* Hide dropdown indicators on mobile */
-  header nav .nav-sections .default-content-wrapper ul li:not(:first-child, :last-child) a::after,
-  header nav .nav-sections .default-content-wrapper ul li:last-child a::after {
+  header nav .nav-sections .default-content-wrapper>ul>li.nav-drop>a::after {
+    content: "\25BC";
+    position: absolute;
+    right: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 14px;
+  }
+
+  /* Active state for Home link */
+  header nav .nav-sections>.default-content-wrapper>ul li[aria-expanded="true"]>a {
+    background-color: #06c;
+    color: #fff;
+  }
+
+  header nav .nav-sections>.default-content-wrapper>ul li[aria-expanded="true"]>a:hover {
+    background-color: #66a1d8 !important;
+    color: #fff;
+  }
+
+  header nav .nav-sections .default-content-wrapper>ul>li[aria-expanded="true"].nav-drop>a::after {
+    transform: translateY(-50%) rotate(180deg);
+  }
+
+  /* Collapsible submenus */
+  header nav .nav-sections .default-content-wrapper>ul>li>ul {
     display: none;
+    position: static;
+    width: 100%;
+    padding: 0;
+    margin: 0;
   }
 
-  /* Show dropdown content inline on mobile */
-  header nav .nav-sections .default-content-wrapper ul li>ul {
-    display: block !important;
-    position: static !important;
-    width: auto !important;
-    background: none !important;
-    box-shadow: none !important;
-    padding: 8px 0 0 20px !important;
-    margin-top: 8px;
+  header nav .nav-sections .default-content-wrapper>ul>li[aria-expanded="true"]>ul {
+    display: block;
   }
 
   header nav .nav-sections .default-content-wrapper ul li>ul::before {
@@ -428,7 +482,14 @@ header .nav-top-container:empty, header .nav-bottom-container:empty {
   }
 
   header nav .nav-sections .default-content-wrapper ul li>ul>li {
-    padding: 4px 0;
+    padding: 0;
+  }
+
+  header nav .nav-sections .default-content-wrapper ul li>ul>li>a {
+    padding: 14px 20px 14px 32px;
+    color: #fff;
+    background-color: rgb(102 161 216 / 70%);
+    font-size: 16px;
   }
 
 }
@@ -455,20 +516,6 @@ header nav .nav-sections .default-content-wrapper ul li>ul>li a {
   padding: 8px 12px;
 }
 
-/* Hide skip to content elements */
-.skip-to-content,
-.skip-to-main,
-[href="#main"],
-[href="#content"] {
-  position: absolute !important;
-  left: -9999px !important;
-  top: -9999px !important;
-  width: 1px !important;
-  height: 1px !important;
-  overflow: hidden !important;
-  clip: rect(0, 0, 0, 0) !important;
-  white-space: nowrap !important;
-}
 
 /* Ensure proper display of navigation sections */
 header nav .nav-sections .default-content-wrapper {
@@ -479,8 +526,6 @@ header nav .nav-sections .default-content-wrapper {
 header nav .nav-sections .default-content-wrapper>ul>li[aria-expanded="true"]>ul {
   display: block !important;
   position: absolute;
-  left: -24px;
-  width: 300px;
   top: 100%;
   background-color: rgb(102 161 216 / 90%);
   white-space: initial;
@@ -504,14 +549,14 @@ header nav .nav-sections .default-content-wrapper>ul>li[aria-expanded="true"]>ul
 /* Fix flyout menu positioning and styling */
 header nav .nav-sections .default-content-wrapper>ul>li[aria-expanded="true"]>ul>li>a,
 header nav .nav-sections .default-content-wrapper>ul>li[aria-expanded="true"]>ul>li>a:hover {
-  color:#fff !important;
+  color: #fff !important;
 }
 
 header nav .nav-sections .default-content-wrapper>ul>li[aria-expanded="true"]>ul>li:hover,
 header nav .nav-sections .default-content-wrapper>ul>li[aria-expanded="true"]>ul>li>a:hover {
-  background-color:#06c !important;  
+  background-color: #06c !important;
 }
 
-header nav > div.section.nav-brand > div > p:nth-child(2) {
+header nav>div.section.nav-brand>div>p:nth-child(2) {
   display: none;
 }

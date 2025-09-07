@@ -170,9 +170,8 @@ export default async function decorate(block) {
         navSection.classList.add('nav-drop');
         navSection.setAttribute('aria-expanded', 'false');
       }
-      navSection.addEventListener('click', (e) => {
+      navSection.addEventListener('click', () => {
         if (isDesktop.matches) {
-          e.preventDefault();
           const expanded = navSection.getAttribute('aria-expanded') === 'true';
           toggleAllNavSections(navSections);
           navSection.setAttribute('aria-expanded', expanded ? 'false' : 'true');
