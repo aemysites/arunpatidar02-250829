@@ -526,8 +526,6 @@ header nav .nav-sections .default-content-wrapper {
 header nav .nav-sections .default-content-wrapper>ul>li[aria-expanded="true"]>ul {
   display: block !important;
   position: absolute;
-  left: -24px;
-  width: 300px;
   top: 100%;
   background-color: rgb(102 161 216 / 90%);
   white-space: initial;
