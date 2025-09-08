@@ -1,0 +1,2508 @@
+{
+  "fragments": [
+    {
+      "name": "nav",
+      "path": "/nav",
+      "totalBoxes": 1,
+      "instances": [
+        {
+          "url": "https://karriere-fresenius-kabi.at/",
+          "urlHash": "013390c7ca28f1f409d40879a25bf158bea3ad97",
+          "uuid": "013390c7-00-dde8aa91e58e48c4b809fc25312e39b4446ea3f1",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/section[1]"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/karrierefoerderung/",
+          "urlHash": "053578ce349f1e4da5b669fe5fa13b9e8f421987",
+          "uuid": "053578ce-00-dde8aa91e58e48c4b809fc25312e39b4446ea3f1",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/section[1]"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/hello-world/",
+          "urlHash": "17bc6d4ad36615ea2543a266a51b68f839f924e5",
+          "uuid": "17bc6d4a-00-dde8aa91e58e48c4b809fc25312e39b4446ea3f1",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/section[1]"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/unsere-arbeitgeber-werte/",
+          "urlHash": "21d7b14ecafac15ae15d81400c6e418b779d6f60",
+          "uuid": "21d7b14e-00-dde8aa91e58e48c4b809fc25312e39b4446ea3f1",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/section[1]"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/unsere-mitarbeiterinnen/",
+          "urlHash": "23a687683573037b86446a49ee03804a5179a4e3",
+          "uuid": "23a68768-00-dde8aa91e58e48c4b809fc25312e39b4446ea3f1",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/section[1]"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/impressum/",
+          "urlHash": "33ff6e711853e491c40296b3063602dbac91f77f",
+          "uuid": "33ff6e71-00-dde8aa91e58e48c4b809fc25312e39b4446ea3f1",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/section[1]"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/warum-fresenius-kabi/",
+          "urlHash": "3429a365ae1d87bcd3eb001015f623d342958fb4",
+          "uuid": "3429a365-00-dde8aa91e58e48c4b809fc25312e39b4446ea3f1",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/section[1]"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/wer-wir-sind/",
+          "urlHash": "3761820aac9c0fc1667082a9c3f073d33c8c997d",
+          "uuid": "3761820a-00-dde8aa91e58e48c4b809fc25312e39b4446ea3f1",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/section[1]"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/author/adminiventa/",
+          "urlHash": "4951c57376a191e841b1507dfefc377793b6682c",
+          "uuid": "4951c573-00-dde8aa91e58e48c4b809fc25312e39b4446ea3f1",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/section[1]"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/wir-als-arbeitgeber/",
+          "urlHash": "649062bd26a0e771a891e87e9afc6859bf36c2bf",
+          "uuid": "649062bd-00-dde8aa91e58e48c4b809fc25312e39b4446ea3f1",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/section[1]"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/unser-angebot/",
+          "urlHash": "64bc5f7fd0bc7183e075fb9170ae7daff1dd5d60",
+          "uuid": "64bc5f7f-00-dde8aa91e58e48c4b809fc25312e39b4446ea3f1",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/section[1]"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/datenschutz/",
+          "urlHash": "64c2e8fc673967eb990687879273ebc9b08130f8",
+          "uuid": "64c2e8fc-00-dde8aa91e58e48c4b809fc25312e39b4446ea3f1",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/section[1]"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/sitemap/",
+          "urlHash": "6b2adeaa73efd62a61e9ffb42f08396092bbad89",
+          "uuid": "6b2adeaa-00-dde8aa91e58e48c4b809fc25312e39b4446ea3f1",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/section[1]"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/category/uncategorized/",
+          "urlHash": "82d0c9cd06efb9883168541c7cf4bebfdbc5ecb3",
+          "uuid": "82d0c9cd-00-dde8aa91e58e48c4b809fc25312e39b4446ea3f1",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/section[1]"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/karrierewege/",
+          "urlHash": "89ab40c25465e8113931a92adcc82d3e9573ee83",
+          "uuid": "89ab40c2-00-dde8aa91e58e48c4b809fc25312e39b4446ea3f1",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/section[1]"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/arbeiten-in-der-produktion/",
+          "urlHash": "8ef9f09ae10c7b479d69eedbd96972944b6db370",
+          "uuid": "8ef9f09a-00-dde8aa91e58e48c4b809fc25312e39b4446ea3f1",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/section[1]"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/rechtliche_hinweise/",
+          "urlHash": "96df8231b9811f3d87b788d104151c43d0efbe54",
+          "uuid": "96df8231-00-dde8aa91e58e48c4b809fc25312e39b4446ea3f1",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/section[1]"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/unsere-standorte/",
+          "urlHash": "998e1dea5723992b1610d75ae08f9c4802697704",
+          "uuid": "998e1dea-00-dde8aa91e58e48c4b809fc25312e39b4446ea3f1",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/section[1]"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/berufserfahrene/",
+          "urlHash": "c6a1ad7a3924ae92d6d19e26f12a15917cc1a5c5",
+          "uuid": "c6a1ad7a-00-dde8aa91e58e48c4b809fc25312e39b4446ea3f1",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/section[1]"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/lehrlinge/",
+          "urlHash": "c8699dca88fafcec492cea7a568fc5ecac3fe195",
+          "uuid": "c8699dca-00-dde8aa91e58e48c4b809fc25312e39b4446ea3f1",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/section[1]"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/berufseinstieg/",
+          "urlHash": "dfb91a11c4947c7d33d1707cc2e1d618beef0a5d",
+          "uuid": "dfb91a11-00-dde8aa91e58e48c4b809fc25312e39b4446ea3f1",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/section[1]"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/jobs/",
+          "urlHash": "e2e496229bd162e271ec157ed1412619f435f17b",
+          "uuid": "e2e49622-00-dde8aa91e58e48c4b809fc25312e39b4446ea3f1",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/section[1]"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/privacy-policy/",
+          "urlHash": "fa6760d8dad040b3bb7891845a32ea9bf02c2755",
+          "uuid": "fa6760d8-00-dde8aa91e58e48c4b809fc25312e39b4446ea3f1",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/section[1]"
+        }
+      ],
+      "styles": {
+        "height": 100,
+        "background": "rgb(255, 255, 255) none no-repeat scroll 50% 50% / auto padding-box border-box"
+      }
+    },
+    {
+      "name": "footer",
+      "path": "/footer",
+      "totalBoxes": 3,
+      "instances": [
+        {
+          "url": "https://karriere-fresenius-kabi.at/",
+          "urlHash": "013390c7ca28f1f409d40879a25bf158bea3ad97",
+          "uuid": "013390c7-07-799080d9a1b6dd3d04cb60a74833ddccce231772",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/section[3]"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/",
+          "urlHash": "013390c7ca28f1f409d40879a25bf158bea3ad97",
+          "uuid": "013390c7-08-d580563e7d5c192a7f564fc6e2473b850b1cfbd8",
+          "xpath": "/html[1]/body[1]/div[6]"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/",
+          "urlHash": "013390c7ca28f1f409d40879a25bf158bea3ad97",
+          "uuid": "013390c7-09-9e5264a09ab84dd854480c9bd403ce679794d665",
+          "xpath": "/html[1]/body[1]/div[7]"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/karrierefoerderung/",
+          "urlHash": "053578ce349f1e4da5b669fe5fa13b9e8f421987",
+          "uuid": "053578ce-06-799080d9a1b6dd3d04cb60a74833ddccce231772",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/section[3]"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/karrierefoerderung/",
+          "urlHash": "053578ce349f1e4da5b669fe5fa13b9e8f421987",
+          "uuid": "053578ce-07-d580563e7d5c192a7f564fc6e2473b850b1cfbd8",
+          "xpath": "/html[1]/body[1]/div[6]"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/karrierefoerderung/",
+          "urlHash": "053578ce349f1e4da5b669fe5fa13b9e8f421987",
+          "uuid": "053578ce-08-9e5264a09ab84dd854480c9bd403ce679794d665",
+          "xpath": "/html[1]/body[1]/div[7]"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/hello-world/",
+          "urlHash": "17bc6d4ad36615ea2543a266a51b68f839f924e5",
+          "uuid": "17bc6d4a-08-799080d9a1b6dd3d04cb60a74833ddccce231772",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/section[3]"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/hello-world/",
+          "urlHash": "17bc6d4ad36615ea2543a266a51b68f839f924e5",
+          "uuid": "17bc6d4a-09-d580563e7d5c192a7f564fc6e2473b850b1cfbd8",
+          "xpath": "/html[1]/body[1]/div[6]"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/hello-world/",
+          "urlHash": "17bc6d4ad36615ea2543a266a51b68f839f924e5",
+          "uuid": "17bc6d4a-10-9e5264a09ab84dd854480c9bd403ce679794d665",
+          "xpath": "/html[1]/body[1]/div[7]"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/unsere-arbeitgeber-werte/",
+          "urlHash": "21d7b14ecafac15ae15d81400c6e418b779d6f60",
+          "uuid": "21d7b14e-06-799080d9a1b6dd3d04cb60a74833ddccce231772",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/section[3]"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/unsere-arbeitgeber-werte/",
+          "urlHash": "21d7b14ecafac15ae15d81400c6e418b779d6f60",
+          "uuid": "21d7b14e-07-d580563e7d5c192a7f564fc6e2473b850b1cfbd8",
+          "xpath": "/html[1]/body[1]/div[6]"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/unsere-arbeitgeber-werte/",
+          "urlHash": "21d7b14ecafac15ae15d81400c6e418b779d6f60",
+          "uuid": "21d7b14e-08-9e5264a09ab84dd854480c9bd403ce679794d665",
+          "xpath": "/html[1]/body[1]/div[7]"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/unsere-mitarbeiterinnen/",
+          "urlHash": "23a687683573037b86446a49ee03804a5179a4e3",
+          "uuid": "23a68768-08-799080d9a1b6dd3d04cb60a74833ddccce231772",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/section[3]"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/unsere-mitarbeiterinnen/",
+          "urlHash": "23a687683573037b86446a49ee03804a5179a4e3",
+          "uuid": "23a68768-09-d580563e7d5c192a7f564fc6e2473b850b1cfbd8",
+          "xpath": "/html[1]/body[1]/div[6]"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/unsere-mitarbeiterinnen/",
+          "urlHash": "23a687683573037b86446a49ee03804a5179a4e3",
+          "uuid": "23a68768-10-9e5264a09ab84dd854480c9bd403ce679794d665",
+          "xpath": "/html[1]/body[1]/div[7]"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/impressum/",
+          "urlHash": "33ff6e711853e491c40296b3063602dbac91f77f",
+          "uuid": "33ff6e71-02-799080d9a1b6dd3d04cb60a74833ddccce231772",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/section[3]"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/impressum/",
+          "urlHash": "33ff6e711853e491c40296b3063602dbac91f77f",
+          "uuid": "33ff6e71-03-d580563e7d5c192a7f564fc6e2473b850b1cfbd8",
+          "xpath": "/html[1]/body[1]/div[6]"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/impressum/",
+          "urlHash": "33ff6e711853e491c40296b3063602dbac91f77f",
+          "uuid": "33ff6e71-04-9e5264a09ab84dd854480c9bd403ce679794d665",
+          "xpath": "/html[1]/body[1]/div[7]"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/warum-fresenius-kabi/",
+          "urlHash": "3429a365ae1d87bcd3eb001015f623d342958fb4",
+          "uuid": "3429a365-12-799080d9a1b6dd3d04cb60a74833ddccce231772",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/section[3]"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/warum-fresenius-kabi/",
+          "urlHash": "3429a365ae1d87bcd3eb001015f623d342958fb4",
+          "uuid": "3429a365-13-d580563e7d5c192a7f564fc6e2473b850b1cfbd8",
+          "xpath": "/html[1]/body[1]/div[6]"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/warum-fresenius-kabi/",
+          "urlHash": "3429a365ae1d87bcd3eb001015f623d342958fb4",
+          "uuid": "3429a365-14-9e5264a09ab84dd854480c9bd403ce679794d665",
+          "xpath": "/html[1]/body[1]/div[7]"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/wer-wir-sind/",
+          "urlHash": "3761820aac9c0fc1667082a9c3f073d33c8c997d",
+          "uuid": "3761820a-08-799080d9a1b6dd3d04cb60a74833ddccce231772",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/section[3]"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/wer-wir-sind/",
+          "urlHash": "3761820aac9c0fc1667082a9c3f073d33c8c997d",
+          "uuid": "3761820a-09-d580563e7d5c192a7f564fc6e2473b850b1cfbd8",
+          "xpath": "/html[1]/body[1]/div[6]"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/wer-wir-sind/",
+          "urlHash": "3761820aac9c0fc1667082a9c3f073d33c8c997d",
+          "uuid": "3761820a-10-9e5264a09ab84dd854480c9bd403ce679794d665",
+          "xpath": "/html[1]/body[1]/div[7]"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/author/adminiventa/",
+          "urlHash": "4951c57376a191e841b1507dfefc377793b6682c",
+          "uuid": "4951c573-02-799080d9a1b6dd3d04cb60a74833ddccce231772",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/section[3]"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/author/adminiventa/",
+          "urlHash": "4951c57376a191e841b1507dfefc377793b6682c",
+          "uuid": "4951c573-03-d580563e7d5c192a7f564fc6e2473b850b1cfbd8",
+          "xpath": "/html[1]/body[1]/div[6]"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/author/adminiventa/",
+          "urlHash": "4951c57376a191e841b1507dfefc377793b6682c",
+          "uuid": "4951c573-04-9e5264a09ab84dd854480c9bd403ce679794d665",
+          "xpath": "/html[1]/body[1]/div[7]"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/wir-als-arbeitgeber/",
+          "urlHash": "649062bd26a0e771a891e87e9afc6859bf36c2bf",
+          "uuid": "649062bd-02-799080d9a1b6dd3d04cb60a74833ddccce231772",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/section[3]"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/wir-als-arbeitgeber/",
+          "urlHash": "649062bd26a0e771a891e87e9afc6859bf36c2bf",
+          "uuid": "649062bd-03-d580563e7d5c192a7f564fc6e2473b850b1cfbd8",
+          "xpath": "/html[1]/body[1]/div[6]"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/wir-als-arbeitgeber/",
+          "urlHash": "649062bd26a0e771a891e87e9afc6859bf36c2bf",
+          "uuid": "649062bd-04-9e5264a09ab84dd854480c9bd403ce679794d665",
+          "xpath": "/html[1]/body[1]/div[7]"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/unser-angebot/",
+          "urlHash": "64bc5f7fd0bc7183e075fb9170ae7daff1dd5d60",
+          "uuid": "64bc5f7f-06-799080d9a1b6dd3d04cb60a74833ddccce231772",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/section[3]"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/unser-angebot/",
+          "urlHash": "64bc5f7fd0bc7183e075fb9170ae7daff1dd5d60",
+          "uuid": "64bc5f7f-07-d580563e7d5c192a7f564fc6e2473b850b1cfbd8",
+          "xpath": "/html[1]/body[1]/div[6]"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/unser-angebot/",
+          "urlHash": "64bc5f7fd0bc7183e075fb9170ae7daff1dd5d60",
+          "uuid": "64bc5f7f-08-9e5264a09ab84dd854480c9bd403ce679794d665",
+          "xpath": "/html[1]/body[1]/div[7]"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/datenschutz/",
+          "urlHash": "64c2e8fc673967eb990687879273ebc9b08130f8",
+          "uuid": "64c2e8fc-02-799080d9a1b6dd3d04cb60a74833ddccce231772",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/section[3]"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/datenschutz/",
+          "urlHash": "64c2e8fc673967eb990687879273ebc9b08130f8",
+          "uuid": "64c2e8fc-03-d580563e7d5c192a7f564fc6e2473b850b1cfbd8",
+          "xpath": "/html[1]/body[1]/div[6]"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/datenschutz/",
+          "urlHash": "64c2e8fc673967eb990687879273ebc9b08130f8",
+          "uuid": "64c2e8fc-04-9e5264a09ab84dd854480c9bd403ce679794d665",
+          "xpath": "/html[1]/body[1]/div[7]"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/sitemap/",
+          "urlHash": "6b2adeaa73efd62a61e9ffb42f08396092bbad89",
+          "uuid": "6b2adeaa-02-799080d9a1b6dd3d04cb60a74833ddccce231772",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/section[3]"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/sitemap/",
+          "urlHash": "6b2adeaa73efd62a61e9ffb42f08396092bbad89",
+          "uuid": "6b2adeaa-03-d580563e7d5c192a7f564fc6e2473b850b1cfbd8",
+          "xpath": "/html[1]/body[1]/div[6]"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/sitemap/",
+          "urlHash": "6b2adeaa73efd62a61e9ffb42f08396092bbad89",
+          "uuid": "6b2adeaa-04-9e5264a09ab84dd854480c9bd403ce679794d665",
+          "xpath": "/html[1]/body[1]/div[7]"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/category/uncategorized/",
+          "urlHash": "82d0c9cd06efb9883168541c7cf4bebfdbc5ecb3",
+          "uuid": "82d0c9cd-02-799080d9a1b6dd3d04cb60a74833ddccce231772",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/section[3]"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/category/uncategorized/",
+          "urlHash": "82d0c9cd06efb9883168541c7cf4bebfdbc5ecb3",
+          "uuid": "82d0c9cd-03-d580563e7d5c192a7f564fc6e2473b850b1cfbd8",
+          "xpath": "/html[1]/body[1]/div[6]"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/category/uncategorized/",
+          "urlHash": "82d0c9cd06efb9883168541c7cf4bebfdbc5ecb3",
+          "uuid": "82d0c9cd-04-9e5264a09ab84dd854480c9bd403ce679794d665",
+          "xpath": "/html[1]/body[1]/div[7]"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/karrierewege/",
+          "urlHash": "89ab40c25465e8113931a92adcc82d3e9573ee83",
+          "uuid": "89ab40c2-02-799080d9a1b6dd3d04cb60a74833ddccce231772",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/section[3]"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/karrierewege/",
+          "urlHash": "89ab40c25465e8113931a92adcc82d3e9573ee83",
+          "uuid": "89ab40c2-03-d580563e7d5c192a7f564fc6e2473b850b1cfbd8",
+          "xpath": "/html[1]/body[1]/div[6]"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/karrierewege/",
+          "urlHash": "89ab40c25465e8113931a92adcc82d3e9573ee83",
+          "uuid": "89ab40c2-04-9e5264a09ab84dd854480c9bd403ce679794d665",
+          "xpath": "/html[1]/body[1]/div[7]"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/arbeiten-in-der-produktion/",
+          "urlHash": "8ef9f09ae10c7b479d69eedbd96972944b6db370",
+          "uuid": "8ef9f09a-04-799080d9a1b6dd3d04cb60a74833ddccce231772",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/section[3]"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/arbeiten-in-der-produktion/",
+          "urlHash": "8ef9f09ae10c7b479d69eedbd96972944b6db370",
+          "uuid": "8ef9f09a-05-d580563e7d5c192a7f564fc6e2473b850b1cfbd8",
+          "xpath": "/html[1]/body[1]/div[6]"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/arbeiten-in-der-produktion/",
+          "urlHash": "8ef9f09ae10c7b479d69eedbd96972944b6db370",
+          "uuid": "8ef9f09a-06-9e5264a09ab84dd854480c9bd403ce679794d665",
+          "xpath": "/html[1]/body[1]/div[7]"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/rechtliche_hinweise/",
+          "urlHash": "96df8231b9811f3d87b788d104151c43d0efbe54",
+          "uuid": "96df8231-02-799080d9a1b6dd3d04cb60a74833ddccce231772",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/section[3]"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/rechtliche_hinweise/",
+          "urlHash": "96df8231b9811f3d87b788d104151c43d0efbe54",
+          "uuid": "96df8231-03-d580563e7d5c192a7f564fc6e2473b850b1cfbd8",
+          "xpath": "/html[1]/body[1]/div[6]"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/rechtliche_hinweise/",
+          "urlHash": "96df8231b9811f3d87b788d104151c43d0efbe54",
+          "uuid": "96df8231-04-9e5264a09ab84dd854480c9bd403ce679794d665",
+          "xpath": "/html[1]/body[1]/div[7]"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/unsere-standorte/",
+          "urlHash": "998e1dea5723992b1610d75ae08f9c4802697704",
+          "uuid": "998e1dea-11-799080d9a1b6dd3d04cb60a74833ddccce231772",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/section[3]"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/unsere-standorte/",
+          "urlHash": "998e1dea5723992b1610d75ae08f9c4802697704",
+          "uuid": "998e1dea-12-d580563e7d5c192a7f564fc6e2473b850b1cfbd8",
+          "xpath": "/html[1]/body[1]/div[6]"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/unsere-standorte/",
+          "urlHash": "998e1dea5723992b1610d75ae08f9c4802697704",
+          "uuid": "998e1dea-13-9e5264a09ab84dd854480c9bd403ce679794d665",
+          "xpath": "/html[1]/body[1]/div[7]"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/berufserfahrene/",
+          "urlHash": "c6a1ad7a3924ae92d6d19e26f12a15917cc1a5c5",
+          "uuid": "c6a1ad7a-04-799080d9a1b6dd3d04cb60a74833ddccce231772",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/section[3]"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/berufserfahrene/",
+          "urlHash": "c6a1ad7a3924ae92d6d19e26f12a15917cc1a5c5",
+          "uuid": "c6a1ad7a-05-d580563e7d5c192a7f564fc6e2473b850b1cfbd8",
+          "xpath": "/html[1]/body[1]/div[6]"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/berufserfahrene/",
+          "urlHash": "c6a1ad7a3924ae92d6d19e26f12a15917cc1a5c5",
+          "uuid": "c6a1ad7a-06-9e5264a09ab84dd854480c9bd403ce679794d665",
+          "xpath": "/html[1]/body[1]/div[7]"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/lehrlinge/",
+          "urlHash": "c8699dca88fafcec492cea7a568fc5ecac3fe195",
+          "uuid": "c8699dca-05-799080d9a1b6dd3d04cb60a74833ddccce231772",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/section[3]"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/lehrlinge/",
+          "urlHash": "c8699dca88fafcec492cea7a568fc5ecac3fe195",
+          "uuid": "c8699dca-06-d580563e7d5c192a7f564fc6e2473b850b1cfbd8",
+          "xpath": "/html[1]/body[1]/div[6]"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/lehrlinge/",
+          "urlHash": "c8699dca88fafcec492cea7a568fc5ecac3fe195",
+          "uuid": "c8699dca-07-9e5264a09ab84dd854480c9bd403ce679794d665",
+          "xpath": "/html[1]/body[1]/div[7]"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/berufseinstieg/",
+          "urlHash": "dfb91a11c4947c7d33d1707cc2e1d618beef0a5d",
+          "uuid": "dfb91a11-05-799080d9a1b6dd3d04cb60a74833ddccce231772",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/section[3]"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/berufseinstieg/",
+          "urlHash": "dfb91a11c4947c7d33d1707cc2e1d618beef0a5d",
+          "uuid": "dfb91a11-06-d580563e7d5c192a7f564fc6e2473b850b1cfbd8",
+          "xpath": "/html[1]/body[1]/div[6]"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/berufseinstieg/",
+          "urlHash": "dfb91a11c4947c7d33d1707cc2e1d618beef0a5d",
+          "uuid": "dfb91a11-07-9e5264a09ab84dd854480c9bd403ce679794d665",
+          "xpath": "/html[1]/body[1]/div[7]"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/jobs/",
+          "urlHash": "e2e496229bd162e271ec157ed1412619f435f17b",
+          "uuid": "e2e49622-06-799080d9a1b6dd3d04cb60a74833ddccce231772",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/section[3]"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/jobs/",
+          "urlHash": "e2e496229bd162e271ec157ed1412619f435f17b",
+          "uuid": "e2e49622-07-d580563e7d5c192a7f564fc6e2473b850b1cfbd8",
+          "xpath": "/html[1]/body[1]/div[6]"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/jobs/",
+          "urlHash": "e2e496229bd162e271ec157ed1412619f435f17b",
+          "uuid": "e2e49622-08-9e5264a09ab84dd854480c9bd403ce679794d665",
+          "xpath": "/html[1]/body[1]/div[7]"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/privacy-policy/",
+          "urlHash": "fa6760d8dad040b3bb7891845a32ea9bf02c2755",
+          "uuid": "fa6760d8-02-799080d9a1b6dd3d04cb60a74833ddccce231772",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/section[3]"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/privacy-policy/",
+          "urlHash": "fa6760d8dad040b3bb7891845a32ea9bf02c2755",
+          "uuid": "fa6760d8-03-d580563e7d5c192a7f564fc6e2473b850b1cfbd8",
+          "xpath": "/html[1]/body[1]/div[6]"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/privacy-policy/",
+          "urlHash": "fa6760d8dad040b3bb7891845a32ea9bf02c2755",
+          "uuid": "fa6760d8-04-9e5264a09ab84dd854480c9bd403ce679794d665",
+          "xpath": "/html[1]/body[1]/div[7]"
+        }
+      ],
+      "styles": {}
+    }
+  ],
+  "blocks": [
+    {
+      "name": "Columns",
+      "cluster": 1,
+      "source": "Columns",
+      "target": "Columns (columns1)",
+      "key": "columns1",
+      "instances": [
+        {
+          "url": "https://karriere-fresenius-kabi.at/unsere-standorte/",
+          "urlHash": "998e1dea5723992b1610d75ae08f9c4802697704",
+          "uuid": "998e1dea-03-aabe71af344191a42a6708297d95968e3b92a1e8",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/main[1]/div[1]/section[1]/div[1]/div[1]/div[3]",
+          "section": "section-18"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/unsere-standorte/",
+          "urlHash": "998e1dea5723992b1610d75ae08f9c4802697704",
+          "uuid": "998e1dea-04-189abb75e3e24235affd3d17d6b6665f14960075",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/main[1]/div[1]/section[1]/div[1]/div[1]/div[4]",
+          "section": "section-18"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/unsere-standorte/",
+          "urlHash": "998e1dea5723992b1610d75ae08f9c4802697704",
+          "uuid": "998e1dea-05-b5d00d08c72f215be0de5c642427532ecb0676a7",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/main[1]/div[1]/section[1]/div[1]/div[1]/div[5]",
+          "section": "section-4"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/unsere-standorte/",
+          "urlHash": "998e1dea5723992b1610d75ae08f9c4802697704",
+          "uuid": "998e1dea-06-0c516398426961e83395948bcd819ffa782b13d4",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/main[1]/div[1]/section[1]/div[1]/div[1]/div[6]",
+          "section": "section-18"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/unsere-standorte/",
+          "urlHash": "998e1dea5723992b1610d75ae08f9c4802697704",
+          "uuid": "998e1dea-08-b941ea27a2bb843d3d141d79068b761b1f68fe2c",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/main[1]/div[1]/section[1]/div[1]/div[1]/div[8]",
+          "section": "section-4"
+        }
+      ]
+    },
+    {
+      "name": "unknown",
+      "cluster": 2,
+      "instances": [
+        {
+          "url": "https://karriere-fresenius-kabi.at/",
+          "urlHash": "013390c7ca28f1f409d40879a25bf158bea3ad97",
+          "uuid": "013390c7-09-9e5264a09ab84dd854480c9bd403ce679794d665",
+          "xpath": "/html[1]/body[1]/div[7]"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/karrierefoerderung/",
+          "urlHash": "053578ce349f1e4da5b669fe5fa13b9e8f421987",
+          "uuid": "053578ce-08-9e5264a09ab84dd854480c9bd403ce679794d665",
+          "xpath": "/html[1]/body[1]/div[7]"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/hello-world/",
+          "urlHash": "17bc6d4ad36615ea2543a266a51b68f839f924e5",
+          "uuid": "17bc6d4a-10-9e5264a09ab84dd854480c9bd403ce679794d665",
+          "xpath": "/html[1]/body[1]/div[7]"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/unsere-arbeitgeber-werte/",
+          "urlHash": "21d7b14ecafac15ae15d81400c6e418b779d6f60",
+          "uuid": "21d7b14e-08-9e5264a09ab84dd854480c9bd403ce679794d665",
+          "xpath": "/html[1]/body[1]/div[7]"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/unsere-mitarbeiterinnen/",
+          "urlHash": "23a687683573037b86446a49ee03804a5179a4e3",
+          "uuid": "23a68768-10-9e5264a09ab84dd854480c9bd403ce679794d665",
+          "xpath": "/html[1]/body[1]/div[7]"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/impressum/",
+          "urlHash": "33ff6e711853e491c40296b3063602dbac91f77f",
+          "uuid": "33ff6e71-04-9e5264a09ab84dd854480c9bd403ce679794d665",
+          "xpath": "/html[1]/body[1]/div[7]"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/warum-fresenius-kabi/",
+          "urlHash": "3429a365ae1d87bcd3eb001015f623d342958fb4",
+          "uuid": "3429a365-14-9e5264a09ab84dd854480c9bd403ce679794d665",
+          "xpath": "/html[1]/body[1]/div[7]"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/wer-wir-sind/",
+          "urlHash": "3761820aac9c0fc1667082a9c3f073d33c8c997d",
+          "uuid": "3761820a-10-9e5264a09ab84dd854480c9bd403ce679794d665",
+          "xpath": "/html[1]/body[1]/div[7]"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/author/adminiventa/",
+          "urlHash": "4951c57376a191e841b1507dfefc377793b6682c",
+          "uuid": "4951c573-04-9e5264a09ab84dd854480c9bd403ce679794d665",
+          "xpath": "/html[1]/body[1]/div[7]"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/wir-als-arbeitgeber/",
+          "urlHash": "649062bd26a0e771a891e87e9afc6859bf36c2bf",
+          "uuid": "649062bd-04-9e5264a09ab84dd854480c9bd403ce679794d665",
+          "xpath": "/html[1]/body[1]/div[7]"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/unser-angebot/",
+          "urlHash": "64bc5f7fd0bc7183e075fb9170ae7daff1dd5d60",
+          "uuid": "64bc5f7f-08-9e5264a09ab84dd854480c9bd403ce679794d665",
+          "xpath": "/html[1]/body[1]/div[7]"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/datenschutz/",
+          "urlHash": "64c2e8fc673967eb990687879273ebc9b08130f8",
+          "uuid": "64c2e8fc-04-9e5264a09ab84dd854480c9bd403ce679794d665",
+          "xpath": "/html[1]/body[1]/div[7]"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/sitemap/",
+          "urlHash": "6b2adeaa73efd62a61e9ffb42f08396092bbad89",
+          "uuid": "6b2adeaa-04-9e5264a09ab84dd854480c9bd403ce679794d665",
+          "xpath": "/html[1]/body[1]/div[7]"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/category/uncategorized/",
+          "urlHash": "82d0c9cd06efb9883168541c7cf4bebfdbc5ecb3",
+          "uuid": "82d0c9cd-04-9e5264a09ab84dd854480c9bd403ce679794d665",
+          "xpath": "/html[1]/body[1]/div[7]"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/karrierewege/",
+          "urlHash": "89ab40c25465e8113931a92adcc82d3e9573ee83",
+          "uuid": "89ab40c2-04-9e5264a09ab84dd854480c9bd403ce679794d665",
+          "xpath": "/html[1]/body[1]/div[7]"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/arbeiten-in-der-produktion/",
+          "urlHash": "8ef9f09ae10c7b479d69eedbd96972944b6db370",
+          "uuid": "8ef9f09a-06-9e5264a09ab84dd854480c9bd403ce679794d665",
+          "xpath": "/html[1]/body[1]/div[7]"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/rechtliche_hinweise/",
+          "urlHash": "96df8231b9811f3d87b788d104151c43d0efbe54",
+          "uuid": "96df8231-04-9e5264a09ab84dd854480c9bd403ce679794d665",
+          "xpath": "/html[1]/body[1]/div[7]"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/unsere-standorte/",
+          "urlHash": "998e1dea5723992b1610d75ae08f9c4802697704",
+          "uuid": "998e1dea-13-9e5264a09ab84dd854480c9bd403ce679794d665",
+          "xpath": "/html[1]/body[1]/div[7]"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/berufserfahrene/",
+          "urlHash": "c6a1ad7a3924ae92d6d19e26f12a15917cc1a5c5",
+          "uuid": "c6a1ad7a-06-9e5264a09ab84dd854480c9bd403ce679794d665",
+          "xpath": "/html[1]/body[1]/div[7]"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/lehrlinge/",
+          "urlHash": "c8699dca88fafcec492cea7a568fc5ecac3fe195",
+          "uuid": "c8699dca-07-9e5264a09ab84dd854480c9bd403ce679794d665",
+          "xpath": "/html[1]/body[1]/div[7]"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/berufseinstieg/",
+          "urlHash": "dfb91a11c4947c7d33d1707cc2e1d618beef0a5d",
+          "uuid": "dfb91a11-07-9e5264a09ab84dd854480c9bd403ce679794d665",
+          "xpath": "/html[1]/body[1]/div[7]"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/jobs/",
+          "urlHash": "e2e496229bd162e271ec157ed1412619f435f17b",
+          "uuid": "e2e49622-08-9e5264a09ab84dd854480c9bd403ce679794d665",
+          "xpath": "/html[1]/body[1]/div[7]"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/privacy-policy/",
+          "urlHash": "fa6760d8dad040b3bb7891845a32ea9bf02c2755",
+          "uuid": "fa6760d8-04-9e5264a09ab84dd854480c9bd403ce679794d665",
+          "xpath": "/html[1]/body[1]/div[7]"
+        }
+      ],
+      "key": "unknown2"
+    },
+    {
+      "name": "Columns",
+      "cluster": 3,
+      "source": "Columns",
+      "target": "Columns (columns3)",
+      "key": "columns3",
+      "instances": [
+        {
+          "url": "https://karriere-fresenius-kabi.at/warum-fresenius-kabi/",
+          "urlHash": "3429a365ae1d87bcd3eb001015f623d342958fb4",
+          "uuid": "3429a365-05-f0f91ad8476b0d765f8dc07164e87fd74a659e80",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/main[1]/div[1]/section[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[2]",
+          "section": "section-3"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/warum-fresenius-kabi/",
+          "urlHash": "3429a365ae1d87bcd3eb001015f623d342958fb4",
+          "uuid": "3429a365-07-4db72b091d2e3c066eb239fe5757616f56b4c1e0",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/main[1]/div[1]/section[1]/div[1]/div[1]/div[5]/div[1]/div[2]/div[1]/div[2]",
+          "section": "section-3"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/warum-fresenius-kabi/",
+          "urlHash": "3429a365ae1d87bcd3eb001015f623d342958fb4",
+          "uuid": "3429a365-09-3bc3bbf2aaf81d7fcc7e515a7011c5b0b989d16f",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/main[1]/div[1]/section[1]/div[1]/div[1]/div[5]/div[1]/div[3]/div[1]/div[2]",
+          "section": "section-3"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/warum-fresenius-kabi/",
+          "urlHash": "3429a365ae1d87bcd3eb001015f623d342958fb4",
+          "uuid": "3429a365-11-0645766811157dd8ec83ff53f8e334ef9540b947",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/main[1]/div[1]/section[1]/div[1]/div[1]/div[5]/div[1]/div[4]/div[1]/div[2]",
+          "section": "section-3"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 4,
+      "source": "Columns",
+      "target": "Columns (columns4)",
+      "key": "columns4",
+      "instances": [
+        {
+          "url": "https://karriere-fresenius-kabi.at/unsere-arbeitgeber-werte/",
+          "urlHash": "21d7b14ecafac15ae15d81400c6e418b779d6f60",
+          "uuid": "21d7b14e-03-aabe71af344191a42a6708297d95968e3b92a1e8",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/main[1]/div[1]/section[1]/div[1]/div[1]/div[3]",
+          "section": "section-10"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/unsere-arbeitgeber-werte/",
+          "urlHash": "21d7b14ecafac15ae15d81400c6e418b779d6f60",
+          "uuid": "21d7b14e-05-b5d00d08c72f215be0de5c642427532ecb0676a7",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/main[1]/div[1]/section[1]/div[1]/div[1]/div[5]",
+          "section": "section-11"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 5,
+      "source": "Columns",
+      "target": "Columns (columns5)",
+      "key": "columns5",
+      "instances": [
+        {
+          "url": "https://karriere-fresenius-kabi.at/",
+          "urlHash": "013390c7ca28f1f409d40879a25bf158bea3ad97",
+          "uuid": "013390c7-04-b5d00d08c72f215be0de5c642427532ecb0676a7",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/main[1]/div[1]/section[1]/div[1]/div[1]/div[5]",
+          "section": "section-3"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/",
+          "urlHash": "013390c7ca28f1f409d40879a25bf158bea3ad97",
+          "uuid": "013390c7-06-52c08737e72c5f6bb3bee59a2a966c57ce793e0f",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/main[1]/div[1]/section[1]/div[1]/div[1]/div[7]",
+          "section": "section-3"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 6,
+      "source": "Columns",
+      "target": "Columns (columns6)",
+      "key": "columns6",
+      "instances": [
+        {
+          "url": "https://karriere-fresenius-kabi.at/wer-wir-sind/",
+          "urlHash": "3761820aac9c0fc1667082a9c3f073d33c8c997d",
+          "uuid": "3761820a-04-189abb75e3e24235affd3d17d6b6665f14960075",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/main[1]/div[1]/section[1]/div[1]/div[1]/div[4]",
+          "section": "section-3"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/wer-wir-sind/",
+          "urlHash": "3761820aac9c0fc1667082a9c3f073d33c8c997d",
+          "uuid": "3761820a-06-0c516398426961e83395948bcd819ffa782b13d4",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/main[1]/div[1]/section[1]/div[1]/div[1]/div[6]",
+          "section": "section-4"
+        }
+      ]
+    },
+    {
+      "name": "header",
+      "cluster": 7,
+      "source": "Header",
+      "target": "Header (header7)",
+      "key": "header7",
+      "instances": [
+        {
+          "url": "https://karriere-fresenius-kabi.at/",
+          "urlHash": "013390c7ca28f1f409d40879a25bf158bea3ad97",
+          "uuid": "013390c7-00-dde8aa91e58e48c4b809fc25312e39b4446ea3f1",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/section[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/karrierefoerderung/",
+          "urlHash": "053578ce349f1e4da5b669fe5fa13b9e8f421987",
+          "uuid": "053578ce-00-dde8aa91e58e48c4b809fc25312e39b4446ea3f1",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/section[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/hello-world/",
+          "urlHash": "17bc6d4ad36615ea2543a266a51b68f839f924e5",
+          "uuid": "17bc6d4a-00-dde8aa91e58e48c4b809fc25312e39b4446ea3f1",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/section[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/unsere-arbeitgeber-werte/",
+          "urlHash": "21d7b14ecafac15ae15d81400c6e418b779d6f60",
+          "uuid": "21d7b14e-00-dde8aa91e58e48c4b809fc25312e39b4446ea3f1",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/section[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/unsere-mitarbeiterinnen/",
+          "urlHash": "23a687683573037b86446a49ee03804a5179a4e3",
+          "uuid": "23a68768-00-dde8aa91e58e48c4b809fc25312e39b4446ea3f1",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/section[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/impressum/",
+          "urlHash": "33ff6e711853e491c40296b3063602dbac91f77f",
+          "uuid": "33ff6e71-00-dde8aa91e58e48c4b809fc25312e39b4446ea3f1",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/section[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/warum-fresenius-kabi/",
+          "urlHash": "3429a365ae1d87bcd3eb001015f623d342958fb4",
+          "uuid": "3429a365-00-dde8aa91e58e48c4b809fc25312e39b4446ea3f1",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/section[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/wer-wir-sind/",
+          "urlHash": "3761820aac9c0fc1667082a9c3f073d33c8c997d",
+          "uuid": "3761820a-00-dde8aa91e58e48c4b809fc25312e39b4446ea3f1",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/section[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/author/adminiventa/",
+          "urlHash": "4951c57376a191e841b1507dfefc377793b6682c",
+          "uuid": "4951c573-00-dde8aa91e58e48c4b809fc25312e39b4446ea3f1",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/section[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/wir-als-arbeitgeber/",
+          "urlHash": "649062bd26a0e771a891e87e9afc6859bf36c2bf",
+          "uuid": "649062bd-00-dde8aa91e58e48c4b809fc25312e39b4446ea3f1",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/section[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/unser-angebot/",
+          "urlHash": "64bc5f7fd0bc7183e075fb9170ae7daff1dd5d60",
+          "uuid": "64bc5f7f-00-dde8aa91e58e48c4b809fc25312e39b4446ea3f1",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/section[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/datenschutz/",
+          "urlHash": "64c2e8fc673967eb990687879273ebc9b08130f8",
+          "uuid": "64c2e8fc-00-dde8aa91e58e48c4b809fc25312e39b4446ea3f1",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/section[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/sitemap/",
+          "urlHash": "6b2adeaa73efd62a61e9ffb42f08396092bbad89",
+          "uuid": "6b2adeaa-00-dde8aa91e58e48c4b809fc25312e39b4446ea3f1",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/section[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/category/uncategorized/",
+          "urlHash": "82d0c9cd06efb9883168541c7cf4bebfdbc5ecb3",
+          "uuid": "82d0c9cd-00-dde8aa91e58e48c4b809fc25312e39b4446ea3f1",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/section[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/karrierewege/",
+          "urlHash": "89ab40c25465e8113931a92adcc82d3e9573ee83",
+          "uuid": "89ab40c2-00-dde8aa91e58e48c4b809fc25312e39b4446ea3f1",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/section[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/arbeiten-in-der-produktion/",
+          "urlHash": "8ef9f09ae10c7b479d69eedbd96972944b6db370",
+          "uuid": "8ef9f09a-00-dde8aa91e58e48c4b809fc25312e39b4446ea3f1",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/section[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/rechtliche_hinweise/",
+          "urlHash": "96df8231b9811f3d87b788d104151c43d0efbe54",
+          "uuid": "96df8231-00-dde8aa91e58e48c4b809fc25312e39b4446ea3f1",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/section[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/unsere-standorte/",
+          "urlHash": "998e1dea5723992b1610d75ae08f9c4802697704",
+          "uuid": "998e1dea-00-dde8aa91e58e48c4b809fc25312e39b4446ea3f1",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/section[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/berufserfahrene/",
+          "urlHash": "c6a1ad7a3924ae92d6d19e26f12a15917cc1a5c5",
+          "uuid": "c6a1ad7a-00-dde8aa91e58e48c4b809fc25312e39b4446ea3f1",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/section[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/lehrlinge/",
+          "urlHash": "c8699dca88fafcec492cea7a568fc5ecac3fe195",
+          "uuid": "c8699dca-00-dde8aa91e58e48c4b809fc25312e39b4446ea3f1",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/section[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/berufseinstieg/",
+          "urlHash": "dfb91a11c4947c7d33d1707cc2e1d618beef0a5d",
+          "uuid": "dfb91a11-00-dde8aa91e58e48c4b809fc25312e39b4446ea3f1",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/section[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/jobs/",
+          "urlHash": "e2e496229bd162e271ec157ed1412619f435f17b",
+          "uuid": "e2e49622-00-dde8aa91e58e48c4b809fc25312e39b4446ea3f1",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/section[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/privacy-policy/",
+          "urlHash": "fa6760d8dad040b3bb7891845a32ea9bf02c2755",
+          "uuid": "fa6760d8-00-dde8aa91e58e48c4b809fc25312e39b4446ea3f1",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/section[1]",
+          "section": "section-1"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 8,
+      "source": "Columns",
+      "target": "Columns (columns8)",
+      "key": "columns8",
+      "instances": [
+        {
+          "url": "https://karriere-fresenius-kabi.at/unsere-mitarbeiterinnen/",
+          "urlHash": "23a687683573037b86446a49ee03804a5179a4e3",
+          "uuid": "23a68768-04-189abb75e3e24235affd3d17d6b6665f14960075",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/main[1]/div[1]/section[1]/div[1]/div[1]/div[4]",
+          "section": "section-4"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/unsere-mitarbeiterinnen/",
+          "urlHash": "23a687683573037b86446a49ee03804a5179a4e3",
+          "uuid": "23a68768-06-0c516398426961e83395948bcd819ffa782b13d4",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/main[1]/div[1]/section[1]/div[1]/div[1]/div[6]",
+          "section": "section-13"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/berufserfahrene/",
+          "urlHash": "c6a1ad7a3924ae92d6d19e26f12a15917cc1a5c5",
+          "uuid": "c6a1ad7a-03-aabe71af344191a42a6708297d95968e3b92a1e8",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/main[1]/div[1]/section[1]/div[1]/div[1]/div[3]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/berufseinstieg/",
+          "urlHash": "dfb91a11c4947c7d33d1707cc2e1d618beef0a5d",
+          "uuid": "dfb91a11-03-aabe71af344191a42a6708297d95968e3b92a1e8",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/main[1]/div[1]/section[1]/div[1]/div[1]/div[3]",
+          "section": "section-4"
+        }
+      ]
+    },
+    {
+      "name": "Carousel",
+      "cluster": 9,
+      "source": "Carousel",
+      "target": "Carousel (carousel9)",
+      "key": "carousel9",
+      "instances": [
+        {
+          "url": "https://karriere-fresenius-kabi.at/warum-fresenius-kabi/",
+          "urlHash": "3429a365ae1d87bcd3eb001015f623d342958fb4",
+          "uuid": "3429a365-03-189abb75e3e24235affd3d17d6b6665f14960075",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/main[1]/div[1]/section[1]/div[1]/div[1]/div[4]",
+          "section": "section-4"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 10,
+      "source": "Columns",
+      "target": "Columns (columns10)",
+      "key": "columns10",
+      "instances": [
+        {
+          "url": "https://karriere-fresenius-kabi.at/sitemap/",
+          "urlHash": "6b2adeaa73efd62a61e9ffb42f08396092bbad89",
+          "uuid": "6b2adeaa-01-3f2f5c18c1300745c4161cbc1f6af9f02cc197f3",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/main[1]",
+          "section": "section-7"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 11,
+      "source": "Columns",
+      "target": "Columns (columns11)",
+      "key": "columns11",
+      "instances": [
+        {
+          "url": "https://karriere-fresenius-kabi.at/wer-wir-sind/",
+          "urlHash": "3761820aac9c0fc1667082a9c3f073d33c8c997d",
+          "uuid": "3761820a-05-b5d00d08c72f215be0de5c642427532ecb0676a7",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/main[1]/div[1]/section[1]/div[1]/div[1]/div[5]",
+          "section": "section-3"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 12,
+      "source": "Columns",
+      "target": "Columns (columns12)",
+      "key": "columns12",
+      "instances": [
+        {
+          "url": "https://karriere-fresenius-kabi.at/wir-als-arbeitgeber/",
+          "urlHash": "649062bd26a0e771a891e87e9afc6859bf36c2bf",
+          "uuid": "649062bd-01-3f2f5c18c1300745c4161cbc1f6af9f02cc197f3",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/main[1]",
+          "section": "section-7"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/karrierewege/",
+          "urlHash": "89ab40c25465e8113931a92adcc82d3e9573ee83",
+          "uuid": "89ab40c2-01-3f2f5c18c1300745c4161cbc1f6af9f02cc197f3",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/main[1]",
+          "section": "section-7"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 13,
+      "source": "Columns",
+      "target": "Columns (columns13)",
+      "key": "columns13",
+      "instances": [
+        {
+          "url": "https://karriere-fresenius-kabi.at/",
+          "urlHash": "013390c7ca28f1f409d40879a25bf158bea3ad97",
+          "uuid": "013390c7-03-189abb75e3e24235affd3d17d6b6665f14960075",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/main[1]/div[1]/section[1]/div[1]/div[1]/div[4]",
+          "section": "section-4",
+          "differences": [
+            {
+              "element_id": "html__body__div__div_2__main__div__section__div__div__div_4",
+              "differences": [
+                {
+                  "change_type": "equal",
+                  "text": "Karriere bei Fresenius Kabi Austria Unsere Teams zeichnen sich durch Offenheit und ein famili\u00e4res Miteinander aus. Wir bieten die M\u00f6glichkeit, sich beruflich weiterzuentwickeln sowie pers\u00f6nlich zu entfalten. Das schreiben wir uns stolz in unsere Unternehmensphilosophie. MEHR"
+                }
+              ],
+              "dissimilarity_score": 0.0
+            }
+          ],
+          "similarity_score": 0.0
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/",
+          "urlHash": "013390c7ca28f1f409d40879a25bf158bea3ad97",
+          "uuid": "013390c7-05-0c516398426961e83395948bcd819ffa782b13d4",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/main[1]/div[1]/section[1]/div[1]/div[1]/div[6]",
+          "section": "section-4",
+          "differences": [
+            {
+              "element_id": "html__body__div__div_2__main__div__section__div__div__div_6",
+              "differences": [
+                {
+                  "change_type": "deletion",
+                  "text": "Unser"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "Karriere"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "Angebot"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "bei"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "Wir"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "Fresenius"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "bieten"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "Kabi"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "vielf\u00e4ltige"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "Austria"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "Karrierem\u00f6glichkeiten"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "Unsere"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "sowie"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "Teams"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "freiwillige"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "zeichnen"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "Sozialleistungen. Der"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "sich"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "Teamgeist"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "durch"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "im"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "Offenheit"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "Unternehmen"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "und"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "wird"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "ein"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "durch"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "famili\u00e4res"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "diverse"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "Miteinander"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "kulturelle"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "aus. Wir"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "und"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "bieten"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "sportliche"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "die"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "Aktivit\u00e4ten"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "M\u00f6glichkeit, sich"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "gef\u00f6rdert. Personalentwicklung"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "beruflich"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "und"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "weiterzuentwickeln"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "Mitarbeitermotivation"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "sowie"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "sind"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "pers\u00f6nlich"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "fest"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "zu entfalten. Das"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "verankert"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "schreiben wir uns stolz"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " in "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "unserer"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "unsere"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "Unternehmenskultur"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "Unternehmensphilosophie"
+                },
+                {
+                  "change_type": "equal",
+                  "text": ". MEHR"
+                }
+              ],
+              "dissimilarity_score": 0.86
+            }
+          ],
+          "similarity_score": 0.14
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 14,
+      "source": "Columns",
+      "target": "Columns (columns14)",
+      "key": "columns14",
+      "instances": [
+        {
+          "url": "https://karriere-fresenius-kabi.at/wer-wir-sind/",
+          "urlHash": "3761820aac9c0fc1667082a9c3f073d33c8c997d",
+          "uuid": "3761820a-03-aabe71af344191a42a6708297d95968e3b92a1e8",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/main[1]/div[1]/section[1]/div[1]/div[1]/div[3]",
+          "section": "section-3"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 15,
+      "source": "Columns",
+      "target": "Columns (columns15)",
+      "key": "columns15",
+      "instances": [
+        {
+          "url": "https://karriere-fresenius-kabi.at/unsere-standorte/",
+          "urlHash": "998e1dea5723992b1610d75ae08f9c4802697704",
+          "uuid": "998e1dea-10-47ba85b34610f5078dc3ce6947ae06b9c5259df4",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/main[1]/div[1]/section[1]/div[1]/div[1]/div[10]",
+          "section": "section-3"
+        }
+      ]
+    },
+    {
+      "name": "Hero",
+      "cluster": 16,
+      "source": "Hero",
+      "target": "Hero (hero16)",
+      "key": "hero16",
+      "instances": [
+        {
+          "url": "https://karriere-fresenius-kabi.at/karrierefoerderung/",
+          "urlHash": "053578ce349f1e4da5b669fe5fa13b9e8f421987",
+          "uuid": "053578ce-01-8765054b976332ff13e6033e614449a8e70e6e61",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/main[1]/div[1]/section[1]/div[1]/div[1]/div[1]",
+          "section": "section-5"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/unsere-arbeitgeber-werte/",
+          "urlHash": "21d7b14ecafac15ae15d81400c6e418b779d6f60",
+          "uuid": "21d7b14e-01-8765054b976332ff13e6033e614449a8e70e6e61",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/main[1]/div[1]/section[1]/div[1]/div[1]/div[1]",
+          "section": "section-9"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/unsere-mitarbeiterinnen/",
+          "urlHash": "23a687683573037b86446a49ee03804a5179a4e3",
+          "uuid": "23a68768-01-8765054b976332ff13e6033e614449a8e70e6e61",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/main[1]/div[1]/section[1]/div[1]/div[1]/div[1]",
+          "section": "section-12"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/arbeiten-in-der-produktion/",
+          "urlHash": "8ef9f09ae10c7b479d69eedbd96972944b6db370",
+          "uuid": "8ef9f09a-01-8765054b976332ff13e6033e614449a8e70e6e61",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/main[1]/div[1]/section[1]/div[1]/div[1]/div[1]",
+          "section": "section-16"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/unsere-standorte/",
+          "urlHash": "998e1dea5723992b1610d75ae08f9c4802697704",
+          "uuid": "998e1dea-01-8765054b976332ff13e6033e614449a8e70e6e61",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/main[1]/div[1]/section[1]/div[1]/div[1]/div[1]",
+          "section": "section-17"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/berufserfahrene/",
+          "urlHash": "c6a1ad7a3924ae92d6d19e26f12a15917cc1a5c5",
+          "uuid": "c6a1ad7a-01-8765054b976332ff13e6033e614449a8e70e6e61",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/main[1]/div[1]/section[1]/div[1]/div[1]/div[1]",
+          "section": "section-20"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/lehrlinge/",
+          "urlHash": "c8699dca88fafcec492cea7a568fc5ecac3fe195",
+          "uuid": "c8699dca-01-8765054b976332ff13e6033e614449a8e70e6e61",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/main[1]/div[1]/section[1]/div[1]/div[1]/div[1]",
+          "section": "section-21"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/berufseinstieg/",
+          "urlHash": "dfb91a11c4947c7d33d1707cc2e1d618beef0a5d",
+          "uuid": "dfb91a11-01-8765054b976332ff13e6033e614449a8e70e6e61",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/main[1]/div[1]/section[1]/div[1]/div[1]/div[1]",
+          "section": "section-23"
+        }
+      ]
+    },
+    {
+      "name": "Hero",
+      "cluster": 17,
+      "source": "Hero",
+      "target": "Hero (hero17)",
+      "key": "hero17",
+      "instances": [
+        {
+          "url": "https://karriere-fresenius-kabi.at/lehrlinge/",
+          "urlHash": "c8699dca88fafcec492cea7a568fc5ecac3fe195",
+          "uuid": "c8699dca-03-189abb75e3e24235affd3d17d6b6665f14960075",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/main[1]/div[1]/section[1]/div[1]/div[1]/div[4]",
+          "section": "section-22"
+        }
+      ]
+    },
+    {
+      "name": "Hero",
+      "cluster": 18,
+      "source": "Hero",
+      "target": "Hero (hero18)",
+      "key": "hero18",
+      "instances": [
+        {
+          "url": "https://karriere-fresenius-kabi.at/",
+          "urlHash": "013390c7ca28f1f409d40879a25bf158bea3ad97",
+          "uuid": "013390c7-01-e33495615fe3745f9000aca729fc0306a18131d0",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/main[1]/div[1]/section[1]/div[1]/div[1]/div[2]",
+          "section": "section-2",
+          "differences": [
+            {
+              "element_id": "html__body__div__div_2__main__div__section__div__div__div_2",
+              "differences": [
+                {
+                  "change_type": "equal",
+                  "text": "Karriere bei Fresenius Kabi"
+                }
+              ],
+              "dissimilarity_score": 0.0
+            }
+          ],
+          "similarity_score": 0.0
+        }
+      ]
+    },
+    {
+      "name": "Hero",
+      "cluster": 19,
+      "source": "Hero",
+      "target": "Hero (hero19)",
+      "key": "hero19",
+      "instances": [
+        {
+          "url": "https://karriere-fresenius-kabi.at/warum-fresenius-kabi/",
+          "urlHash": "3429a365ae1d87bcd3eb001015f623d342958fb4",
+          "uuid": "3429a365-01-e33495615fe3745f9000aca729fc0306a18131d0",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/main[1]/div[1]/section[1]/div[1]/div[1]/div[2]",
+          "section": "section-2"
+        }
+      ]
+    },
+    {
+      "name": "Cards",
+      "cluster": 20,
+      "source": "Cards",
+      "target": "Cards (cards20)",
+      "key": "cards20",
+      "instances": [
+        {
+          "url": "https://karriere-fresenius-kabi.at/jobs/",
+          "urlHash": "e2e496229bd162e271ec157ed1412619f435f17b",
+          "uuid": "e2e49622-03-aabe71af344191a42a6708297d95968e3b92a1e8",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/main[1]/div[1]/section[1]/div[1]/div[1]/div[3]",
+          "section": "section-3"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 21,
+      "source": "Columns",
+      "target": "Columns (columns21)",
+      "key": "columns21",
+      "instances": [
+        {
+          "url": "https://karriere-fresenius-kabi.at/jobs/",
+          "urlHash": "e2e496229bd162e271ec157ed1412619f435f17b",
+          "uuid": "e2e49622-05-02c1b57bb7dce4a01dfc4509719fe5f9e76e97a4",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/main[1]/div[1]/section[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[2]",
+          "section": "section-3"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 22,
+      "source": "Columns",
+      "target": "Columns (columns22)",
+      "key": "columns22",
+      "instances": [
+        {
+          "url": "https://karriere-fresenius-kabi.at/unser-angebot/",
+          "urlHash": "64bc5f7fd0bc7183e075fb9170ae7daff1dd5d60",
+          "uuid": "64bc5f7f-03-aabe71af344191a42a6708297d95968e3b92a1e8",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/main[1]/div[1]/section[1]/div[1]/div[1]/div[3]",
+          "section": "section-15"
+        }
+      ]
+    },
+    {
+      "name": "Hero",
+      "cluster": 23,
+      "source": "Hero",
+      "target": "Hero (hero23)",
+      "key": "hero23",
+      "instances": [
+        {
+          "url": "https://karriere-fresenius-kabi.at/",
+          "urlHash": "013390c7ca28f1f409d40879a25bf158bea3ad97",
+          "uuid": "013390c7-02-aabe71af344191a42a6708297d95968e3b92a1e8",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/main[1]/div[1]/section[1]/div[1]/div[1]/div[3]",
+          "section": "section-3",
+          "differences": [
+            {
+              "element_id": "html__body__div__div_2__main__div__section__div__div__div_3",
+              "differences": [
+                {
+                  "change_type": "equal",
+                  "text": "Willkommen bei Fresenius Kabi Austria! Fresenius Kabi Austria GmbH ist spezialisiert auf intraven\u00f6s zu verabreichende generische Arzneimittel, Infusionstherapie und klinische Ern\u00e4hrung. Die Entwicklung, Herstellung und der Vertrieb von Produkten, die zur Verbesserung der Lebensqualit\u00e4t chronisch und kritisch kranker Patientinnen und Patienten im Krankenhaus und im au\u00dferklinischen Bereich beitragen, z\u00e4hlen zu unseren zentralen Aufgaben \u2013 ganz im Sinne unserer Leitlinie \u201eCommitted to Life"
+                },
+                {
+                  "change_type": "deletion",
+                  "text": " \u201d."
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "\u201d."
+                }
+              ],
+              "dissimilarity_score": -0.0
+            }
+          ],
+          "similarity_score": 0.0
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/karrierefoerderung/",
+          "urlHash": "053578ce349f1e4da5b669fe5fa13b9e8f421987",
+          "uuid": "053578ce-02-e33495615fe3745f9000aca729fc0306a18131d0",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/main[1]/div[1]/section[1]/div[1]/div[1]/div[2]",
+          "section": "section-6"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/karrierefoerderung/",
+          "urlHash": "053578ce349f1e4da5b669fe5fa13b9e8f421987",
+          "uuid": "053578ce-05-b5d00d08c72f215be0de5c642427532ecb0676a7",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/main[1]/div[1]/section[1]/div[1]/div[1]/div[5]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/unsere-arbeitgeber-werte/",
+          "urlHash": "21d7b14ecafac15ae15d81400c6e418b779d6f60",
+          "uuid": "21d7b14e-02-e33495615fe3745f9000aca729fc0306a18131d0",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/main[1]/div[1]/section[1]/div[1]/div[1]/div[2]",
+          "section": "section-3"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/unsere-mitarbeiterinnen/",
+          "urlHash": "23a687683573037b86446a49ee03804a5179a4e3",
+          "uuid": "23a68768-02-e33495615fe3745f9000aca729fc0306a18131d0",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/main[1]/div[1]/section[1]/div[1]/div[1]/div[2]",
+          "section": "section-3"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/warum-fresenius-kabi/",
+          "urlHash": "3429a365ae1d87bcd3eb001015f623d342958fb4",
+          "uuid": "3429a365-02-aabe71af344191a42a6708297d95968e3b92a1e8",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/main[1]/div[1]/section[1]/div[1]/div[1]/div[3]",
+          "section": "section-3"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/unser-angebot/",
+          "urlHash": "64bc5f7fd0bc7183e075fb9170ae7daff1dd5d60",
+          "uuid": "64bc5f7f-02-e33495615fe3745f9000aca729fc0306a18131d0",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/main[1]/div[1]/section[1]/div[1]/div[1]/div[2]",
+          "section": "section-3"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/unsere-standorte/",
+          "urlHash": "998e1dea5723992b1610d75ae08f9c4802697704",
+          "uuid": "998e1dea-09-66018e4e6b3dffcbf25382cdb9a6e7df470545fc",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/main[1]/div[1]/section[1]/div[1]/div[1]/div[9]",
+          "section": "section-19"
+        }
+      ]
+    },
+    {
+      "name": "unknown",
+      "cluster": 24,
+      "instances": [
+        {
+          "url": "https://karriere-fresenius-kabi.at/hello-world/",
+          "urlHash": "17bc6d4ad36615ea2543a266a51b68f839f924e5",
+          "uuid": "17bc6d4a-07-bb07653e018a54b8cb772c4751c98c74a52ebf1c",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/main[1]/div[1]/section[1]/article[1]/div[5]",
+          "section": "section-7"
+        }
+      ],
+      "key": "unknown24"
+    },
+    {
+      "name": "Columns",
+      "cluster": 25,
+      "source": "Columns",
+      "target": "Columns (columns25)",
+      "key": "columns25",
+      "instances": [
+        {
+          "url": "https://karriere-fresenius-kabi.at/unser-angebot/",
+          "urlHash": "64bc5f7fd0bc7183e075fb9170ae7daff1dd5d60",
+          "uuid": "64bc5f7f-01-8765054b976332ff13e6033e614449a8e70e6e61",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/main[1]/div[1]/section[1]/div[1]/div[1]/div[1]",
+          "section": "section-7"
+        }
+      ]
+    },
+    {
+      "name": "Cards",
+      "cluster": 26,
+      "source": "Cards",
+      "target": "Cards (cards26)",
+      "key": "cards26",
+      "instances": [
+        {
+          "url": "https://karriere-fresenius-kabi.at/unser-angebot/",
+          "urlHash": "64bc5f7fd0bc7183e075fb9170ae7daff1dd5d60",
+          "uuid": "64bc5f7f-04-189abb75e3e24235affd3d17d6b6665f14960075",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/main[1]/div[1]/section[1]/div[1]/div[1]/div[4]",
+          "section": "section-7"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 27,
+      "source": "Columns",
+      "target": "Columns (columns27)",
+      "key": "columns27",
+      "instances": [
+        {
+          "url": "https://karriere-fresenius-kabi.at/unsere-mitarbeiterinnen/",
+          "urlHash": "23a687683573037b86446a49ee03804a5179a4e3",
+          "uuid": "23a68768-03-aabe71af344191a42a6708297d95968e3b92a1e8",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/main[1]/div[1]/section[1]/div[1]/div[1]/div[3]",
+          "section": "section-3"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/unsere-mitarbeiterinnen/",
+          "urlHash": "23a687683573037b86446a49ee03804a5179a4e3",
+          "uuid": "23a68768-05-b5d00d08c72f215be0de5c642427532ecb0676a7",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/main[1]/div[1]/section[1]/div[1]/div[1]/div[5]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/unsere-mitarbeiterinnen/",
+          "urlHash": "23a687683573037b86446a49ee03804a5179a4e3",
+          "uuid": "23a68768-07-52c08737e72c5f6bb3bee59a2a966c57ce793e0f",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/main[1]/div[1]/section[1]/div[1]/div[1]/div[7]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/arbeiten-in-der-produktion/",
+          "urlHash": "8ef9f09ae10c7b479d69eedbd96972944b6db370",
+          "uuid": "8ef9f09a-03-aabe71af344191a42a6708297d95968e3b92a1e8",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/main[1]/div[1]/section[1]/div[1]/div[1]/div[3]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://karriere-fresenius-kabi.at/berufseinstieg/",
+          "urlHash": "dfb91a11c4947c7d33d1707cc2e1d618beef0a5d",
+          "uuid": "dfb91a11-04-189abb75e3e24235affd3d17d6b6665f14960075",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/main[1]/div[1]/section[1]/div[1]/div[1]/div[4]",
+          "section": "section-3"
+        }
+      ]
+    },
+    {
+      "name": "Hero",
+      "cluster": 28,
+      "source": "Hero",
+      "target": "Hero (hero28)",
+      "key": "hero28",
+      "instances": [
+        {
+          "url": "https://karriere-fresenius-kabi.at/wer-wir-sind/",
+          "urlHash": "3761820aac9c0fc1667082a9c3f073d33c8c997d",
+          "uuid": "3761820a-01-8765054b976332ff13e6033e614449a8e70e6e61",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/main[1]/div[1]/section[1]/div[1]/div[1]/div[1]",
+          "section": "section-14"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 29,
+      "source": "Columns",
+      "target": "Columns (columns29)",
+      "key": "columns29",
+      "instances": [
+        {
+          "url": "https://karriere-fresenius-kabi.at/karrierefoerderung/",
+          "urlHash": "053578ce349f1e4da5b669fe5fa13b9e8f421987",
+          "uuid": "053578ce-03-aabe71af344191a42a6708297d95968e3b92a1e8",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/main[1]/div[1]/section[1]/div[1]/div[1]/div[3]",
+          "section": "section-6"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 30,
+      "source": "Columns",
+      "target": "Columns (columns30)",
+      "key": "columns30",
+      "instances": [
+        {
+          "url": "https://karriere-fresenius-kabi.at/unsere-arbeitgeber-werte/",
+          "urlHash": "21d7b14ecafac15ae15d81400c6e418b779d6f60",
+          "uuid": "21d7b14e-04-189abb75e3e24235affd3d17d6b6665f14960075",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/main[1]/div[1]/section[1]/div[1]/div[1]/div[4]",
+          "section": "section-3"
+        }
+      ]
+    }
+  ],
+  "outliers": [
+    {
+      "url": "https://karriere-fresenius-kabi.at/",
+      "urlHash": "013390c7ca28f1f409d40879a25bf158bea3ad97",
+      "uuid": "013390c7-07-799080d9a1b6dd3d04cb60a74833ddccce231772",
+      "xpath": "/html[1]/body[1]/div[1]/div[2]/section[3]",
+      "section": "section-4"
+    },
+    {
+      "url": "https://karriere-fresenius-kabi.at/",
+      "urlHash": "013390c7ca28f1f409d40879a25bf158bea3ad97",
+      "uuid": "013390c7-08-d580563e7d5c192a7f564fc6e2473b850b1cfbd8",
+      "xpath": "/html[1]/body[1]/div[6]"
+    },
+    {
+      "url": "https://karriere-fresenius-kabi.at/karrierefoerderung/",
+      "urlHash": "053578ce349f1e4da5b669fe5fa13b9e8f421987",
+      "uuid": "053578ce-04-189abb75e3e24235affd3d17d6b6665f14960075",
+      "xpath": "/html[1]/body[1]/div[1]/div[2]/main[1]/div[1]/section[1]/div[1]/div[1]/div[4]",
+      "section": "section-6"
+    },
+    {
+      "url": "https://karriere-fresenius-kabi.at/karrierefoerderung/",
+      "urlHash": "053578ce349f1e4da5b669fe5fa13b9e8f421987",
+      "uuid": "053578ce-06-799080d9a1b6dd3d04cb60a74833ddccce231772",
+      "xpath": "/html[1]/body[1]/div[1]/div[2]/section[3]",
+      "section": "section-4"
+    },
+    {
+      "url": "https://karriere-fresenius-kabi.at/karrierefoerderung/",
+      "urlHash": "053578ce349f1e4da5b669fe5fa13b9e8f421987",
+      "uuid": "053578ce-07-d580563e7d5c192a7f564fc6e2473b850b1cfbd8",
+      "xpath": "/html[1]/body[1]/div[6]"
+    },
+    {
+      "url": "https://karriere-fresenius-kabi.at/hello-world/",
+      "urlHash": "17bc6d4ad36615ea2543a266a51b68f839f924e5",
+      "uuid": "17bc6d4a-01-ef4be8b008234f7a8db1ed63ea0a0c6acdfa46cc",
+      "xpath": "/html[1]/body[1]/div[1]/div[2]/main[1]/div[1]/section[1]/article[1]/h2[1]",
+      "section": "section-7"
+    },
+    {
+      "url": "https://karriere-fresenius-kabi.at/hello-world/",
+      "urlHash": "17bc6d4ad36615ea2543a266a51b68f839f924e5",
+      "uuid": "17bc6d4a-02-ca2a9159c720c0a63c2e70b7b12753a2d634f3f7",
+      "xpath": "/html[1]/body[1]/div[1]/div[2]/main[1]/div[1]/section[1]/article[1]/div[1]",
+      "section": "section-7"
+    },
+    {
+      "url": "https://karriere-fresenius-kabi.at/hello-world/",
+      "urlHash": "17bc6d4ad36615ea2543a266a51b68f839f924e5",
+      "uuid": "17bc6d4a-03-f176aa4499129a83bb6bf280aeddb88ee0fcddd1",
+      "xpath": "/html[1]/body[1]/div[1]/div[2]/main[1]/div[1]/section[1]/article[1]/div[2]",
+      "section": "section-7"
+    },
+    {
+      "url": "https://karriere-fresenius-kabi.at/hello-world/",
+      "urlHash": "17bc6d4ad36615ea2543a266a51b68f839f924e5",
+      "uuid": "17bc6d4a-04-d89215809c83c2a70ad11e1bf35cffb5fab87356",
+      "xpath": "/html[1]/body[1]/div[1]/div[2]/main[1]/div[1]/section[1]/article[1]/div[3]",
+      "section": "section-8"
+    },
+    {
+      "url": "https://karriere-fresenius-kabi.at/hello-world/",
+      "urlHash": "17bc6d4ad36615ea2543a266a51b68f839f924e5",
+      "uuid": "17bc6d4a-05-af9dbbec8942dbb72162e19cbb7a67cd903e8580",
+      "xpath": "/html[1]/body[1]/div[1]/div[2]/main[1]/div[1]/section[1]/article[1]/section[1]",
+      "section": "section-7"
+    },
+    {
+      "url": "https://karriere-fresenius-kabi.at/hello-world/",
+      "urlHash": "17bc6d4ad36615ea2543a266a51b68f839f924e5",
+      "uuid": "17bc6d4a-06-62f2afb5198daf2ab878f07dee83a0becd526e8d",
+      "xpath": "/html[1]/body[1]/div[1]/div[2]/main[1]/div[1]/section[1]/article[1]/div[4]",
+      "section": "section-7"
+    },
+    {
+      "url": "https://karriere-fresenius-kabi.at/hello-world/",
+      "urlHash": "17bc6d4ad36615ea2543a266a51b68f839f924e5",
+      "uuid": "17bc6d4a-08-799080d9a1b6dd3d04cb60a74833ddccce231772",
+      "xpath": "/html[1]/body[1]/div[1]/div[2]/section[3]",
+      "section": "section-4"
+    },
+    {
+      "url": "https://karriere-fresenius-kabi.at/hello-world/",
+      "urlHash": "17bc6d4ad36615ea2543a266a51b68f839f924e5",
+      "uuid": "17bc6d4a-09-d580563e7d5c192a7f564fc6e2473b850b1cfbd8",
+      "xpath": "/html[1]/body[1]/div[6]"
+    },
+    {
+      "url": "https://karriere-fresenius-kabi.at/unsere-arbeitgeber-werte/",
+      "urlHash": "21d7b14ecafac15ae15d81400c6e418b779d6f60",
+      "uuid": "21d7b14e-06-799080d9a1b6dd3d04cb60a74833ddccce231772",
+      "xpath": "/html[1]/body[1]/div[1]/div[2]/section[3]",
+      "section": "section-4"
+    },
+    {
+      "url": "https://karriere-fresenius-kabi.at/unsere-arbeitgeber-werte/",
+      "urlHash": "21d7b14ecafac15ae15d81400c6e418b779d6f60",
+      "uuid": "21d7b14e-07-d580563e7d5c192a7f564fc6e2473b850b1cfbd8",
+      "xpath": "/html[1]/body[1]/div[6]"
+    },
+    {
+      "url": "https://karriere-fresenius-kabi.at/unsere-mitarbeiterinnen/",
+      "urlHash": "23a687683573037b86446a49ee03804a5179a4e3",
+      "uuid": "23a68768-08-799080d9a1b6dd3d04cb60a74833ddccce231772",
+      "xpath": "/html[1]/body[1]/div[1]/div[2]/section[3]",
+      "section": "section-4"
+    },
+    {
+      "url": "https://karriere-fresenius-kabi.at/unsere-mitarbeiterinnen/",
+      "urlHash": "23a687683573037b86446a49ee03804a5179a4e3",
+      "uuid": "23a68768-09-d580563e7d5c192a7f564fc6e2473b850b1cfbd8",
+      "xpath": "/html[1]/body[1]/div[6]"
+    },
+    {
+      "url": "https://karriere-fresenius-kabi.at/impressum/",
+      "urlHash": "33ff6e711853e491c40296b3063602dbac91f77f",
+      "uuid": "33ff6e71-01-3f2f5c18c1300745c4161cbc1f6af9f02cc197f3",
+      "xpath": "/html[1]/body[1]/div[1]/div[2]/main[1]",
+      "section": "section-7"
+    },
+    {
+      "url": "https://karriere-fresenius-kabi.at/impressum/",
+      "urlHash": "33ff6e711853e491c40296b3063602dbac91f77f",
+      "uuid": "33ff6e71-02-799080d9a1b6dd3d04cb60a74833ddccce231772",
+      "xpath": "/html[1]/body[1]/div[1]/div[2]/section[3]",
+      "section": "section-4"
+    },
+    {
+      "url": "https://karriere-fresenius-kabi.at/impressum/",
+      "urlHash": "33ff6e711853e491c40296b3063602dbac91f77f",
+      "uuid": "33ff6e71-03-d580563e7d5c192a7f564fc6e2473b850b1cfbd8",
+      "xpath": "/html[1]/body[1]/div[6]"
+    },
+    {
+      "url": "https://karriere-fresenius-kabi.at/warum-fresenius-kabi/",
+      "urlHash": "3429a365ae1d87bcd3eb001015f623d342958fb4",
+      "uuid": "3429a365-04-a0f2dda7739208b553fc11b710d1f7c4ef98ac3f",
+      "xpath": "/html[1]/body[1]/div[1]/div[2]/main[1]/div[1]/section[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]",
+      "section": "section-3"
+    },
+    {
+      "url": "https://karriere-fresenius-kabi.at/warum-fresenius-kabi/",
+      "urlHash": "3429a365ae1d87bcd3eb001015f623d342958fb4",
+      "uuid": "3429a365-06-766b051049df95d8ffc243eea4ac6a3150930c45",
+      "xpath": "/html[1]/body[1]/div[1]/div[2]/main[1]/div[1]/section[1]/div[1]/div[1]/div[5]/div[1]/div[2]/div[1]/div[1]",
+      "section": "section-3"
+    },
+    {
+      "url": "https://karriere-fresenius-kabi.at/warum-fresenius-kabi/",
+      "urlHash": "3429a365ae1d87bcd3eb001015f623d342958fb4",
+      "uuid": "3429a365-08-75644ca4ec9193e7a882544d797cd3b7673ccbe9",
+      "xpath": "/html[1]/body[1]/div[1]/div[2]/main[1]/div[1]/section[1]/div[1]/div[1]/div[5]/div[1]/div[3]/div[1]/div[1]",
+      "section": "section-3"
+    },
+    {
+      "url": "https://karriere-fresenius-kabi.at/warum-fresenius-kabi/",
+      "urlHash": "3429a365ae1d87bcd3eb001015f623d342958fb4",
+      "uuid": "3429a365-10-b6898261030ff78b57f69d78d9b13722b0a7eb05",
+      "xpath": "/html[1]/body[1]/div[1]/div[2]/main[1]/div[1]/section[1]/div[1]/div[1]/div[5]/div[1]/div[4]/div[1]/div[1]",
+      "section": "section-3"
+    },
+    {
+      "url": "https://karriere-fresenius-kabi.at/warum-fresenius-kabi/",
+      "urlHash": "3429a365ae1d87bcd3eb001015f623d342958fb4",
+      "uuid": "3429a365-12-799080d9a1b6dd3d04cb60a74833ddccce231772",
+      "xpath": "/html[1]/body[1]/div[1]/div[2]/section[3]",
+      "section": "section-4"
+    },
+    {
+      "url": "https://karriere-fresenius-kabi.at/warum-fresenius-kabi/",
+      "urlHash": "3429a365ae1d87bcd3eb001015f623d342958fb4",
+      "uuid": "3429a365-13-d580563e7d5c192a7f564fc6e2473b850b1cfbd8",
+      "xpath": "/html[1]/body[1]/div[6]"
+    },
+    {
+      "url": "https://karriere-fresenius-kabi.at/wer-wir-sind/",
+      "urlHash": "3761820aac9c0fc1667082a9c3f073d33c8c997d",
+      "uuid": "3761820a-02-e33495615fe3745f9000aca729fc0306a18131d0",
+      "xpath": "/html[1]/body[1]/div[1]/div[2]/main[1]/div[1]/section[1]/div[1]/div[1]/div[2]",
+      "section": "section-3"
+    },
+    {
+      "url": "https://karriere-fresenius-kabi.at/wer-wir-sind/",
+      "urlHash": "3761820aac9c0fc1667082a9c3f073d33c8c997d",
+      "uuid": "3761820a-07-52c08737e72c5f6bb3bee59a2a966c57ce793e0f",
+      "xpath": "/html[1]/body[1]/div[1]/div[2]/main[1]/div[1]/section[1]/div[1]/div[1]/div[7]",
+      "section": "section-3"
+    },
+    {
+      "url": "https://karriere-fresenius-kabi.at/wer-wir-sind/",
+      "urlHash": "3761820aac9c0fc1667082a9c3f073d33c8c997d",
+      "uuid": "3761820a-08-799080d9a1b6dd3d04cb60a74833ddccce231772",
+      "xpath": "/html[1]/body[1]/div[1]/div[2]/section[3]",
+      "section": "section-4"
+    },
+    {
+      "url": "https://karriere-fresenius-kabi.at/wer-wir-sind/",
+      "urlHash": "3761820aac9c0fc1667082a9c3f073d33c8c997d",
+      "uuid": "3761820a-09-d580563e7d5c192a7f564fc6e2473b850b1cfbd8",
+      "xpath": "/html[1]/body[1]/div[6]"
+    },
+    {
+      "url": "https://karriere-fresenius-kabi.at/author/adminiventa/",
+      "urlHash": "4951c57376a191e841b1507dfefc377793b6682c",
+      "uuid": "4951c573-01-3f2f5c18c1300745c4161cbc1f6af9f02cc197f3",
+      "xpath": "/html[1]/body[1]/div[1]/div[2]/main[1]",
+      "section": "section-7"
+    },
+    {
+      "url": "https://karriere-fresenius-kabi.at/author/adminiventa/",
+      "urlHash": "4951c57376a191e841b1507dfefc377793b6682c",
+      "uuid": "4951c573-02-799080d9a1b6dd3d04cb60a74833ddccce231772",
+      "xpath": "/html[1]/body[1]/div[1]/div[2]/section[3]",
+      "section": "section-4"
+    },
+    {
+      "url": "https://karriere-fresenius-kabi.at/author/adminiventa/",
+      "urlHash": "4951c57376a191e841b1507dfefc377793b6682c",
+      "uuid": "4951c573-03-d580563e7d5c192a7f564fc6e2473b850b1cfbd8",
+      "xpath": "/html[1]/body[1]/div[6]"
+    },
+    {
+      "url": "https://karriere-fresenius-kabi.at/wir-als-arbeitgeber/",
+      "urlHash": "649062bd26a0e771a891e87e9afc6859bf36c2bf",
+      "uuid": "649062bd-02-799080d9a1b6dd3d04cb60a74833ddccce231772",
+      "xpath": "/html[1]/body[1]/div[1]/div[2]/section[3]",
+      "section": "section-4"
+    },
+    {
+      "url": "https://karriere-fresenius-kabi.at/wir-als-arbeitgeber/",
+      "urlHash": "649062bd26a0e771a891e87e9afc6859bf36c2bf",
+      "uuid": "649062bd-03-d580563e7d5c192a7f564fc6e2473b850b1cfbd8",
+      "xpath": "/html[1]/body[1]/div[6]"
+    },
+    {
+      "url": "https://karriere-fresenius-kabi.at/unser-angebot/",
+      "urlHash": "64bc5f7fd0bc7183e075fb9170ae7daff1dd5d60",
+      "uuid": "64bc5f7f-05-b5d00d08c72f215be0de5c642427532ecb0676a7",
+      "xpath": "/html[1]/body[1]/div[1]/div[2]/main[1]/div[1]/section[1]/div[1]/div[1]/div[5]",
+      "section": "section-7"
+    },
+    {
+      "url": "https://karriere-fresenius-kabi.at/unser-angebot/",
+      "urlHash": "64bc5f7fd0bc7183e075fb9170ae7daff1dd5d60",
+      "uuid": "64bc5f7f-06-799080d9a1b6dd3d04cb60a74833ddccce231772",
+      "xpath": "/html[1]/body[1]/div[1]/div[2]/section[3]",
+      "section": "section-4"
+    },
+    {
+      "url": "https://karriere-fresenius-kabi.at/unser-angebot/",
+      "urlHash": "64bc5f7fd0bc7183e075fb9170ae7daff1dd5d60",
+      "uuid": "64bc5f7f-07-d580563e7d5c192a7f564fc6e2473b850b1cfbd8",
+      "xpath": "/html[1]/body[1]/div[6]"
+    },
+    {
+      "url": "https://karriere-fresenius-kabi.at/datenschutz/",
+      "urlHash": "64c2e8fc673967eb990687879273ebc9b08130f8",
+      "uuid": "64c2e8fc-01-3f2f5c18c1300745c4161cbc1f6af9f02cc197f3",
+      "xpath": "/html[1]/body[1]/div[1]/div[2]/main[1]",
+      "section": "section-7"
+    },
+    {
+      "url": "https://karriere-fresenius-kabi.at/datenschutz/",
+      "urlHash": "64c2e8fc673967eb990687879273ebc9b08130f8",
+      "uuid": "64c2e8fc-02-799080d9a1b6dd3d04cb60a74833ddccce231772",
+      "xpath": "/html[1]/body[1]/div[1]/div[2]/section[3]",
+      "section": "section-4"
+    },
+    {
+      "url": "https://karriere-fresenius-kabi.at/datenschutz/",
+      "urlHash": "64c2e8fc673967eb990687879273ebc9b08130f8",
+      "uuid": "64c2e8fc-03-d580563e7d5c192a7f564fc6e2473b850b1cfbd8",
+      "xpath": "/html[1]/body[1]/div[6]"
+    },
+    {
+      "url": "https://karriere-fresenius-kabi.at/sitemap/",
+      "urlHash": "6b2adeaa73efd62a61e9ffb42f08396092bbad89",
+      "uuid": "6b2adeaa-02-799080d9a1b6dd3d04cb60a74833ddccce231772",
+      "xpath": "/html[1]/body[1]/div[1]/div[2]/section[3]",
+      "section": "section-4"
+    },
+    {
+      "url": "https://karriere-fresenius-kabi.at/sitemap/",
+      "urlHash": "6b2adeaa73efd62a61e9ffb42f08396092bbad89",
+      "uuid": "6b2adeaa-03-d580563e7d5c192a7f564fc6e2473b850b1cfbd8",
+      "xpath": "/html[1]/body[1]/div[6]"
+    },
+    {
+      "url": "https://karriere-fresenius-kabi.at/category/uncategorized/",
+      "urlHash": "82d0c9cd06efb9883168541c7cf4bebfdbc5ecb3",
+      "uuid": "82d0c9cd-01-3f2f5c18c1300745c4161cbc1f6af9f02cc197f3",
+      "xpath": "/html[1]/body[1]/div[1]/div[2]/main[1]",
+      "section": "section-7"
+    },
+    {
+      "url": "https://karriere-fresenius-kabi.at/category/uncategorized/",
+      "urlHash": "82d0c9cd06efb9883168541c7cf4bebfdbc5ecb3",
+      "uuid": "82d0c9cd-02-799080d9a1b6dd3d04cb60a74833ddccce231772",
+      "xpath": "/html[1]/body[1]/div[1]/div[2]/section[3]",
+      "section": "section-4"
+    },
+    {
+      "url": "https://karriere-fresenius-kabi.at/category/uncategorized/",
+      "urlHash": "82d0c9cd06efb9883168541c7cf4bebfdbc5ecb3",
+      "uuid": "82d0c9cd-03-d580563e7d5c192a7f564fc6e2473b850b1cfbd8",
+      "xpath": "/html[1]/body[1]/div[6]"
+    },
+    {
+      "url": "https://karriere-fresenius-kabi.at/karrierewege/",
+      "urlHash": "89ab40c25465e8113931a92adcc82d3e9573ee83",
+      "uuid": "89ab40c2-02-799080d9a1b6dd3d04cb60a74833ddccce231772",
+      "xpath": "/html[1]/body[1]/div[1]/div[2]/section[3]",
+      "section": "section-4"
+    },
+    {
+      "url": "https://karriere-fresenius-kabi.at/karrierewege/",
+      "urlHash": "89ab40c25465e8113931a92adcc82d3e9573ee83",
+      "uuid": "89ab40c2-03-d580563e7d5c192a7f564fc6e2473b850b1cfbd8",
+      "xpath": "/html[1]/body[1]/div[6]"
+    },
+    {
+      "url": "https://karriere-fresenius-kabi.at/arbeiten-in-der-produktion/",
+      "urlHash": "8ef9f09ae10c7b479d69eedbd96972944b6db370",
+      "uuid": "8ef9f09a-02-e33495615fe3745f9000aca729fc0306a18131d0",
+      "xpath": "/html[1]/body[1]/div[1]/div[2]/main[1]/div[1]/section[1]/div[1]/div[1]/div[2]",
+      "section": "section-3"
+    },
+    {
+      "url": "https://karriere-fresenius-kabi.at/arbeiten-in-der-produktion/",
+      "urlHash": "8ef9f09ae10c7b479d69eedbd96972944b6db370",
+      "uuid": "8ef9f09a-04-799080d9a1b6dd3d04cb60a74833ddccce231772",
+      "xpath": "/html[1]/body[1]/div[1]/div[2]/section[3]",
+      "section": "section-4"
+    },
+    {
+      "url": "https://karriere-fresenius-kabi.at/arbeiten-in-der-produktion/",
+      "urlHash": "8ef9f09ae10c7b479d69eedbd96972944b6db370",
+      "uuid": "8ef9f09a-05-d580563e7d5c192a7f564fc6e2473b850b1cfbd8",
+      "xpath": "/html[1]/body[1]/div[6]"
+    },
+    {
+      "url": "https://karriere-fresenius-kabi.at/rechtliche_hinweise/",
+      "urlHash": "96df8231b9811f3d87b788d104151c43d0efbe54",
+      "uuid": "96df8231-01-3f2f5c18c1300745c4161cbc1f6af9f02cc197f3",
+      "xpath": "/html[1]/body[1]/div[1]/div[2]/main[1]",
+      "section": "section-7"
+    },
+    {
+      "url": "https://karriere-fresenius-kabi.at/rechtliche_hinweise/",
+      "urlHash": "96df8231b9811f3d87b788d104151c43d0efbe54",
+      "uuid": "96df8231-02-799080d9a1b6dd3d04cb60a74833ddccce231772",
+      "xpath": "/html[1]/body[1]/div[1]/div[2]/section[3]",
+      "section": "section-4"
+    },
+    {
+      "url": "https://karriere-fresenius-kabi.at/rechtliche_hinweise/",
+      "urlHash": "96df8231b9811f3d87b788d104151c43d0efbe54",
+      "uuid": "96df8231-03-d580563e7d5c192a7f564fc6e2473b850b1cfbd8",
+      "xpath": "/html[1]/body[1]/div[6]"
+    },
+    {
+      "url": "https://karriere-fresenius-kabi.at/unsere-standorte/",
+      "urlHash": "998e1dea5723992b1610d75ae08f9c4802697704",
+      "uuid": "998e1dea-02-e33495615fe3745f9000aca729fc0306a18131d0",
+      "xpath": "/html[1]/body[1]/div[1]/div[2]/main[1]/div[1]/section[1]/div[1]/div[1]/div[2]",
+      "section": "section-3"
+    },
+    {
+      "url": "https://karriere-fresenius-kabi.at/unsere-standorte/",
+      "urlHash": "998e1dea5723992b1610d75ae08f9c4802697704",
+      "uuid": "998e1dea-07-52c08737e72c5f6bb3bee59a2a966c57ce793e0f",
+      "xpath": "/html[1]/body[1]/div[1]/div[2]/main[1]/div[1]/section[1]/div[1]/div[1]/div[7]",
+      "section": "section-3"
+    },
+    {
+      "url": "https://karriere-fresenius-kabi.at/unsere-standorte/",
+      "urlHash": "998e1dea5723992b1610d75ae08f9c4802697704",
+      "uuid": "998e1dea-11-799080d9a1b6dd3d04cb60a74833ddccce231772",
+      "xpath": "/html[1]/body[1]/div[1]/div[2]/section[3]",
+      "section": "section-4"
+    },
+    {
+      "url": "https://karriere-fresenius-kabi.at/unsere-standorte/",
+      "urlHash": "998e1dea5723992b1610d75ae08f9c4802697704",
+      "uuid": "998e1dea-12-d580563e7d5c192a7f564fc6e2473b850b1cfbd8",
+      "xpath": "/html[1]/body[1]/div[6]"
+    },
+    {
+      "url": "https://karriere-fresenius-kabi.at/berufserfahrene/",
+      "urlHash": "c6a1ad7a3924ae92d6d19e26f12a15917cc1a5c5",
+      "uuid": "c6a1ad7a-02-e33495615fe3745f9000aca729fc0306a18131d0",
+      "xpath": "/html[1]/body[1]/div[1]/div[2]/main[1]/div[1]/section[1]/div[1]/div[1]/div[2]",
+      "section": "section-4"
+    },
+    {
+      "url": "https://karriere-fresenius-kabi.at/berufserfahrene/",
+      "urlHash": "c6a1ad7a3924ae92d6d19e26f12a15917cc1a5c5",
+      "uuid": "c6a1ad7a-04-799080d9a1b6dd3d04cb60a74833ddccce231772",
+      "xpath": "/html[1]/body[1]/div[1]/div[2]/section[3]",
+      "section": "section-4"
+    },
+    {
+      "url": "https://karriere-fresenius-kabi.at/berufserfahrene/",
+      "urlHash": "c6a1ad7a3924ae92d6d19e26f12a15917cc1a5c5",
+      "uuid": "c6a1ad7a-05-d580563e7d5c192a7f564fc6e2473b850b1cfbd8",
+      "xpath": "/html[1]/body[1]/div[6]"
+    },
+    {
+      "url": "https://karriere-fresenius-kabi.at/lehrlinge/",
+      "urlHash": "c8699dca88fafcec492cea7a568fc5ecac3fe195",
+      "uuid": "c8699dca-02-e33495615fe3745f9000aca729fc0306a18131d0",
+      "xpath": "/html[1]/body[1]/div[1]/div[2]/main[1]/div[1]/section[1]/div[1]/div[1]/div[2]",
+      "section": "section-3"
+    },
+    {
+      "url": "https://karriere-fresenius-kabi.at/lehrlinge/",
+      "urlHash": "c8699dca88fafcec492cea7a568fc5ecac3fe195",
+      "uuid": "c8699dca-04-b5d00d08c72f215be0de5c642427532ecb0676a7",
+      "xpath": "/html[1]/body[1]/div[1]/div[2]/main[1]/div[1]/section[1]/div[1]/div[1]/div[5]",
+      "section": "section-1"
+    },
+    {
+      "url": "https://karriere-fresenius-kabi.at/lehrlinge/",
+      "urlHash": "c8699dca88fafcec492cea7a568fc5ecac3fe195",
+      "uuid": "c8699dca-05-799080d9a1b6dd3d04cb60a74833ddccce231772",
+      "xpath": "/html[1]/body[1]/div[1]/div[2]/section[3]",
+      "section": "section-4"
+    },
+    {
+      "url": "https://karriere-fresenius-kabi.at/lehrlinge/",
+      "urlHash": "c8699dca88fafcec492cea7a568fc5ecac3fe195",
+      "uuid": "c8699dca-06-d580563e7d5c192a7f564fc6e2473b850b1cfbd8",
+      "xpath": "/html[1]/body[1]/div[6]"
+    },
+    {
+      "url": "https://karriere-fresenius-kabi.at/berufseinstieg/",
+      "urlHash": "dfb91a11c4947c7d33d1707cc2e1d618beef0a5d",
+      "uuid": "dfb91a11-02-e33495615fe3745f9000aca729fc0306a18131d0",
+      "xpath": "/html[1]/body[1]/div[1]/div[2]/main[1]/div[1]/section[1]/div[1]/div[1]/div[2]",
+      "section": "section-3"
+    },
+    {
+      "url": "https://karriere-fresenius-kabi.at/berufseinstieg/",
+      "urlHash": "dfb91a11c4947c7d33d1707cc2e1d618beef0a5d",
+      "uuid": "dfb91a11-05-799080d9a1b6dd3d04cb60a74833ddccce231772",
+      "xpath": "/html[1]/body[1]/div[1]/div[2]/section[3]",
+      "section": "section-4"
+    },
+    {
+      "url": "https://karriere-fresenius-kabi.at/berufseinstieg/",
+      "urlHash": "dfb91a11c4947c7d33d1707cc2e1d618beef0a5d",
+      "uuid": "dfb91a11-06-d580563e7d5c192a7f564fc6e2473b850b1cfbd8",
+      "xpath": "/html[1]/body[1]/div[6]"
+    },
+    {
+      "url": "https://karriere-fresenius-kabi.at/jobs/",
+      "urlHash": "e2e496229bd162e271ec157ed1412619f435f17b",
+      "uuid": "e2e49622-01-8765054b976332ff13e6033e614449a8e70e6e61",
+      "xpath": "/html[1]/body[1]/div[1]/div[2]/main[1]/div[1]/section[1]/div[1]/div[1]/div[1]",
+      "section": "section-7"
+    },
+    {
+      "url": "https://karriere-fresenius-kabi.at/jobs/",
+      "urlHash": "e2e496229bd162e271ec157ed1412619f435f17b",
+      "uuid": "e2e49622-02-e33495615fe3745f9000aca729fc0306a18131d0",
+      "xpath": "/html[1]/body[1]/div[1]/div[2]/main[1]/div[1]/section[1]/div[1]/div[1]/div[2]",
+      "section": "section-7"
+    },
+    {
+      "url": "https://karriere-fresenius-kabi.at/jobs/",
+      "urlHash": "e2e496229bd162e271ec157ed1412619f435f17b",
+      "uuid": "e2e49622-04-68168e89007f452cafdaffd0d224308cd8bc5b07",
+      "xpath": "/html[1]/body[1]/div[1]/div[2]/main[1]/div[1]/section[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]",
+      "section": "section-3"
+    },
+    {
+      "url": "https://karriere-fresenius-kabi.at/jobs/",
+      "urlHash": "e2e496229bd162e271ec157ed1412619f435f17b",
+      "uuid": "e2e49622-06-799080d9a1b6dd3d04cb60a74833ddccce231772",
+      "xpath": "/html[1]/body[1]/div[1]/div[2]/section[3]",
+      "section": "section-4"
+    },
+    {
+      "url": "https://karriere-fresenius-kabi.at/jobs/",
+      "urlHash": "e2e496229bd162e271ec157ed1412619f435f17b",
+      "uuid": "e2e49622-07-d580563e7d5c192a7f564fc6e2473b850b1cfbd8",
+      "xpath": "/html[1]/body[1]/div[6]"
+    },
+    {
+      "url": "https://karriere-fresenius-kabi.at/privacy-policy/",
+      "urlHash": "fa6760d8dad040b3bb7891845a32ea9bf02c2755",
+      "uuid": "fa6760d8-01-3f2f5c18c1300745c4161cbc1f6af9f02cc197f3",
+      "xpath": "/html[1]/body[1]/div[1]/div[2]/main[1]",
+      "section": "section-7"
+    },
+    {
+      "url": "https://karriere-fresenius-kabi.at/privacy-policy/",
+      "urlHash": "fa6760d8dad040b3bb7891845a32ea9bf02c2755",
+      "uuid": "fa6760d8-02-799080d9a1b6dd3d04cb60a74833ddccce231772",
+      "xpath": "/html[1]/body[1]/div[1]/div[2]/section[3]",
+      "section": "section-4"
+    },
+    {
+      "url": "https://karriere-fresenius-kabi.at/privacy-policy/",
+      "urlHash": "fa6760d8dad040b3bb7891845a32ea9bf02c2755",
+      "uuid": "fa6760d8-03-d580563e7d5c192a7f564fc6e2473b850b1cfbd8",
+      "xpath": "/html[1]/body[1]/div[6]"
+    }
+  ],
+  "pages": [
+    {
+      "url": "https://karriere-fresenius-kabi.at/",
+      "differences": [
+        {
+          "change_type": "equal",
+          "text": "Skip to content "
+        },
+        {
+          "change_type": "deletion",
+          "text": "Home AdminIventa 2024"
+        },
+        {
+          "change_type": "insertion",
+          "text": "HomeAdminIventa2024"
+        },
+        {
+          "change_type": "equal",
+          "text": "-10-24T14:59:11+02:00 Karriere bei Fresenius Kabi Willkommen bei Fresenius Kabi Austria! Fresenius Kabi Austria GmbH ist spezialisiert auf intraven\u00f6s zu verabreichende generische Arzneimittel, Infusionstherapie und klinische Ern\u00e4hrung. Die Entwicklung, Herstellung und der Vertrieb von Produkten, die zur Verbesserung der Lebensqualit\u00e4t chronisch und kritisch kranker Patientinnen und Patienten im Krankenhaus und im au\u00dferklinischen Bereich beitragen, z\u00e4hlen zu unseren zentralen Aufgaben \u2013 ganz im Sinne unserer Leitlinie \u201eCommitted to Life"
+        },
+        {
+          "change_type": "deletion",
+          "text": " \u201d. "
+        },
+        {
+          "change_type": "insertion",
+          "text": "\u201d. "
+        },
+        {
+          "change_type": "equal",
+          "text": "Karriere bei Fresenius Kabi Austria Unsere Teams zeichnen sich durch Offenheit und ein famili\u00e4res Miteinander aus. Wir bieten die M\u00f6glichkeit, sich beruflich weiterzuentwickeln sowie pers\u00f6nlich zu entfalten. Das schreiben wir uns stolz in unsere Unternehmensphilosophie. MEHR Karrierewege Wir bieten hochmotivierten Mitarbeiter:innen, die Bereitschaft zur Flexibilit\u00e4t und Mobilit\u00e4t zeigen, ein breites Spektrum an Karrierechancen rund um die Welt. Weil das Lernen ein lebenslanger Prozess ist, bringt die Arbeit bei Fresenius Kabi Austria umfangreiche Weiterbildungs- und Ausbildungsm\u00f6glichkeiten mit sich, um individuelle Weiterentwicklung zu f\u00f6rdern. MEHR Unser Angebot Wir bieten vielf\u00e4ltige Karrierem\u00f6glichkeiten sowie freiwillige Sozialleistungen. Der Teamgeist im Unternehmen wird durch diverse kulturelle und sportliche Aktivit\u00e4ten gef\u00f6rdert. Personalentwicklung und Mitarbeitermotivation sind fest verankert in unserer Unternehmenskultur. MEHR Jobs In unserem Unternehmen haben wir einen Platz f\u00fcr all jene, die sich mit Begeisterung und Motivation f\u00fcr die Verbesserung der Gesundheit der Menschen einsetzen und gemeinsam mit unseren Aufgaben wachsen wollen. Wir freuen uns, wenn Sie unsere Teams am Standort Graz oder am Standort Linz bereichern. MEHR "
+        },
+        {
+          "change_type": "deletion",
+          "text": "Sitemap Impressum Rechtliche Hinweise Datenschutz Fresenius Kabi Austria GmbH \u00a9 November 2021 "
+        },
+        {
+          "change_type": "equal",
+          "text": "Page load link"
+        },
+        {
+          "change_type": "deletion",
+          "text": " LinkedIn Jetzt bewerben Go to Top"
+        }
+      ],
+      "similarity_score": 0.9746576781631806
+    }
+  ]
+}
