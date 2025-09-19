@@ -38,12 +38,13 @@
   grid-template-columns: repeat(2, 1fr);
   gap: 40px;
   margin: 0 auto;
-  padding: 48px 48px;
+  padding: 48px;
   max-width: 1200px;
   box-sizing: border-box;
   align-items: stretch; /* Ensures cards are equal height */
 }
-@media (max-width: 900px) {
+
+@media (width <= 900px) {
   .cards.cards13 ul {
     grid-template-columns: 1fr;
     padding: 16px 8px;
@@ -59,7 +60,7 @@
   border: none;
   min-height: 380px;
   overflow: hidden;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.09);
+  box-shadow: 0 2px 8px rgb(0 0 0 / 9%);
   padding: 0;
   margin: 0;
   height: 100%;
@@ -85,6 +86,7 @@
   padding: 0;
   height: 100%;
 }
+
 .cards.cards13 ul > li .cards-card-image picture,
 .cards.cards13 ul > li .cards-card-image img {
   width: 100%;
@@ -99,7 +101,7 @@
 /* Text section: more top padding, full height, relative for button */
 .cards.cards13 ul > li .cards-card-body {
   position: relative;
-  padding: 64px 40px 40px 40px;
+  padding: 64px 40px 40px;
   color: #fff;
   display: flex;
   flex-direction: column;
@@ -111,12 +113,12 @@
 
 /* Accent line and label */
 .cards.cards13 ul > li .cards-card-body > p:first-of-type {
-  color: #cccccc;
+  color: #ccc;
   text-transform: uppercase;
   font-size: 0.95rem;
   font-weight: 600;
   letter-spacing: 0.03em;
-  margin: 0 0 20px 0;
+  margin: 0 0 20px;
   padding-top: 20px;
   border-top: 3px solid #9B00FF;
   width: fit-content;
@@ -127,7 +129,7 @@
   color: #fff;
   font-size: 1.6rem;
   font-weight: 700;
-  margin: 0 0 60px 0;
+  margin: 0 0 60px;
   line-height: 1.18;
 }
 
@@ -173,12 +175,13 @@
 }
 
 /* Responsive: stack image/content, adjust padding and button position */
-@media (max-width: 900px) {
+@media (width <= 900px) {
   .cards.cards13 ul > li {
     flex-direction: column;
     min-height: 240px;
     height: auto;
   }
+
   .cards.cards13 ul > li .cards-card-image,
   .cards.cards13 ul > li .cards-card-body {
     flex: none;
@@ -188,10 +191,12 @@
     padding-right: 12px;
     height: auto;
   }
+
   .cards.cards13 ul > li .cards-card-body {
     padding-top: 28px;
     padding-bottom: 74px; /* Increase for button */
   }
+
   .cards.cards13 ul > li .cards-card-body .button-container {
     right: 12px;
     bottom: 28px;
