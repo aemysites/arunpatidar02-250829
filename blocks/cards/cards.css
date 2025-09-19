@@ -25,3 +25,182 @@
   aspect-ratio: 4 / 3;
   object-fit: cover;
 }
+
+
+.cards.cards13 {
+  background: #000;
+  padding: 0;
+}
+
+/* Center block and give left/right padding for large screens */
+.cards.cards13 ul {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+  margin: 0 auto;
+  padding: 48px 48px;
+  max-width: 1200px;
+  box-sizing: border-box;
+  align-items: stretch; /* Ensures cards are equal height */
+}
+@media (max-width: 900px) {
+  .cards.cards13 ul {
+    grid-template-columns: 1fr;
+    padding: 16px 8px;
+    gap: 32px;
+  }
+}
+
+/* Flex row for image/text, equal halves, no extra space */
+.cards.cards13 ul > li {
+  display: flex;
+  flex-direction: row;
+  background: #191919;
+  border: none;
+  min-height: 380px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.09);
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+/* Split exactly 50/50 */
+.cards.cards13 ul > li .cards-card-image,
+.cards.cards13 ul > li .cards-card-body {
+  flex: 0 0 50%;
+  min-width: 0;
+  max-width: 50%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+/* Image section */
+.cards.cards13 ul > li .cards-card-image {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  background: #222;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+.cards.cards13 ul > li .cards-card-image picture,
+.cards.cards13 ul > li .cards-card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  margin: 0;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* Text section: more top padding, full height, relative for button */
+.cards.cards13 ul > li .cards-card-body {
+  position: relative;
+  padding: 64px 40px 40px 40px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 100%;
+  min-height: 0;
+}
+
+/* Accent line and label */
+.cards.cards13 ul > li .cards-card-body > p:first-of-type {
+  color: #cccccc;
+  text-transform: uppercase;
+  font-size: 0.95rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  margin: 0 0 20px 0;
+  padding-top: 20px;
+  border-top: 3px solid #9B00FF;
+  width: fit-content;
+}
+
+/* Title spacing */
+.cards.cards13 ul > li .cards-card-body h4 {
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin: 0 0 60px 0;
+  line-height: 1.18;
+}
+
+/* Button: bottom right, purple square, visually flush */
+.cards.cards13 ul > li .cards-card-body .button-container {
+  position: absolute;
+  right: 40px;
+  bottom: 40px;
+  width: auto;
+  margin: 0;
+  display: block;
+  min-height: 0;
+  z-index: 2;
+}
+
+.cards.cards13 ul > li .cards-card-body .button {
+  background: #9B00FF;
+  color: transparent;      /* Hide "Read More" text */
+  width: 48px;
+  height: 48px;
+  min-width: 48px;
+  min-height: 48px;
+  max-width: 48px;
+  max-height: 48px;
+  border-radius: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0;            /* Minimize text presence */
+  padding: 0;
+  border: none;
+  margin: 0;
+  box-shadow: none;
+  text-align: center;
+  transition: background 0.2s;
+  font-weight: bold;
+  overflow: hidden;
+}
+
+.cards.cards13 ul > li .cards-card-body .button:hover,
+.cards.cards13 ul > li .cards-card-body .button:focus {
+  background: #7a00cc;
+}
+
+/* Responsive: stack image/content, adjust padding and button position */
+@media (max-width: 900px) {
+  .cards.cards13 ul > li {
+    flex-direction: column;
+    min-height: 240px;
+    height: auto;
+  }
+  .cards.cards13 ul > li .cards-card-image,
+  .cards.cards13 ul > li .cards-card-body {
+    flex: none;
+    width: 100%;
+    max-width: 100%;
+    padding-left: 12px;
+    padding-right: 12px;
+    height: auto;
+  }
+  .cards.cards13 ul > li .cards-card-body {
+    padding-top: 28px;
+    padding-bottom: 74px; /* Increase for button */
+  }
+  .cards.cards13 ul > li .cards-card-body .button-container {
+    right: 12px;
+    bottom: 28px;
+  }
+}
+
+/* Prevent any overflow issues */
+.cards.cards13 ul > li,
+.cards.cards13 ul > li .cards-card-body,
+.cards.cards13 ul > li .cards-card-image {
+  box-sizing: border-box;
+}
