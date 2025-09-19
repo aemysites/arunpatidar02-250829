@@ -1,3 +1,4 @@
+/* stylelint-disable no-descending-specificity */
 .cards > ul {
   list-style: none;
   margin: 0;
@@ -32,7 +33,6 @@
   padding: 0;
 }
 
-/* Center block and give left/right padding for large screens */
 .cards.cards13 ul {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -41,7 +41,7 @@
   padding: 48px;
   max-width: 1200px;
   box-sizing: border-box;
-  align-items: stretch; /* Ensures cards are equal height */
+  align-items: stretch;
 }
 
 @media (width <= 900px) {
@@ -52,7 +52,6 @@
   }
 }
 
-/* Flex row for image/text, equal halves, no extra space */
 .cards.cards13 ul > li {
   display: flex;
   flex-direction: row;
@@ -66,7 +65,6 @@
   height: 100%;
 }
 
-/* Split exactly 50/50 */
 .cards.cards13 ul > li .cards-card-image,
 .cards.cards13 ul > li .cards-card-body {
   flex: 0 0 50%;
@@ -76,7 +74,6 @@
   box-sizing: border-box;
 }
 
-/* Image section */
 .cards.cards13 ul > li .cards-card-image {
   display: flex;
   align-items: stretch;
@@ -98,7 +95,6 @@
   max-height: 100%;
 }
 
-/* Text section: more top padding, full height, relative for button */
 .cards.cards13 ul > li .cards-card-body {
   position: relative;
   padding: 64px 40px 40px;
@@ -111,7 +107,6 @@
   min-height: 0;
 }
 
-/* Accent line and label */
 .cards.cards13 ul > li .cards-card-body > p:first-of-type {
   color: #ccc;
   text-transform: uppercase;
@@ -124,7 +119,6 @@
   width: fit-content;
 }
 
-/* Title spacing */
 .cards.cards13 ul > li .cards-card-body h4 {
   color: #fff;
   font-size: 1.6rem;
@@ -133,7 +127,6 @@
   line-height: 1.18;
 }
 
-/* Button: bottom right, purple square, visually flush */
 .cards.cards13 ul > li .cards-card-body .button-container {
   position: absolute;
   right: 40px;
@@ -147,7 +140,7 @@
 
 .cards.cards13 ul > li .cards-card-body .button {
   background: #9B00FF;
-  color: transparent;      /* Hide "Read More" text */
+  color: transparent;
   width: 48px;
   height: 48px;
   min-width: 48px;
@@ -158,7 +151,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 0;            /* Minimize text presence */
+  font-size: 0;
   padding: 0;
   border: none;
   margin: 0;
@@ -174,7 +167,6 @@
   background: #7a00cc;
 }
 
-/* Responsive: stack image/content, adjust padding and button position */
 @media (width <= 900px) {
   .cards.cards13 ul > li {
     flex-direction: column;
@@ -194,7 +186,7 @@
 
   .cards.cards13 ul > li .cards-card-body {
     padding-top: 28px;
-    padding-bottom: 74px; /* Increase for button */
+    padding-bottom: 74px;
   }
 
   .cards.cards13 ul > li .cards-card-body .button-container {
@@ -203,9 +195,113 @@
   }
 }
 
-/* Prevent any overflow issues */
 .cards.cards13 ul > li,
 .cards.cards13 ul > li .cards-card-body,
 .cards.cards13 ul > li .cards-card-image {
   box-sizing: border-box;
+}
+
+
+.cards.cards6 {
+  background: #000;
+  padding: 48px 0;
+  box-sizing: border-box;
+}
+
+/* Remove default list and li styles */
+.cards.cards6 > ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Center the card row horizontally and constrain its width */
+.cards.cards6 > ul > li {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  border: none;
+  background: transparent;
+  box-shadow: none;
+  padding: 0;
+  width: 100%;
+  max-width: 1060px;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: stretch;
+  justify-content: center;
+  min-height: 1px;
+}
+
+/* Responsive: stack cards vertically on smaller screens and remove max-width constraint */
+@media (width <= 900px) {
+  .cards.cards6 > ul > li {
+    flex-direction: column;
+    gap: 24px;
+    max-width: none;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+/* Each card takes equal space, but not grow excessively wide */
+.cards.cards6 .cards-card-body {
+  flex: 1 1 0;
+  min-width: 0;
+  max-width: 320px;
+  background: rgb(255 255 255 / 1.5%);
+  padding: 0 18px 24px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  min-height: 400px;
+  box-sizing: border-box;
+  border-radius: 0;
+  overflow-wrap: break-word;
+  word-break: normal;
+}
+
+/* Images: large, square, impactful */
+.cards.cards6 .cards-card-body img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  margin-bottom: 24px;
+  display: block;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+/* Headings inside card body: bold, white, left aligned */
+.cards.cards6 .cards-card-body h1,
+.cards.cards6 .cards-card-body h2,
+.cards.cards6 .cards-card-body h3,
+.cards.cards6 .cards-card-body h4,
+.cards.cards6 .cards-card-body h5,
+.cards.cards6 .cards-card-body h6 {
+  color: #fff;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 12px;
+  line-height: 1.2;
+  text-align: left;
+}
+
+/* Paragraphs inside card body: light gray, readable, left aligned */
+.cards.cards6 .cards-card-body p {
+  color: #bfbfbf;
+  font-size: 1rem;
+  line-height: 1.6;
+  margin: 0;
+  margin-bottom: 0;
+  text-align: left;
+}
+
+/* Ensure text overflow doesn't break layout */
+
+/* Remove extra margin from last child to keep cards visually aligned at the bottom */
+.cards.cards6 .cards-card-body :last-child {
+  margin-bottom: 0;
 }
