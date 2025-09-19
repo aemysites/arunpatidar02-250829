@@ -41,17 +41,8 @@
   min-height: 420px;
 }
 
-.columns > div {
-  display: flex;
-  flex-direction: row;
-  max-width: 980px;
-  width: 100%;
-  justify-content: center;
-  align-items: center;
-  gap: 72px;
-}
 
-@media (max-width: 900px) {
+@media (width <= 900px) {
   .columns > div {
     flex-direction: column;
     align-items: stretch;
@@ -60,33 +51,15 @@
   }
 }
 
-/* --- Left column: Use first button as headline, second as CTA/link, vertically centered --- */
-.columns > div > div {
-  flex: 1 1 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  min-width: 0;
-  min-height: 0;
-}
 
-.columns > div > div:first-child {
-  align-items: flex-start;
-  max-width: 420px;
-  justify-content: center;
-  height: 300px;
-}
 
-.columns > div > div:first-child .button-container {
-  margin: 0;
-  padding: 0;
-}
 
 /* Accent line above first button */
 .columns > div > div:first-child .button-container:first-child {
   position: relative;
   margin-bottom: 24px;
 }
+
 .columns > div > div:first-child .button-container:first-child::before {
   display: block;
   position: absolute;
@@ -109,7 +82,7 @@
   font-size: 22px;
   font-weight: bold;
   text-align: left;
-  margin: 0 0 16px 0;
+  margin: 0 0 16px;
   min-width: 0;
   min-height: 0;
   box-shadow: none;
@@ -128,7 +101,7 @@
   font-size: 16px;
   font-weight: 400;
   text-align: left;
-  margin: 0 0 0 0;
+  margin: 0;
   min-width: 0;
   min-height: 0;
   box-shadow: none;
@@ -148,7 +121,6 @@
   border-radius: 4px;
   vertical-align: middle;
   mask: url('data:image/svg+xml;utf8,<svg width="16" height="16" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg"><path d="M8 5v14l11-7z" fill="white"/></svg>') no-repeat center/16px 16px;
-  -webkit-mask: url('data:image/svg+xml;utf8,<svg width="16" height="16" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg"><path d="M8 5v14l11-7z" fill="white"/></svg>') no-repeat center/16px 16px;
   content: "";
 }
 
@@ -171,7 +143,7 @@
   width: 100%;
   display: flex;
   justify-content: center;
-  margin: 0 0 0 0;
+  margin: 0;
 }
 
 /* Right column buttons: pill-shaped, prominent, prevent truncation */
@@ -201,7 +173,7 @@
   color: #fff;
 }
 
-@media (max-width: 900px) {
+@media (width <= 900px) {
   .columns > div > div:first-child,
   .columns > div > div:last-child {
     align-items: flex-start;
@@ -210,6 +182,7 @@
     gap: 0;
     height: auto;
   }
+
   .columns > div > div:last-child {
     align-items: stretch;
   }
