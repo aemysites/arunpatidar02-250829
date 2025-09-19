@@ -385,8 +385,6 @@
   background: #000;
   padding: 2.5rem 0;
   box-sizing: border-box;
-
-  /* Remove left/right padding to allow edge-to-edge black background */
 }
 
 @media (width <= 900px) {
@@ -395,7 +393,6 @@
   }
 }
 
-/* Use flex for horizontal column layout */
 .columns.columns12 > div {
   display: flex;
   flex-direction: row;
@@ -414,7 +411,6 @@
   }
 }
 
-/* Each column content left-aligned, minimal internal padding */
 .columns.columns12 > div > div {
   flex: 1 1 0;
   display: flex;
@@ -424,7 +420,6 @@
   min-width: 0;
 }
 
-/* Percentage headline: large, bold, underline */
 .columns.columns12 > div > div > p:first-child {
   color: #fff;
   font-size: 2.3rem;
@@ -441,7 +436,6 @@
   overflow-wrap: break-word;
 }
 
-/* Supporting text */
 .columns.columns12 > div > div > p:not(:first-child) {
   color: #fff;
   font-size: 1rem;
@@ -450,4 +444,236 @@
   margin: 0;
   max-width: 22em;
   overflow-wrap: break-word;
+}
+
+
+.columns.columns15 {
+  background: #000;
+  color: #fff;
+  padding: 0;
+}
+
+/* Split main block into two columns: left content, right image */
+.columns.columns15 > div {
+  display: grid;
+  grid-template-columns: minmax(340px, 1fr) minmax(420px, 1fr);
+  min-height: 480px;
+  width: 100%;
+  align-items: stretch;
+  gap: 0;
+  position: relative;
+}
+
+@media (width <= 900px) {
+  .columns.columns15 > div {
+    grid-template-columns: 1fr;
+    min-height: unset;
+  }
+}
+
+/* ========== LEFT COLUMN: Headline and links ========== */
+
+/* Group first three divs as a flex column */
+.columns.columns15 > div > div.left-content {
+  grid-column: 1 / 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  padding-left: 48px;
+  padding-right: 24px;
+}
+
+/* Workaround for missing wrapper: combine first 3 divs into .left-content via nth-child selectors */
+.columns.columns15 > div > div:nth-child(1) {
+  grid-column: 1 / 2;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding-left: 48px;
+  padding-right: 24px;
+
+  /* Separate space for heading and link area */
+}
+
+.columns.columns15 > div > div:nth-child(1) > h4 {
+  margin-top: 48px;
+  margin-bottom: 36px;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 600;
+  text-align: left;
+  line-height: 1.1;
+  letter-spacing: 0;
+}
+
+/* Two-column flex for links lists beneath heading */
+.columns.columns15 > div > div.links-row {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 48px;
+}
+
+.columns.columns15 > div > div.links-row > ul,
+.columns.columns15 > div > div.links-row + div > ul {
+  flex: 1 1 0;
+  margin: 0;
+  padding: 0;
+}
+
+/* Assign .links-row by nth-child for this HTML structure */
+.columns.columns15 > div > div:nth-child(2),
+.columns.columns15 > div > div:nth-child(3) {
+  /* Both are lists, visually side by side */
+  display: flex;
+  flex-direction: row;
+  gap: 48px;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 0;
+}
+
+.columns.columns15 > div > div:nth-child(2) ul,
+.columns.columns15 > div > div:nth-child(3) ul {
+  flex: 1 1 0;
+  padding: 0;
+  margin: 0;
+}
+
+/* On desktop, visually fake a two-column row under the heading with absolute positioning */
+@media (width >= 901px) {
+  .columns.columns15 > div > div:nth-child(2) {
+    position: relative;
+    top: -24px; /* adjust so the two lists align neatly under the heading */
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    gap: 48px;
+  }
+
+  .columns.columns15 > div > div:nth-child(3) {
+    display: none;
+  }
+}
+
+/* On mobile, stack the two lists as block */
+@media (width <= 900px) {
+  .columns.columns15 > div > div:nth-child(1) {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .columns.columns15 > div > div:nth-child(2),
+  .columns.columns15 > div > div:nth-child(3) {
+    display: block;
+    flex-direction: column;
+    gap: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+/* Link styling */
+.columns.columns15 ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.columns.columns15 ul li {
+  margin: 0;
+  padding: 0 0 10px;
+  color: #fff;
+}
+
+.columns.columns15 ul li a {
+  color: #fff;
+  font-size: 13px;
+  line-height: 1.8;
+  text-decoration: none;
+  transition: text-decoration 0.1s;
+}
+
+.columns.columns15 ul li a:hover,
+.columns.columns15 ul li a:focus {
+  color: #fff;
+  text-decoration: underline;
+}
+
+/* Copyright always bottom left */
+.columns.columns15 > div > div:nth-child(4) p,
+.columns.columns15 > div > div:nth-child(1) p {
+  color: #fff;
+  font-size: 12px;
+  opacity: 0.85;
+  margin: 0 0 24px;
+  text-align: left;
+  position: absolute;
+  left: 48px;
+  bottom: 0;
+  width: auto;
+  padding: 0;
+}
+
+@media (width <= 900px) {
+  .columns.columns15 > div > div:nth-child(4) p,
+  .columns.columns15 > div > div:nth-child(1) p {
+    position: static;
+    margin: 16px 24px 0 0;
+    padding-left: 0;
+  }
+}
+
+/* ====== RIGHT COLUMN (IMAGE) ====== */
+.columns.columns15 > div > div:nth-child(4) {
+  grid-column: 2 / 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  min-width: 0;
+  min-height: 440px;
+  padding: 0 40px 0 0;
+  position: relative;
+}
+
+.columns.columns15 > div > div:nth-child(4) picture,
+.columns.columns15 > div > div:nth-child(4) img {
+  display: block;
+  width: 100%;
+  max-width: 520px;
+  max-height: 100%;
+  height: auto;
+  object-fit: cover;
+  margin: 0;
+}
+
+@media (width >= 901px) {
+  .columns.columns15 > div > div:nth-child(4) picture,
+  .columns.columns15 > div > div:nth-child(4) img {
+    height: 100%;
+    max-width: 100%;
+    object-fit: cover;
+    object-position: right center;
+  }
+}
+
+@media (width <= 900px) {
+  .columns.columns15 > div > div:nth-child(4) {
+    min-height: 220px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-top: 24px;
+    padding-bottom: 16px;
+  }
+}
+
+/* Remove background from all nested elements in case */
+.columns.columns15 * {
+  background: none;
 }
