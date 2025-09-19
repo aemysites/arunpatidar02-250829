@@ -1,3 +1,4 @@
+/* stylelint-disable no-descending-specificity */
 .tabs .tabs-list {
   display: flex;
   gap: 0.5ch;
@@ -55,4 +56,145 @@
 
 .tabs .tabs-panel[aria-hidden='true'] {
   display: none;
+}
+
+
+.tabs.tabs10 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: #420078;
+  min-height: 26px;
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Only show the active panel, flush left */
+.tabs.tabs10 .tabs-panel {
+  display: none;
+}
+
+.tabs.tabs10 .tabs-panel[aria-hidden="false"] {
+  display: flex;
+  align-items: center;
+  flex: 0 1 auto;
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: none;
+  order: 0;
+}
+
+/* Section heading styling (flush left, minimal padding) */
+.tabs.tabs10 .tabs-panel[aria-hidden="false"] > div {
+  display: flex;
+  align-items: center;
+  min-width: 0;
+}
+
+.tabs.tabs10 .tabs-panel[aria-hidden="false"] > div > p {
+  color: #fff;
+  font-size: 13px;
+  font-weight: 600;
+  margin: 0;
+  padding-left: 4px;
+  letter-spacing: 0.01em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Tabs flush right, compact spacing */
+.tabs.tabs10 .tabs-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+  margin-left: auto;
+  margin-right: 8px;
+  padding: 0;
+  background: none;
+  border: none;
+  box-shadow: none;
+  order: 1;
+}
+
+/* Tab styles: compact, vertically centered, consistent height */
+.tabs.tabs10 .tabs-list .tabs-tab {
+  background: transparent;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 400;
+  border: none;
+  outline: none;
+  padding: 0 10px;
+  height: 26px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: none;
+  margin: 0;
+  transition: background-color 0.2s;
+  white-space: nowrap;
+  min-width: 0;
+}
+
+.tabs.tabs10 .tabs-list .tabs-tab[aria-selected="true"] {
+  background: #6b0dad;
+  font-weight: 600;
+  border-radius: 0;
+}
+
+.tabs.tabs10 .tabs-list .tabs-tab p {
+  margin: 0;
+  color: inherit;
+}
+
+/* Responsive stacking for mobile */
+@media (width <= 599px) {
+  .tabs.tabs10 {
+    flex-direction: column;
+    align-items: stretch;
+    min-height: unset;
+  }
+
+  .tabs.tabs10 .tabs-panel[aria-hidden="false"] {
+    margin-bottom: 8px;
+    padding-bottom: 8px;
+  }
+
+  .tabs.tabs10 .tabs-panel[aria-hidden="false"] > div > p {
+    padding-left: 6px;
+    padding-top: 8px;
+  }
+
+  .tabs.tabs10 .tabs-list {
+    gap: 8px;
+    margin-right: 0;
+    padding-right: 0;
+  }
+}
+
+/* Remove inherited button styles for tabs */
+.tabs.tabs10 .tabs-list .tabs-tab,
+.tabs.tabs10 .tabs-list .tabs-tab:focus,
+.tabs.tabs10 .tabs-list .tabs-tab:hover {
+  border: none;
+  background: transparent;
+  color: #fff;
+  outline: none;
+  box-shadow: none;
+  font-size: 13px;
+  font-weight: 400;
+  padding: 0 10px;
+  margin: 0;
+}
+
+.tabs.tabs10 .tabs-list .tabs-tab[aria-selected="true"]:focus,
+.tabs.tabs10 .tabs-list .tabs-tab[aria-selected="true"]:hover {
+  background: #6b0dad;
 }
