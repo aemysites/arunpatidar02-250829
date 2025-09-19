@@ -1,3 +1,4 @@
+/* stylelint-disable no-descending-specificity */
 .hero-container .hero-wrapper {
   max-width: unset;
   padding: 0;
@@ -44,4 +45,140 @@
   .hero {
     padding: 40px 32px;
   }
+}
+
+.hero.hero11 {
+  display: flex;
+  flex-direction: row;
+  background: #000;
+  min-height: 480px;
+  position: relative;
+  align-items: flex-start;
+  padding: 0;
+  width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+/* Accent bar INSIDE hero, flush at the top */
+.hero.hero11::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 16px;
+  background: #400078;
+  z-index: 3;
+  display: block;
+  content: "";
+}
+
+/* Make sure hero content starts right below accent bar */
+.hero.hero11 > div {
+  position: relative;
+  z-index: 4;
+}
+
+/* IMAGE: left column */
+.hero.hero11 > div:first-child {
+  flex: 1 1 50%;
+  order: 1;
+  height: 100%;
+  min-width: 0;
+  min-height: 0;
+  box-sizing: border-box;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0;
+}
+
+.hero.hero11 > div:first-child picture,
+.hero.hero11 > div:first-child img {
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  max-height: none;
+  object-fit: cover;
+  display: block;
+}
+
+.hero.hero11 picture {
+  position: static;
+}
+
+/* TEXT: right column */
+.hero.hero11 > div:nth-child(2) {
+  flex: 1 1 50%;
+  order: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-width: 0;
+  min-height: 0;
+  padding: 16px 40px 0;
+  color: #fff;
+  box-sizing: border-box;
+}
+
+.hero.hero11 > div:nth-child(2) > div {
+  width: 100%;
+  max-width: 540px;
+}
+
+.hero.hero11 h1 {
+  color: #fff;
+  font-size: 2.75rem;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 24px;
+  line-height: 1.13;
+  letter-spacing: 0;
+}
+
+.hero.hero11 h2 {
+  color: #fff;
+  font-size: 1.125rem;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 1.4;
+  letter-spacing: 0;
+}
+
+/* Responsive stacking */
+@media (width <= 900px) {
+  .hero.hero11 {
+    flex-direction: column;
+    min-height: 0;
+  }
+
+  .hero.hero11 > div:first-child,
+  .hero.hero11 > div:nth-child(2) {
+    flex: 1 1 auto;
+    min-width: 0;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+  }
+
+  .hero.hero11 > div:nth-child(2) {
+    padding: 16px 16px 0;
+  }
+
+  .hero.hero11 h1 {
+    font-size: 2rem;
+    margin-bottom: 16px;
+  }
+
+  .hero.hero11 h2 {
+    font-size: 1rem;
+  }
+}
+
+.hero-container > .hero-wrapper {
+  max-width: unset;
+  padding: 0;
 }
