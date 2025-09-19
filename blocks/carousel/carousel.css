@@ -274,7 +274,6 @@
   position: relative;
 }
 
-/* NAVIGATION BUTTONS */
 .carousel.carousel3 .carousel-navigation-buttons {
   position: absolute;
   top: 0;
@@ -331,12 +330,112 @@
   background-image: url("data:image/svg+xml,%3Csvg width='18' height='18' viewBox='0 0 18 18' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M6 3L12 9L6 15' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
 }
 
-/* PAGE INDICATOR (COUNTER) */
 .carousel.carousel3 .carousel-navigation-buttons::before {
   content: '';
 }
 
-/* HIDE DEFAULT DOT INDICATORS */
 .carousel.carousel3 .carousel-slide-indicators {
   display: none;
+}
+
+
+.carousel.carousel4,
+.carousel.carousel4 .carousel-slides-container,
+.carousel.carousel4 .carousel-slides {
+  background-color: #000;
+  min-height: 320px;
+}
+
+/* Hide navigation and indicators */
+.carousel.carousel4 .carousel-navigation-buttons,
+.carousel.carousel4 .carousel-slide-indicators {
+  display: none;
+}
+
+/* Try to force-restore visibility of ALL slide content */
+.carousel.carousel4 .carousel-slide,
+.carousel.carousel4 .carousel-slide *,
+.carousel.carousel4 .carousel-slide-content,
+.carousel.carousel4 .carousel-slide-image {
+  display: revert;
+  visibility: visible;
+  opacity: 1;
+  pointer-events: auto;
+  color: #fff;
+  background: none;
+  box-shadow: none;
+  border: none;
+}
+
+/* Space content as in the original: image left, text right */
+.carousel.carousel4 .carousel-slide {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  min-height: 320px;
+  position: relative;
+  width: 100%;
+}
+
+/* Left side: artwork/image */
+.carousel.carousel4 .carousel-slide-image {
+  flex: 0 0 54%;
+  max-width: 54%;
+  width: 54%;
+  height: 100%;
+  position: relative;
+  justify-content: flex-start;
+  align-items: stretch;
+  z-index: 1;
+  display: flex;
+  overflow: visible;
+}
+
+.carousel.carousel4 .carousel-slide-image picture,
+.carousel.carousel4 .carousel-slide-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  background: transparent;
+  display: block;
+  position: static;
+  opacity: 1;
+}
+
+/* Right side: text content */
+.carousel.carousel4 .carousel-slide-content {
+  flex: 1 1 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background: none;
+  margin-left: 48px;
+  padding: 0;
+  color: #fff;
+  max-width: 420px;
+  min-width: 240px;
+  box-shadow: none;
+  border: none;
+  z-index: 2;
+}
+
+/* Responsive: stack on small screens */
+@media (width <= 700px) {
+  .carousel.carousel4 .carousel-slide {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .carousel.carousel4 .carousel-slide-image {
+    max-width: 100%;
+    width: 100%;
+    min-height: 160px;
+  }
+
+  .carousel.carousel4 .carousel-slide-content {
+    max-width: 100%;
+    margin-left: 0;
+    margin-top: 16px;
+  }
 }
