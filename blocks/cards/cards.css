@@ -260,7 +260,7 @@
   box-sizing: border-box;
   border-radius: 0;
   overflow-wrap: break-word;
-  word-break: break-word;
+  word-break: normal;
 }
 
 /* Images: large, square, impactful */
