@@ -1,0 +1,380 @@
+{
+  "fragments": [
+    {
+      "name": "nav",
+      "path": "/nav",
+      "totalBoxes": 1,
+      "instances": [
+        {
+          "url": "https://www.accenture.com/at-de/careers/life-at-accenture/working-here",
+          "urlHash": "663d52f308b3bd1cbb19ce215da0124ae1d7cde9",
+          "uuid": "663d52f3-00-4b4ee385dfc58b527c04b031238f8c6b4a87dbbb",
+          "xpath": "/html[1]/body[1]/div[2]/div[1]/header[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/nav[1]"
+        },
+        {
+          "url": "https://www.accenture.com/at-de/services/finance-risk",
+          "urlHash": "75212077fc8a12d6403b822961f4cd202fa3285d",
+          "uuid": "75212077-00-4b4ee385dfc58b527c04b031238f8c6b4a87dbbb",
+          "xpath": "/html[1]/body[1]/div[2]/div[1]/header[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/nav[1]"
+        }
+      ],
+      "styles": {
+        "height": 72
+      }
+    },
+    {
+      "name": "footer",
+      "path": "/footer",
+      "totalBoxes": 1,
+      "instances": [
+        {
+          "url": "https://www.accenture.com/at-de/careers/life-at-accenture/working-here",
+          "urlHash": "663d52f308b3bd1cbb19ce215da0124ae1d7cde9",
+          "uuid": "663d52f3-14-eeada7e2c794e3effab80f5211be7031543b87b1",
+          "xpath": "/html[1]/body[1]/div[2]/footer[1]"
+        },
+        {
+          "url": "https://www.accenture.com/at-de/services/finance-risk",
+          "urlHash": "75212077fc8a12d6403b822961f4cd202fa3285d",
+          "uuid": "75212077-14-eeada7e2c794e3effab80f5211be7031543b87b1",
+          "xpath": "/html[1]/body[1]/div[2]/footer[1]"
+        }
+      ],
+      "styles": {}
+    }
+  ],
+  "blocks": [
+    {
+      "name": "header",
+      "cluster": 1,
+      "source": "Header",
+      "target": "Header (header1)",
+      "key": "header1",
+      "instances": [
+        {
+          "url": "https://www.accenture.com/at-de/careers/life-at-accenture/working-here",
+          "urlHash": "663d52f308b3bd1cbb19ce215da0124ae1d7cde9",
+          "uuid": "663d52f3-00-4b4ee385dfc58b527c04b031238f8c6b4a87dbbb",
+          "xpath": "/html[1]/body[1]/div[2]/div[1]/header[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/nav[1]"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 2,
+      "source": "Columns",
+      "target": "Columns (columns2)",
+      "key": "columns2",
+      "instances": [
+        {
+          "url": "https://www.accenture.com/at-de/careers/life-at-accenture/working-here",
+          "urlHash": "663d52f308b3bd1cbb19ce215da0124ae1d7cde9",
+          "uuid": "663d52f3-01-6d65147420397b0427c6f9c8d9274084f6b9772d",
+          "xpath": "/html[1]/body[1]/div[2]/main[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+          "section": "section-1"
+        }
+      ]
+    },
+    {
+      "name": "Carousel",
+      "cluster": 3,
+      "source": "Carousel",
+      "target": "Carousel (carousel3)",
+      "key": "carousel3",
+      "instances": [
+        {
+          "url": "https://www.accenture.com/at-de/careers/life-at-accenture/working-here",
+          "urlHash": "663d52f308b3bd1cbb19ce215da0124ae1d7cde9",
+          "uuid": "663d52f3-04-476a720cb50643652ad0a26189bb49c7fd3bd262",
+          "xpath": "/html[1]/body[1]/div[2]/main[1]/div[1]/div[3]/section[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Carousel",
+      "cluster": 4,
+      "source": "Carousel",
+      "target": "Carousel (carousel4)",
+      "key": "carousel4",
+      "instances": [
+        {
+          "url": "https://www.accenture.com/at-de/careers/life-at-accenture/working-here",
+          "urlHash": "663d52f308b3bd1cbb19ce215da0124ae1d7cde9",
+          "uuid": "663d52f3-05-5b12c93bf3f4bd424e0bf6ff9ababcdc4e940665",
+          "xpath": "/html[1]/body[1]/div[2]/main[1]/div[1]/div[3]/section[1]/div[3]"
+        }
+      ]
+    },
+    {
+      "name": "Cards (no images)",
+      "cluster": 5,
+      "source": "Cards",
+      "target": "Cards (cardsNoImages5)",
+      "key": "cardsNoImages5",
+      "instances": [
+        {
+          "url": "https://www.accenture.com/at-de/careers/life-at-accenture/working-here",
+          "urlHash": "663d52f308b3bd1cbb19ce215da0124ae1d7cde9",
+          "uuid": "663d52f3-07-035bfe26edd591d83e55be80709aa452a2ea47d1",
+          "xpath": "/html[1]/body[1]/div[2]/main[1]/div[1]/div[4]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Cards",
+      "cluster": 6,
+      "source": "Cards",
+      "target": "Cards (cards6)",
+      "key": "cards6",
+      "instances": [
+        {
+          "url": "https://www.accenture.com/at-de/careers/life-at-accenture/working-here",
+          "urlHash": "663d52f308b3bd1cbb19ce215da0124ae1d7cde9",
+          "uuid": "663d52f3-09-e926359b29ba0df6c4b0eea2799556f7a79cd75c",
+          "xpath": "/html[1]/body[1]/div[2]/main[1]/div[1]/div[6]"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 7,
+      "source": "Columns",
+      "target": "Columns (columns7)",
+      "key": "columns7",
+      "instances": [
+        {
+          "url": "https://www.accenture.com/at-de/careers/life-at-accenture/working-here",
+          "urlHash": "663d52f308b3bd1cbb19ce215da0124ae1d7cde9",
+          "uuid": "663d52f3-11-efa876fe1d9c5ac8f744e0091691f498d1c99c3b",
+          "xpath": "/html[1]/body[1]/div[2]/main[1]/div[1]/div[7]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 8,
+      "source": "Columns",
+      "target": "Columns (columns8)",
+      "key": "columns8",
+      "instances": [
+        {
+          "url": "https://www.accenture.com/at-de/careers/life-at-accenture/working-here",
+          "urlHash": "663d52f308b3bd1cbb19ce215da0124ae1d7cde9",
+          "uuid": "663d52f3-12-7033bfb33b73fe20a1ae20894f33a458c49d99e9",
+          "xpath": "/html[1]/body[1]/div[2]/main[1]/div[1]/div[8]"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 9,
+      "source": "Columns",
+      "target": "Columns (columns9)",
+      "key": "columns9",
+      "instances": [
+        {
+          "url": "https://www.accenture.com/at-de/careers/life-at-accenture/working-here",
+          "urlHash": "663d52f308b3bd1cbb19ce215da0124ae1d7cde9",
+          "uuid": "663d52f3-14-eeada7e2c794e3effab80f5211be7031543b87b1",
+          "xpath": "/html[1]/body[1]/div[2]/footer[1]"
+        },
+        {
+          "url": "https://www.accenture.com/at-de/services/finance-risk",
+          "urlHash": "75212077fc8a12d6403b822961f4cd202fa3285d",
+          "uuid": "75212077-14-eeada7e2c794e3effab80f5211be7031543b87b1",
+          "xpath": "/html[1]/body[1]/div[2]/footer[1]"
+        }
+      ]
+    },
+    {
+      "name": "header",
+      "cluster": 10,
+      "source": "Header",
+      "target": "Header (header10)",
+      "key": "header10",
+      "instances": [
+        {
+          "url": "https://www.accenture.com/at-de/services/finance-risk",
+          "urlHash": "75212077fc8a12d6403b822961f4cd202fa3285d",
+          "uuid": "75212077-00-4b4ee385dfc58b527c04b031238f8c6b4a87dbbb",
+          "xpath": "/html[1]/body[1]/div[2]/div[1]/header[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/nav[1]"
+        }
+      ]
+    },
+    {
+      "name": "Tabs",
+      "cluster": 11,
+      "source": "Tabs",
+      "target": "Tabs (tabs11)",
+      "key": "tabs11",
+      "instances": [
+        {
+          "url": "https://www.accenture.com/at-de/services/finance-risk",
+          "urlHash": "75212077fc8a12d6403b822961f4cd202fa3285d",
+          "uuid": "75212077-01-2670cab64c83b5b79dd17d385e798cc17930a0a3",
+          "xpath": "/html[1]/body[1]/div[2]/main[1]/div[1]/div[1]/div[1]",
+          "section": "section-1"
+        }
+      ]
+    },
+    {
+      "name": "Hero",
+      "cluster": 12,
+      "source": "Hero",
+      "target": "Hero (hero12)",
+      "key": "hero12",
+      "instances": [
+        {
+          "url": "https://www.accenture.com/at-de/careers/life-at-accenture/working-here",
+          "urlHash": "663d52f308b3bd1cbb19ce215da0124ae1d7cde9",
+          "uuid": "663d52f3-02-d59d7eb439cf982369622d08082f404049853f25",
+          "xpath": "/html[1]/body[1]/div[2]/main[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://www.accenture.com/at-de/services/finance-risk",
+          "urlHash": "75212077fc8a12d6403b822961f4cd202fa3285d",
+          "uuid": "75212077-02-d59d7eb439cf982369622d08082f404049853f25",
+          "xpath": "/html[1]/body[1]/div[2]/main[1]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 13,
+      "source": "Columns",
+      "target": "Columns (columns13)",
+      "key": "columns13",
+      "instances": [
+        {
+          "url": "https://www.accenture.com/at-de/services/finance-risk",
+          "urlHash": "75212077fc8a12d6403b822961f4cd202fa3285d",
+          "uuid": "75212077-04-18c932a3bbd3ee2e86ddd58863fa045978f67a09",
+          "xpath": "/html[1]/body[1]/div[2]/main[1]/div[1]/div[3]/div[1]/div[1]/div[1]"
+        }
+      ]
+    },
+    {
+      "name": "Cards",
+      "cluster": 14,
+      "source": "Cards",
+      "target": "Cards (cards14)",
+      "key": "cards14",
+      "instances": [
+        {
+          "url": "https://www.accenture.com/at-de/services/finance-risk",
+          "urlHash": "75212077fc8a12d6403b822961f4cd202fa3285d",
+          "uuid": "75212077-06-1dbd08b44616f63de1d18509fa74edcceb2b6df8",
+          "xpath": "/html[1]/body[1]/div[2]/main[1]/div[1]/div[4]/div[1]/div[1]"
+        }
+      ]
+    },
+    {
+      "name": "Carousel",
+      "cluster": 15,
+      "source": "Carousel",
+      "target": "Carousel (carousel15)",
+      "key": "carousel15",
+      "instances": [
+        {
+          "url": "https://www.accenture.com/at-de/services/finance-risk",
+          "urlHash": "75212077fc8a12d6403b822961f4cd202fa3285d",
+          "uuid": "75212077-10-adafba0b8e2cad458023ab249b3ca7a57fb12430",
+          "xpath": "/html[1]/body[1]/div[2]/main[1]/div[1]/div[6]/div[1]/div[1]/div[2]"
+        }
+      ]
+    }
+  ],
+  "outliers": [
+    {
+      "url": "https://www.accenture.com/at-de/careers/life-at-accenture/working-here",
+      "urlHash": "663d52f308b3bd1cbb19ce215da0124ae1d7cde9",
+      "uuid": "663d52f3-03-7e44f3aadd7d20ba08a50fde3ae27747866d1c34",
+      "xpath": "/html[1]/body[1]/div[2]/main[1]/div[1]/div[3]/section[1]/div[1]"
+    },
+    {
+      "url": "https://www.accenture.com/at-de/careers/life-at-accenture/working-here",
+      "urlHash": "663d52f308b3bd1cbb19ce215da0124ae1d7cde9",
+      "uuid": "663d52f3-06-1dbd08b44616f63de1d18509fa74edcceb2b6df8",
+      "xpath": "/html[1]/body[1]/div[2]/main[1]/div[1]/div[4]/div[1]/div[1]"
+    },
+    {
+      "url": "https://www.accenture.com/at-de/careers/life-at-accenture/working-here",
+      "urlHash": "663d52f308b3bd1cbb19ce215da0124ae1d7cde9",
+      "uuid": "663d52f3-08-19c68f7880474fc3790018d2a886d3dba0e0cce9",
+      "xpath": "/html[1]/body[1]/div[2]/main[1]/div[1]/div[5]"
+    },
+    {
+      "url": "https://www.accenture.com/at-de/careers/life-at-accenture/working-here",
+      "urlHash": "663d52f308b3bd1cbb19ce215da0124ae1d7cde9",
+      "uuid": "663d52f3-10-a6b98289b8bb0880529c8b7e8c200c2dbd59974e",
+      "xpath": "/html[1]/body[1]/div[2]/main[1]/div[1]/div[7]/div[1]/div[1]"
+    },
+    {
+      "url": "https://www.accenture.com/at-de/careers/life-at-accenture/working-here",
+      "urlHash": "663d52f308b3bd1cbb19ce215da0124ae1d7cde9",
+      "uuid": "663d52f3-13-00cb8676b21e02ad8157c72aea04e45f2a3cd61d",
+      "xpath": "/html[1]/body[1]/div[2]/main[1]/div[1]/div[9]"
+    },
+    {
+      "url": "https://www.accenture.com/at-de/services/finance-risk",
+      "urlHash": "75212077fc8a12d6403b822961f4cd202fa3285d",
+      "uuid": "75212077-03-2b64c3344f2fb6f27f77d272b996ada7d3e4ddbe",
+      "xpath": "/html[1]/body[1]/div[2]/main[1]/div[1]/div[3]/div[1]/div[1]/h2[1]"
+    },
+    {
+      "url": "https://www.accenture.com/at-de/services/finance-risk",
+      "urlHash": "75212077fc8a12d6403b822961f4cd202fa3285d",
+      "uuid": "75212077-05-f342fe9fd4f51eb00e620935fdac25ab7716607d",
+      "xpath": "/html[1]/body[1]/div[2]/main[1]/div[1]/div[4]/div[1]/h3[1]"
+    },
+    {
+      "url": "https://www.accenture.com/at-de/services/finance-risk",
+      "urlHash": "75212077fc8a12d6403b822961f4cd202fa3285d",
+      "uuid": "75212077-07-953e303eb9dc2f68e4b0fca3884b2dcb8724f65f",
+      "xpath": "/html[1]/body[1]/div[2]/main[1]/div[1]/div[5]/div[1]/div[1]"
+    },
+    {
+      "url": "https://www.accenture.com/at-de/services/finance-risk",
+      "urlHash": "75212077fc8a12d6403b822961f4cd202fa3285d",
+      "uuid": "75212077-08-0ab776e7368a08e3db681aee8c847c9586c8b1da",
+      "xpath": "/html[1]/body[1]/div[2]/main[1]/div[1]/div[5]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[4]/div[2]",
+      "section": "section-2"
+    },
+    {
+      "url": "https://www.accenture.com/at-de/services/finance-risk",
+      "urlHash": "75212077fc8a12d6403b822961f4cd202fa3285d",
+      "uuid": "75212077-09-d1d7e25473fdf50b94212f201444977b47611c9b",
+      "xpath": "/html[1]/body[1]/div[2]/main[1]/div[1]/div[6]/div[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://www.accenture.com/at-de/services/finance-risk",
+      "urlHash": "75212077fc8a12d6403b822961f4cd202fa3285d",
+      "uuid": "75212077-11-a6b98289b8bb0880529c8b7e8c200c2dbd59974e",
+      "xpath": "/html[1]/body[1]/div[2]/main[1]/div[1]/div[7]/div[1]/div[1]"
+    },
+    {
+      "url": "https://www.accenture.com/at-de/services/finance-risk",
+      "urlHash": "75212077fc8a12d6403b822961f4cd202fa3285d",
+      "uuid": "75212077-12-8bdfc66fa943b3c36699b13876e16544b880bd36",
+      "xpath": "/html[1]/body[1]/div[2]/main[1]/div[1]/div[7]/div[1]/div[2]/div[3]/div[2]"
+    },
+    {
+      "url": "https://www.accenture.com/at-de/services/finance-risk",
+      "urlHash": "75212077fc8a12d6403b822961f4cd202fa3285d",
+      "uuid": "75212077-13-416536452f0c972b2770cb79f78df422353023ae",
+      "xpath": "/html[1]/body[1]/div[2]/main[1]/div[1]/div[7]/div[1]/div[2]/div[4]/div[2]"
+    }
+  ],
+  "sections": [
+    {
+      "name": "section-1",
+      "background": "rgb(70, 0, 115) none repeat scroll 0% 0% / auto padding-box border-box",
+      "count": 2
+    },
+    {
+      "name": "section-2",
+      "background": "rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box",
+      "count": 1
+    }
+  ]
+}
