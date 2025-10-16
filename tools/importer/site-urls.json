@@ -1,0 +1,90 @@
+{
+  "originUrl": "https://www.bmw.rs",
+  "aborted": false,
+  "lastCrawled": "https://www.bmw.rs/",
+  "urls": [
+    {
+      "url": "https://www.bmw.rs/sr/more-bmw/bmw-lifestyle.html",
+      "source": "SITEMAPS",
+      "targetPath": "/sr/more-bmw/bmw-lifestyle",
+      "id": "d09deaf64bbb33b938f02e82874d2b9678fffb7a"
+    }
+  ],
+  "crawlOptions": {
+    "timeout": 10000,
+    "inclusionPatterns": [],
+    "exclusionPatterns": [],
+    "limit": 100,
+    "sameDomain": true,
+    "keepHash": false,
+    "strategy": "sitemaps",
+    "logger": {},
+    "strategiesAttempted": [
+      "SITEMAPS"
+    ]
+  },
+  "extractionErrors": [
+    {
+      "url": "https://www.bmw.rs/sr/all-models/m-series/x7-m60i.html",
+      "status": "404 Not Found"
+    },
+    {
+      "url": "https://www.bmw.hu/hu/all-models/x-series/ix3/bmw-ix3-technical-data.html",
+      "status": "The operation was aborted due to timeout"
+    },
+    {
+      "url": "https://www.bmw.sk/sk/all-models/z-series/z4-roadster/bmw-z4-technicke-udaje.html",
+      "status": "The operation was aborted due to timeout"
+    },
+    {
+      "url": "https://www.bmw.com.cy/en/all-models/m-series/z4-m40i/bmw-z4-m40i-roadster.html",
+      "status": "The operation was aborted due to timeout"
+    },
+    {
+      "url": "https://www.bmw.si/sl/digital-services/bmw-razvedrilne-vsebine.html",
+      "status": "The operation was aborted due to timeout"
+    },
+    {
+      "url": "https://www.bmw.sk/sk/digital-services/bmw-inteligentny-osobny-asistent.html",
+      "status": "The operation was aborted due to timeout"
+    },
+    {
+      "url": "https://www.bmw.rs/sr/more-bmw/technology-and-innovation/bmw-heart-of-joy.html",
+      "status": "The operation was aborted due to timeout"
+    },
+    {
+      "url": "https://www.bmw.bg/bg/all-models/m-series/m4-series/bmw-m4-coupe-technical-data.html",
+      "status": "The operation was aborted due to timeout"
+    },
+    {
+      "url": "https://www.bmw.hu/hu/more-bmw/parts-and-accessoires/bmw-tartozekok-hub.html",
+      "status": "The operation was aborted due to timeout"
+    },
+    {
+      "url": "https://www.bmw.com.cy/en/https://www.bmw.com.cy/en/all-models/m-series/z4-m40i/bmw-z4-m40i-technical-data.html.html",
+      "status": "The operation was aborted due to timeout"
+    },
+    {
+      "url": "https://www.bmw.rs/sr/digital-services/bmw-connecteddrive.html",
+      "status": "The operation was aborted due to timeout"
+    },
+    {
+      "url": "https://www.bmw.rs/sr/all-models/x-series/x7.html",
+      "status": "The operation was aborted due to timeout"
+    },
+    {
+      "url": "https://www.bmw.rs/sr/digital-services/bmw-idrive.html",
+      "status": "The operation was aborted due to timeout"
+    },
+    {
+      "url": "https://www.bmw.is/is/all-models/x-series/ix3/bmw-ix3.html",
+      "status": "The operation was aborted due to timeout"
+    },
+    {
+      "url": "https://www.bmw.hu/hu/digital-services/BMW Digital Key.html",
+      "status": "The operation was aborted due to timeout"
+    }
+  ],
+  "errorCountMessage": "{\"E_404\":1,\"others\":14}",
+  "error": null
+}
