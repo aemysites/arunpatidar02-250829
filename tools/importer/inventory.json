@@ -1,0 +1,648 @@
+{
+  "fragments": [
+    {
+      "name": "nav",
+      "path": "/nav",
+      "totalBoxes": 1,
+      "instances": [
+        {
+          "url": "https://www.bmw.rs/sr/digital-services/bmw-idrive.html",
+          "urlHash": "907b8ba2d1e52d0e40a9d292ce0d91f939eb4c07",
+          "uuid": "907b8ba2-00-8cf3dea98a2449d61cfe31f917e7fec9fe953299",
+          "xpath": "/html[1]/body[1]/header[1]/div[1]/div[1]/div[1]/root-shell[1]/div[1]/nav[1]/div[1]"
+        },
+        {
+          "url": "https://www.bmw.rs/sr/digital-services/bmw-connecteddrive.html",
+          "urlHash": "92f945d95acb539df834d70cba1ba393437ff676",
+          "uuid": "92f945d9-00-8cf3dea98a2449d61cfe31f917e7fec9fe953299",
+          "xpath": "/html[1]/body[1]/header[1]/div[1]/div[1]/div[1]/root-shell[1]/div[1]/nav[1]/div[1]"
+        }
+      ],
+      "styles": {
+        "height": 84
+      }
+    },
+    {
+      "name": "footer",
+      "path": "/footer",
+      "totalBoxes": 1,
+      "instances": [
+        {
+          "url": "https://www.bmw.rs/sr/digital-services/bmw-idrive.html",
+          "urlHash": "907b8ba2d1e52d0e40a9d292ce0d91f939eb4c07",
+          "uuid": "907b8ba2-23-75920e914f83ad87c27de6bacc11dfc0321b2c70",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]/div[1]/div[3]"
+        },
+        {
+          "url": "https://www.bmw.rs/sr/digital-services/bmw-connecteddrive.html",
+          "urlHash": "92f945d95acb539df834d70cba1ba393437ff676",
+          "uuid": "92f945d9-36-75920e914f83ad87c27de6bacc11dfc0321b2c70",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]/div[1]/div[3]"
+        }
+      ],
+      "styles": {}
+    }
+  ],
+  "blocks": [
+    {
+      "name": "Embed (video)",
+      "cluster": 1,
+      "source": "Embed",
+      "target": "Embed (embedVideo1)",
+      "key": "embedVideo1",
+      "instances": [
+        {
+          "url": "https://www.bmw.rs/sr/digital-services/bmw-idrive.html",
+          "urlHash": "907b8ba2d1e52d0e40a9d292ce0d91f939eb4c07",
+          "uuid": "907b8ba2-23-75920e914f83ad87c27de6bacc11dfc0321b2c70",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]/div[1]/div[3]"
+        },
+        {
+          "url": "https://www.bmw.rs/sr/digital-services/bmw-connecteddrive.html",
+          "urlHash": "92f945d95acb539df834d70cba1ba393437ff676",
+          "uuid": "92f945d9-36-75920e914f83ad87c27de6bacc11dfc0321b2c70",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]/div[1]/div[3]"
+        }
+      ]
+    },
+    {
+      "name": "header",
+      "cluster": 2,
+      "source": "Header",
+      "target": "Header (header2)",
+      "key": "header2",
+      "instances": [
+        {
+          "url": "https://www.bmw.rs/sr/digital-services/bmw-idrive.html",
+          "urlHash": "907b8ba2d1e52d0e40a9d292ce0d91f939eb4c07",
+          "uuid": "907b8ba2-00-8cf3dea98a2449d61cfe31f917e7fec9fe953299",
+          "xpath": "/html[1]/body[1]/header[1]/div[1]/div[1]/div[1]/root-shell[1]/div[1]/nav[1]/div[1]"
+        },
+        {
+          "url": "https://www.bmw.rs/sr/digital-services/bmw-connecteddrive.html",
+          "urlHash": "92f945d95acb539df834d70cba1ba393437ff676",
+          "uuid": "92f945d9-00-8cf3dea98a2449d61cfe31f917e7fec9fe953299",
+          "xpath": "/html[1]/body[1]/header[1]/div[1]/div[1]/div[1]/root-shell[1]/div[1]/nav[1]/div[1]"
+        }
+      ]
+    },
+    {
+      "name": "unknown",
+      "cluster": 3,
+      "instances": [
+        {
+          "url": "https://www.bmw.rs/sr/digital-services/bmw-idrive.html",
+          "urlHash": "907b8ba2d1e52d0e40a9d292ce0d91f939eb4c07",
+          "uuid": "907b8ba2-01-6e70765a003047818ea5700b557b8d01b43078df",
+          "xpath": "/html[1]/body[1]/div[1]"
+        },
+        {
+          "url": "https://www.bmw.rs/sr/digital-services/bmw-connecteddrive.html",
+          "urlHash": "92f945d95acb539df834d70cba1ba393437ff676",
+          "uuid": "92f945d9-01-6e70765a003047818ea5700b557b8d01b43078df",
+          "xpath": "/html[1]/body[1]/div[1]"
+        }
+      ]
+    },
+    {
+      "name": "Cards",
+      "cluster": 4,
+      "source": "Cards",
+      "target": "Cards (cards4)",
+      "key": "cards4",
+      "instances": [
+        {
+          "url": "https://www.bmw.rs/sr/digital-services/bmw-idrive.html",
+          "urlHash": "907b8ba2d1e52d0e40a9d292ce0d91f939eb4c07",
+          "uuid": "907b8ba2-10-941a962f17da32ac7ee86c7a605e92e64508120c",
+          "xpath": "/html[1]/body[1]/div[3]/div[1]/div[1]/main[1]/div[1]/div[6]/div[1]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Cards",
+      "cluster": 5,
+      "source": "Cards",
+      "target": "Cards (cards5)",
+      "key": "cards5",
+      "instances": [
+        {
+          "url": "https://www.bmw.rs/sr/digital-services/bmw-idrive.html",
+          "urlHash": "907b8ba2d1e52d0e40a9d292ce0d91f939eb4c07",
+          "uuid": "907b8ba2-14-1005231874bcc05d4e712d7c8c66bdaccf069361",
+          "xpath": "/html[1]/body[1]/div[3]/div[1]/div[1]/main[1]/div[1]/div[8]/div[1]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Accordion",
+      "cluster": 6,
+      "source": "Accordion",
+      "target": "Accordion (accordion6)",
+      "key": "accordion6",
+      "instances": [
+        {
+          "url": "https://www.bmw.rs/sr/digital-services/bmw-idrive.html",
+          "urlHash": "907b8ba2d1e52d0e40a9d292ce0d91f939eb4c07",
+          "uuid": "907b8ba2-12-23993e0d70aa256af5b8c28b12162719403658bc",
+          "xpath": "/html[1]/body[1]/div[3]/div[1]/div[1]/main[1]/div[1]/div[7]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 7,
+      "source": "Columns",
+      "target": "Columns (columns7)",
+      "key": "columns7",
+      "instances": [
+        {
+          "url": "https://www.bmw.rs/sr/digital-services/bmw-idrive.html",
+          "urlHash": "907b8ba2d1e52d0e40a9d292ce0d91f939eb4c07",
+          "uuid": "907b8ba2-08-4568e55db108ad80103a41059d64e4bca196cf3c",
+          "xpath": "/html[1]/body[1]/div[3]/div[1]/div[1]/main[1]/div[1]/div[5]/div[1]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Video",
+      "cluster": 8,
+      "source": "Video",
+      "target": "Video (video8)",
+      "key": "video8",
+      "instances": [
+        {
+          "url": "https://www.bmw.rs/sr/digital-services/bmw-idrive.html",
+          "urlHash": "907b8ba2d1e52d0e40a9d292ce0d91f939eb4c07",
+          "uuid": "907b8ba2-05-25f9fa083225b063ce0ce1e89265d5730ef5e95e",
+          "xpath": "/html[1]/body[1]/div[3]/div[1]/div[1]/main[1]/div[1]/div[3]/div[1]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Cards",
+      "cluster": 9,
+      "source": "Cards",
+      "target": "Cards (cards9)",
+      "key": "cards9",
+      "instances": [
+        {
+          "url": "https://www.bmw.rs/sr/digital-services/bmw-connecteddrive.html",
+          "urlHash": "92f945d95acb539df834d70cba1ba393437ff676",
+          "uuid": "92f945d9-23-4fba7cb28baed987f157f0c0324074eaaeb6366f",
+          "xpath": "/html[1]/body[1]/div[3]/div[1]/div[1]/main[1]/div[1]/div[7]/div[1]/div[1]/div[3]/div[1]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 10,
+      "source": "Columns",
+      "target": "Columns (columns10)",
+      "key": "columns10",
+      "instances": [
+        {
+          "url": "https://www.bmw.rs/sr/digital-services/bmw-connecteddrive.html",
+          "urlHash": "92f945d95acb539df834d70cba1ba393437ff676",
+          "uuid": "92f945d9-13-cfd34c35decf9a6a1a85d685d0ca99e182ae01c8",
+          "xpath": "/html[1]/body[1]/div[3]/div[1]/div[1]/main[1]/div[1]/div[5]/div[1]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Hero",
+      "cluster": 11,
+      "source": "Hero",
+      "target": "Hero (hero11)",
+      "key": "hero11",
+      "instances": [
+        {
+          "url": "https://www.bmw.rs/sr/digital-services/bmw-connecteddrive.html",
+          "urlHash": "92f945d95acb539df834d70cba1ba393437ff676",
+          "uuid": "92f945d9-07-63ffe07e2acf1c7fba5c5da65e2cb4de4a8990ce",
+          "xpath": "/html[1]/body[1]/div[3]/div[1]/div[1]/main[1]/div[1]/div[5]/div[1]/div[1]/div[1]"
+        }
+      ]
+    },
+    {
+      "name": "Accordion",
+      "cluster": 12,
+      "source": "Accordion",
+      "target": "Accordion (accordion12)",
+      "key": "accordion12",
+      "instances": [
+        {
+          "url": "https://www.bmw.rs/sr/digital-services/bmw-connecteddrive.html",
+          "urlHash": "92f945d95acb539df834d70cba1ba393437ff676",
+          "uuid": "92f945d9-27-78835c2aece6c492d5bb9dee16a560e5b91e7877",
+          "xpath": "/html[1]/body[1]/div[3]/div[1]/div[1]/main[1]/div[1]/div[9]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Hero",
+      "cluster": 13,
+      "source": "Hero",
+      "target": "Hero (hero13)",
+      "key": "hero13",
+      "instances": [
+        {
+          "url": "https://www.bmw.rs/sr/digital-services/bmw-idrive.html",
+          "urlHash": "907b8ba2d1e52d0e40a9d292ce0d91f939eb4c07",
+          "uuid": "907b8ba2-02-dbae7ac0e30adb314fbcb55c1b2bb37e7fc64a0b",
+          "xpath": "/html[1]/body[1]/div[3]/div[1]/div[1]/main[1]/div[1]/div[1]"
+        }
+      ]
+    },
+    {
+      "name": "Tabs",
+      "cluster": 14,
+      "source": "Tabs",
+      "target": "Tabs (tabs14)",
+      "key": "tabs14",
+      "instances": [
+        {
+          "url": "https://www.bmw.rs/sr/digital-services/bmw-idrive.html",
+          "urlHash": "907b8ba2d1e52d0e40a9d292ce0d91f939eb4c07",
+          "uuid": "907b8ba2-03-8fb587afc33fb3997aee77295a33efd252f0693c",
+          "xpath": "/html[1]/body[1]/div[3]/div[1]/div[1]/main[1]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Cards",
+      "cluster": 15,
+      "source": "Cards",
+      "target": "Cards (cards15)",
+      "key": "cards15",
+      "instances": [
+        {
+          "url": "https://www.bmw.rs/sr/digital-services/bmw-idrive.html",
+          "urlHash": "907b8ba2d1e52d0e40a9d292ce0d91f939eb4c07",
+          "uuid": "907b8ba2-06-46d6c5878c29b8faa4ed7e838a577aea0115a216",
+          "xpath": "/html[1]/body[1]/div[3]/div[1]/div[1]/main[1]/div[1]/div[4]"
+        }
+      ]
+    },
+    {
+      "name": "Cards",
+      "cluster": 16,
+      "source": "Cards",
+      "target": "Cards (cards16)",
+      "key": "cards16",
+      "instances": [
+        {
+          "url": "https://www.bmw.rs/sr/digital-services/bmw-connecteddrive.html",
+          "urlHash": "92f945d95acb539df834d70cba1ba393437ff676",
+          "uuid": "92f945d9-09-a3de7991912e74d64385cda14a3059212e7eb4a7",
+          "xpath": "/html[1]/body[1]/div[3]/div[1]/div[1]/main[1]/div[1]/div[5]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 17,
+      "source": "Columns",
+      "target": "Columns (columns17)",
+      "key": "columns17",
+      "instances": [
+        {
+          "url": "https://www.bmw.rs/sr/digital-services/bmw-connecteddrive.html",
+          "urlHash": "92f945d95acb539df834d70cba1ba393437ff676",
+          "uuid": "92f945d9-21-7ae07526718a2d4f6114464152e85d43e36158bb",
+          "xpath": "/html[1]/body[1]/div[3]/div[1]/div[1]/main[1]/div[1]/div[7]/div[1]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 18,
+      "source": "Columns",
+      "target": "Columns (columns18)",
+      "key": "columns18",
+      "instances": [
+        {
+          "url": "https://www.bmw.rs/sr/digital-services/bmw-connecteddrive.html",
+          "urlHash": "92f945d95acb539df834d70cba1ba393437ff676",
+          "uuid": "92f945d9-16-f4df631c5c9c562babba6cc9b695fd7c76c4a0a6",
+          "xpath": "/html[1]/body[1]/div[3]/div[1]/div[1]/main[1]/div[1]/div[5]/div[1]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Hero",
+      "cluster": 19,
+      "source": "Hero",
+      "target": "Hero (hero19)",
+      "key": "hero19",
+      "instances": [
+        {
+          "url": "https://www.bmw.rs/sr/digital-services/bmw-connecteddrive.html",
+          "urlHash": "92f945d95acb539df834d70cba1ba393437ff676",
+          "uuid": "92f945d9-20-5f4543cbd6ebc72f8c96eb9f1d177728ae911194",
+          "xpath": "/html[1]/body[1]/div[3]/div[1]/div[1]/main[1]/div[1]/div[7]/div[1]/div[1]/div[1]"
+        }
+      ]
+    },
+    {
+      "name": "Tabs",
+      "cluster": 20,
+      "source": "Tabs",
+      "target": "Tabs (tabs20)",
+      "key": "tabs20",
+      "instances": [
+        {
+          "url": "https://www.bmw.rs/sr/digital-services/bmw-connecteddrive.html",
+          "urlHash": "92f945d95acb539df834d70cba1ba393437ff676",
+          "uuid": "92f945d9-03-8fb587afc33fb3997aee77295a33efd252f0693c",
+          "xpath": "/html[1]/body[1]/div[3]/div[1]/div[1]/main[1]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 21,
+      "source": "Columns",
+      "target": "Columns (columns21)",
+      "key": "columns21",
+      "instances": [
+        {
+          "url": "https://www.bmw.rs/sr/digital-services/bmw-connecteddrive.html",
+          "urlHash": "92f945d95acb539df834d70cba1ba393437ff676",
+          "uuid": "92f945d9-12-d607d4490eac64e6685ef5f94cb76b4d0fa7c83f",
+          "xpath": "/html[1]/body[1]/div[3]/div[1]/div[1]/main[1]/div[1]/div[5]/div[1]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]"
+        }
+      ]
+    },
+    {
+      "name": "Cards",
+      "cluster": 22,
+      "source": "Cards",
+      "target": "Cards (cards22)",
+      "key": "cards22",
+      "instances": [
+        {
+          "url": "https://www.bmw.rs/sr/digital-services/bmw-connecteddrive.html",
+          "urlHash": "92f945d95acb539df834d70cba1ba393437ff676",
+          "uuid": "92f945d9-04-9819a76850954e9bc2347a5147b87c6ad6f0e2f2",
+          "xpath": "/html[1]/body[1]/div[3]/div[1]/div[1]/main[1]/div[1]/div[3]"
+        }
+      ]
+    },
+    {
+      "name": "Hero",
+      "cluster": 23,
+      "source": "Hero",
+      "target": "Hero (hero23)",
+      "key": "hero23",
+      "instances": [
+        {
+          "url": "https://www.bmw.rs/sr/digital-services/bmw-connecteddrive.html",
+          "urlHash": "92f945d95acb539df834d70cba1ba393437ff676",
+          "uuid": "92f945d9-02-dbae7ac0e30adb314fbcb55c1b2bb37e7fc64a0b",
+          "xpath": "/html[1]/body[1]/div[3]/div[1]/div[1]/main[1]/div[1]/div[1]"
+        }
+      ]
+    },
+    {
+      "name": "Cards",
+      "cluster": 24,
+      "source": "Cards",
+      "target": "Cards (cards24)",
+      "key": "cards24",
+      "instances": [
+        {
+          "url": "https://www.bmw.rs/sr/digital-services/bmw-connecteddrive.html",
+          "urlHash": "92f945d95acb539df834d70cba1ba393437ff676",
+          "uuid": "92f945d9-19-be48056137c7877ac2d83445829f7f142b907a1c",
+          "xpath": "/html[1]/body[1]/div[3]/div[1]/div[1]/main[1]/div[1]/div[6]/div[1]/div[1]/div[3]"
+        }
+      ]
+    },
+    {
+      "name": "Cards",
+      "cluster": 25,
+      "source": "Cards",
+      "target": "Cards (cards25)",
+      "key": "cards25",
+      "instances": [
+        {
+          "url": "https://www.bmw.rs/sr/digital-services/bmw-connecteddrive.html",
+          "urlHash": "92f945d95acb539df834d70cba1ba393437ff676",
+          "uuid": "92f945d9-25-1005231874bcc05d4e712d7c8c66bdaccf069361",
+          "xpath": "/html[1]/body[1]/div[3]/div[1]/div[1]/main[1]/div[1]/div[8]/div[1]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Cards",
+      "cluster": 26,
+      "source": "Cards",
+      "target": "Cards (cards26)",
+      "key": "cards26",
+      "instances": [
+        {
+          "url": "https://www.bmw.rs/sr/digital-services/bmw-connecteddrive.html",
+          "urlHash": "92f945d95acb539df834d70cba1ba393437ff676",
+          "uuid": "92f945d9-06-b3ade4c336aa148d354bc80eb456aaa7aedf484e",
+          "xpath": "/html[1]/body[1]/div[3]/div[1]/div[1]/main[1]/div[1]/div[4]/div[1]/div[1]/div[2]"
+        }
+      ]
+    }
+  ],
+  "outliers": [
+    {
+      "url": "https://www.bmw.rs/sr/digital-services/bmw-idrive.html",
+      "urlHash": "907b8ba2d1e52d0e40a9d292ce0d91f939eb4c07",
+      "uuid": "907b8ba2-04-46de8e7bcdcf7e515afca8fbe5da65b6f371bf78",
+      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[1]/main[1]/div[1]/div[3]/div[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://www.bmw.rs/sr/digital-services/bmw-idrive.html",
+      "urlHash": "907b8ba2d1e52d0e40a9d292ce0d91f939eb4c07",
+      "uuid": "907b8ba2-07-63ffe07e2acf1c7fba5c5da65e2cb4de4a8990ce",
+      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[1]/main[1]/div[1]/div[5]/div[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://www.bmw.rs/sr/digital-services/bmw-idrive.html",
+      "urlHash": "907b8ba2d1e52d0e40a9d292ce0d91f939eb4c07",
+      "uuid": "907b8ba2-09-04b8f46c389e3a5ed2e50a8c08c383c473667d58",
+      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[1]/main[1]/div[1]/div[6]/div[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://www.bmw.rs/sr/digital-services/bmw-idrive.html",
+      "urlHash": "907b8ba2d1e52d0e40a9d292ce0d91f939eb4c07",
+      "uuid": "907b8ba2-11-5f5ef81347a8a987f3514d5b1ecb8a44e7058360",
+      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[1]/main[1]/div[1]/div[7]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://www.bmw.rs/sr/digital-services/bmw-idrive.html",
+      "urlHash": "907b8ba2d1e52d0e40a9d292ce0d91f939eb4c07",
+      "uuid": "907b8ba2-13-abe8be7b309ce7fb36e6a298e7837b84dc1cbc03",
+      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[1]/main[1]/div[1]/div[8]/div[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://www.bmw.rs/sr/digital-services/bmw-idrive.html",
+      "urlHash": "907b8ba2d1e52d0e40a9d292ce0d91f939eb4c07",
+      "uuid": "907b8ba2-15-759707bdc4134940ce91528e1649b2771fc43f5d",
+      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[1]/main[1]/div[1]/div[9]"
+    },
+    {
+      "url": "https://www.bmw.rs/sr/digital-services/bmw-idrive.html",
+      "urlHash": "907b8ba2d1e52d0e40a9d292ce0d91f939eb4c07",
+      "uuid": "907b8ba2-16-f1a69ecb9cc9f62a94ed85ee620d7d3de575b39e",
+      "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://www.bmw.rs/sr/digital-services/bmw-idrive.html",
+      "urlHash": "907b8ba2d1e52d0e40a9d292ce0d91f939eb4c07",
+      "uuid": "907b8ba2-17-db8929b95d2285bc3f4c269aac3c9945b8b11463",
+      "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]"
+    },
+    {
+      "url": "https://www.bmw.rs/sr/digital-services/bmw-idrive.html",
+      "urlHash": "907b8ba2d1e52d0e40a9d292ce0d91f939eb4c07",
+      "uuid": "907b8ba2-18-9a7692c2c8edeb51ef0f0c293f1e17c4dc3bc904",
+      "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[4]"
+    },
+    {
+      "url": "https://www.bmw.rs/sr/digital-services/bmw-idrive.html",
+      "urlHash": "907b8ba2d1e52d0e40a9d292ce0d91f939eb4c07",
+      "uuid": "907b8ba2-19-73378a44ca32d3796bcf81040434c83dc86ac33e",
+      "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[5]"
+    },
+    {
+      "url": "https://www.bmw.rs/sr/digital-services/bmw-idrive.html",
+      "urlHash": "907b8ba2d1e52d0e40a9d292ce0d91f939eb4c07",
+      "uuid": "907b8ba2-20-b336659d6a58b751a90a6f511c6b5bdd1f7d3464",
+      "xpath": "/html[1]/body[1]/div[4]"
+    },
+    {
+      "url": "https://www.bmw.rs/sr/digital-services/bmw-idrive.html",
+      "urlHash": "907b8ba2d1e52d0e40a9d292ce0d91f939eb4c07",
+      "uuid": "907b8ba2-21-1dc5007cc35dd499dcd929c90eea38cd79bbc193",
+      "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]"
+    },
+    {
+      "url": "https://www.bmw.rs/sr/digital-services/bmw-idrive.html",
+      "urlHash": "907b8ba2d1e52d0e40a9d292ce0d91f939eb4c07",
+      "uuid": "907b8ba2-22-36e91c4a6ba54733a96b109d3b092a6bc32a58f5",
+      "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[4]"
+    },
+    {
+      "url": "https://www.bmw.rs/sr/digital-services/bmw-connecteddrive.html",
+      "urlHash": "92f945d95acb539df834d70cba1ba393437ff676",
+      "uuid": "92f945d9-05-b449cf266f4ba58235b994372bb21fcf262ed5ef",
+      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[1]/main[1]/div[1]/div[4]/div[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://www.bmw.rs/sr/digital-services/bmw-connecteddrive.html",
+      "urlHash": "92f945d95acb539df834d70cba1ba393437ff676",
+      "uuid": "92f945d9-08-5571ae2e95fb2a769420c61539e4799265fd343a",
+      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[1]/main[1]/div[1]/div[5]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://www.bmw.rs/sr/digital-services/bmw-connecteddrive.html",
+      "urlHash": "92f945d95acb539df834d70cba1ba393437ff676",
+      "uuid": "92f945d9-10-86312a32bba4509085ca91377d123c4a0dc80868",
+      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[1]/main[1]/div[1]/div[5]/div[1]/div[1]/div[2]/div[1]/div[1]/div[3]"
+    },
+    {
+      "url": "https://www.bmw.rs/sr/digital-services/bmw-connecteddrive.html",
+      "urlHash": "92f945d95acb539df834d70cba1ba393437ff676",
+      "uuid": "92f945d9-11-b3534c718d7754bab1df3932763e06eaa09fdbda",
+      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[1]/main[1]/div[1]/div[5]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://www.bmw.rs/sr/digital-services/bmw-connecteddrive.html",
+      "urlHash": "92f945d95acb539df834d70cba1ba393437ff676",
+      "uuid": "92f945d9-14-387f1eee2e8b89e6747a8d30212d8d590d65009b",
+      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[1]/main[1]/div[1]/div[5]/div[1]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[1]/div[3]"
+    },
+    {
+      "url": "https://www.bmw.rs/sr/digital-services/bmw-connecteddrive.html",
+      "urlHash": "92f945d95acb539df834d70cba1ba393437ff676",
+      "uuid": "92f945d9-15-f8a0210e74d19798b6c2a7c4a67db703f72090b9",
+      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[1]/main[1]/div[1]/div[5]/div[1]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://www.bmw.rs/sr/digital-services/bmw-connecteddrive.html",
+      "urlHash": "92f945d95acb539df834d70cba1ba393437ff676",
+      "uuid": "92f945d9-17-04b8f46c389e3a5ed2e50a8c08c383c473667d58",
+      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[1]/main[1]/div[1]/div[6]/div[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://www.bmw.rs/sr/digital-services/bmw-connecteddrive.html",
+      "urlHash": "92f945d95acb539df834d70cba1ba393437ff676",
+      "uuid": "92f945d9-18-941a962f17da32ac7ee86c7a605e92e64508120c",
+      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[1]/main[1]/div[1]/div[6]/div[1]/div[1]/div[2]"
+    },
+    {
+      "url": "https://www.bmw.rs/sr/digital-services/bmw-connecteddrive.html",
+      "urlHash": "92f945d95acb539df834d70cba1ba393437ff676",
+      "uuid": "92f945d9-22-12e9dca37d1a437a50b5b5a4ff4be68dc9be62d9",
+      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[1]/main[1]/div[1]/div[7]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://www.bmw.rs/sr/digital-services/bmw-connecteddrive.html",
+      "urlHash": "92f945d95acb539df834d70cba1ba393437ff676",
+      "uuid": "92f945d9-24-abe8be7b309ce7fb36e6a298e7837b84dc1cbc03",
+      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[1]/main[1]/div[1]/div[8]/div[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://www.bmw.rs/sr/digital-services/bmw-connecteddrive.html",
+      "urlHash": "92f945d95acb539df834d70cba1ba393437ff676",
+      "uuid": "92f945d9-26-331714714ba7f9a025ac07f5fa1667b4180986ca",
+      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[1]/main[1]/div[1]/div[9]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://www.bmw.rs/sr/digital-services/bmw-connecteddrive.html",
+      "urlHash": "92f945d95acb539df834d70cba1ba393437ff676",
+      "uuid": "92f945d9-28-f6707440a196ee9934ea5028f9200c51b798c209",
+      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[1]/main[1]/div[1]/div[10]"
+    },
+    {
+      "url": "https://www.bmw.rs/sr/digital-services/bmw-connecteddrive.html",
+      "urlHash": "92f945d95acb539df834d70cba1ba393437ff676",
+      "uuid": "92f945d9-29-f1a69ecb9cc9f62a94ed85ee620d7d3de575b39e",
+      "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://www.bmw.rs/sr/digital-services/bmw-connecteddrive.html",
+      "urlHash": "92f945d95acb539df834d70cba1ba393437ff676",
+      "uuid": "92f945d9-30-db8929b95d2285bc3f4c269aac3c9945b8b11463",
+      "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]"
+    },
+    {
+      "url": "https://www.bmw.rs/sr/digital-services/bmw-connecteddrive.html",
+      "urlHash": "92f945d95acb539df834d70cba1ba393437ff676",
+      "uuid": "92f945d9-31-9a7692c2c8edeb51ef0f0c293f1e17c4dc3bc904",
+      "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[4]"
+    },
+    {
+      "url": "https://www.bmw.rs/sr/digital-services/bmw-connecteddrive.html",
+      "urlHash": "92f945d95acb539df834d70cba1ba393437ff676",
+      "uuid": "92f945d9-32-73378a44ca32d3796bcf81040434c83dc86ac33e",
+      "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[5]"
+    },
+    {
+      "url": "https://www.bmw.rs/sr/digital-services/bmw-connecteddrive.html",
+      "urlHash": "92f945d95acb539df834d70cba1ba393437ff676",
+      "uuid": "92f945d9-33-b336659d6a58b751a90a6f511c6b5bdd1f7d3464",
+      "xpath": "/html[1]/body[1]/div[4]"
+    },
+    {
+      "url": "https://www.bmw.rs/sr/digital-services/bmw-connecteddrive.html",
+      "urlHash": "92f945d95acb539df834d70cba1ba393437ff676",
+      "uuid": "92f945d9-34-1dc5007cc35dd499dcd929c90eea38cd79bbc193",
+      "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]"
+    },
+    {
+      "url": "https://www.bmw.rs/sr/digital-services/bmw-connecteddrive.html",
+      "urlHash": "92f945d95acb539df834d70cba1ba393437ff676",
+      "uuid": "92f945d9-35-36e91c4a6ba54733a96b109d3b092a6bc32a58f5",
+      "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[4]"
+    }
+  ],
+  "sections": []
+}
